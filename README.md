@@ -1,0 +1,67 @@
+# Kinetic Hustl
+
+Pricing structure, client agreements and business documentation for Kinetic Hustl —
+Karl Hoschke, operating from Fitaz Gym, Kangaroo Point QLD.
+
+**Terms and conditions form:** https://forms.gle/tPDFx94HQAFqNQkL6
+
+---
+
+## What is here
+
+| File | What it is | Who it is for |
+| --- | --- | --- |
+| `pricing-rates-and-terms.md` | **The price list.** Rates of record and client-facing terms | Any project or person that communicates pricing |
+| `pricing-strategy-internal.md` | The reasoning behind the prices — the four rules, revenue maths, positioning | **Internal only.** Never send to a client |
+| `Kinetic-Hustl-Pricing.pdf` | One-page client price sheet | Attach to an email |
+| `terms/client-agreements-complete.md` | Full text of all ten agreements in one file | Add to a Claude project |
+| `terms/terms-and-conditions.md` | Clause source, review checklist, how to regenerate | Maintaining the agreements |
+| `terms/google-form-questions.md` | Question set for the client T&C form | Maintaining the form |
+| `terms/KH-Terms-*.docx` | Ten client-ready agreement templates | Send to a client |
+| `terms/generate-templates.js` | Builds the ten templates **and** the combined reference | Do not hand-edit the outputs |
+
+## The rates
+
+All prices include GST. Sessions are 45 minutes.
+
+| Format | On the app | Not on the app |
+| --- | --- | --- |
+| 1-on-1 weekly | $88 per session + $22/week | $110 per session |
+| 1-on-1 flexi (fortnightly) | $104.50 per session + $44/fortnight | $126.50 per session |
+| 2-on-1 | $66 per person, per session + $22/week | $88 per person, per session |
+| 3-on-1 (max three) | $55 per person, per session + $22/week | $77 per person, per session |
+| Online coaching | $44 per week; casual sessions $121 | — |
+| Casual | — | $143 per session |
+
+These apply to **new clients**. Existing clients remain on their current arrangements until
+that gap is closed deliberately — see the strategy document.
+
+## Four rules
+
+Every rate is derived from these, so a new situation has an answer rather than a negotiation.
+
+1. Every price is a round ex-GST figure plus 10%
+2. Not being on the app costs $22 more per session; the app costs $22 per week
+3. Format ladder: $22 down from 1-on-1 to 2-on-1, then $11 down to 3-on-1
+4. Commitment ladder ($16.50 per step) applies to 1-on-1 only
+
+## Regenerating
+
+The ten `.docx` templates and `terms/client-agreements-complete.md` are generated, not written.
+Edit `terms/generate-templates.js`, then:
+
+```
+npm install docx
+node terms/generate-templates.js
+```
+
+A hand edit to any generated file is lost on the next run.
+
+The price sheet works the same way: `pricesheet.html` is the source, and the PDF is produced by
+printing it to A4 from a browser.
+
+## Still open
+
+- The ten templates have not been opened in Word since the last regeneration
+- The 12-week minimum term, and whether the Privacy Act applies, are both worth one legal review
+- Existing clients have not been mapped against the new structure
