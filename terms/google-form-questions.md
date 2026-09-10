@@ -82,22 +82,34 @@ break branch targets, so re-test after any structural edit.
 2. Mobile number
 3. Date of birth *(Date)*
 4. Home address
-5. Emergency contact — name
-6. Emergency contact — mobile number
-7. Emergency contact — relationship to you
+
+> **Emergency contact is not asked here.** It sits in the health screening form
+> (`intake/health-screening-form.md`), which every client completes before their first session and
+> refreshes yearly. An emergency contact frozen at the date someone signed their agreement is worse
+> than one that gets re-confirmed.
 
 ---
 
 # S2 — Health and medical
 
-> *Section description:* This information is used to design a program that is safe and appropriate for
-> you. It is never shared without your permission except where required by law.
+> **Health screening moved out of this form.** It is collected in full by the health screening form
+> (`intake/health-screening-form.md`), which uses APSS Stage 1 and is completed before the first
+> session by every client, including complimentary ones. Asking the same questions again here would
+> give you two health records per client, taken on different dates, that can disagree with each other.
+>
+> What stays in this form is the pair of things that are contractual rather than clinical: the
+> confirmation that the screening was done honestly, and the ongoing obligation to keep it current.
 
-1. **Has a doctor or medical practitioner ever advised you not to exercise, or to exercise only under supervision?** *(Yes / No · Required)*
-2. **Please list any medical conditions, injuries, surgeries, medications or physical limitations I should know about.** *(Paragraph · Required · "Type None if there are none.")*
-3. **Are you currently pregnant, or have you given birth in the last 12 months?** *(Yes / No / Prefer not to say · Required)*
-4. **Is there anything else about your health, physically or mentally, that would help me train you well?** *(Paragraph · Not required)*
-5. **I agree to tell Karl immediately if any of the above changes.** *(Checkbox · Required ·* "Yes, I agree"*)*
+> *Section description:* Your health information is collected separately, in the Kinetic Hustl health
+> screening form. These two confirmations are part of your agreement.
+
+*Each a Checkbox question with a single option, Required.*
+
+1. **I have completed the Kinetic Hustl health screening form, and the information I gave was complete, honest and accurate.** → "I confirm"
+2. **I will tell Karl immediately if anything about my health, injuries or medications changes.** → "I agree"
+
+> **Question 1 also enforces the order.** A client cannot honestly tick it without having done the
+> screening first, which is where you want them to start anyway.
 
 ---
 

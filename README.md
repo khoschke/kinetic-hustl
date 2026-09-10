@@ -17,8 +17,24 @@ Karl Hoschke, operating from Fitaz Gym, Kangaroo Point QLD.
 | `terms/client-agreements-complete.md` | Full text of all ten agreements in one file | Add to a Claude project |
 | `terms/terms-and-conditions.md` | Clause source, review checklist, how to regenerate | Maintaining the agreements |
 | `terms/google-form-questions.md` | Question set for the client T&C form | Maintaining the form |
+| `intake/health-screening-form.md` | Question set for the health screening form | Maintaining the form |
 | `terms/KH-Terms-*.docx` | Ten client-ready agreement templates | Send to a client |
 | `terms/generate-templates.js` | Builds the ten templates **and** the combined reference | Do not hand-edit the outputs |
+
+## The two client forms
+
+They do different jobs and must not overlap.
+
+| | Health screening | Terms and conditions |
+| --- | --- | --- |
+| **When** | Before the first session, including a complimentary one | On sign-up |
+| **Who** | Everyone | Clients who continue |
+| **Collects** | APSS Stage 1, conditions, medications, care team, emergency contact, goals | Rate agreed, policies, the release |
+| **Contains a release?** | **No** | Yes, the Consent to Participate in Training |
+| **Refreshed** | Yearly | When the agreement changes |
+
+The release exists in one place only. If it needs to change, it changes in
+`terms/generate-templates.js` and then in the T&C form, and nowhere else.
 
 ## The rates
 
@@ -63,5 +79,8 @@ printing it to A4 from a browser.
 ## Still open
 
 - The ten templates have not been opened in Word since the last regeneration
+- The health screening form has not been built in Google Forms yet
+- APSS Stage 1 wording must be copied verbatim from the current ESSA/Fitness Australia PDF
+- Flare-related cancellations: the health screen offers "reschedule", the T&Cs forfeit inside 24 hours
 - The 12-week minimum term, and whether the Privacy Act applies, are both worth one legal review
 - Existing clients have not been mapped against the new structure
