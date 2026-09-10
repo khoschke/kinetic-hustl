@@ -192,7 +192,7 @@ sits in the question itself, so the tick is against the wording rather than a he
 
 3. **How many sessions, and how often?** *(Short answer · Required · e.g. "2 per week" or "1 per fortnight")*
 
-4. **Weekly means one session a week or more, with no upper limit — every session is charged at the same rate. Flexi means a minimum of one session per fortnight. If I train two or more times in a fortnight, the weekly rate applies to those sessions however they fall across the two weeks, and a weekly agreement will be issued.** *(Checkbox · Required ·* "I have read and understood"*)*
+4. **Weekly means one session a week or more, with no upper limit — every session is charged at the same rate. Flexi means a minimum of one session per fortnight, billed fortnightly. My tier is set by this agreement, not by how many sessions happen to fall in a given fortnight. Additional or rescheduled sessions are charged at my agreed rate and do not change it. If my ongoing pattern changes, a new agreement will be issued from that point forward.** *(Checkbox · Required ·* "I have read and understood"*)*
 
 5. **A minimum term of 12 weeks applies unless agreed otherwise in writing.** *(Checkbox · Required ·* "I agree"*)*
 
