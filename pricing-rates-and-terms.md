@@ -2,7 +2,7 @@
 
 **Karl Hoschke | Kinetic Hustl.** — Fitaz Gym, 101 Main Street, Kangaroo Point, QLD
 **All prices include GST.** Sessions are 45 minutes.
-**Current as at:** 23 August 2026
+**Current as at:** 1 October 2026
 
 ---
 
@@ -107,7 +107,8 @@ Gym memberships are set and managed by Fitaz Gym, not Kinetic Hustl, and are sub
 - **Minimum term:** 12 weeks, unless agreed otherwise in writing.
 - **Session cancellation:** 24 hours. Sessions cancelled with 24 hours' notice or more are rescheduled where possible. Sessions cancelled inside 24 hours are forfeited.
 - **Direct debit cancellation:** 30 days' notice, by email.
-- **Payment:** direct debit through Ezidebit on your training cycle — weekly for weekly clients, fortnightly for flexi clients. App access is $22 per week, so a flexi fortnight is one session at $104.50 plus two weeks of app access at $44, totalling $148.50. Direct deposit can be arranged. Ezidebit transaction fees are charged in addition to the agreed amount and appear on the debit.
+- **Payment:** direct debit through Ezidebit on your training cycle — weekly for weekly clients, fortnightly for flexi clients. App access is $22 per week, so a flexi fortnight is one session at $104.50 plus two weeks of app access at $44, totalling $148.50. Direct deposit can be arranged.
+- **Transaction fees:** card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, any Ezidebit bank account fee is charged in addition to the agreed amount and appears on the debit.
 - **Travel and time away:** if you would like to keep training while you are away, your programming can be adapted to whatever equipment and facilities you have access to. If you would rather not train, your sessions can be rescheduled.
 - **Trial:** a complimentary first session is often available.
 

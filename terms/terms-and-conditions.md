@@ -1,7 +1,7 @@
 # Kinetic Hustl — Terms and Conditions (master source)
 
-**Version:** August 2026
-**Status:** Source of truth. The four client-facing `.docx` templates in this folder are generated from it.
+**Version:** October 2026
+**Status:** Source of truth. The ten client-facing `.docx` templates in this folder are generated from it.
 
 Rates below follow `pricing-rates-and-terms.md`. If a rate changes there, it changes here, and the templates are regenerated.
 
@@ -27,7 +27,7 @@ formatting. Build it as one form with branching from the first question, not ten
 
 ## Regenerating the templates
 
-The four `.docx` files are generated, not hand-edited. Edit this file for wording, then
+The ten `.docx` files are generated, not hand-edited. Edit this file for wording, then
 `terms/generate-templates.js` for what goes into the documents, and run:
 
 ```
@@ -35,7 +35,7 @@ npm install docx          # once
 node terms/generate-templates.js
 ```
 
-It writes the four `KH-Terms-*.docx` files into the working directory. Editing a `.docx`
+It writes the ten `KH-Terms-*.docx` files and `client-agreements-complete.md` into `terms/`, alongside the script, no matter which directory you run it from. Editing a `.docx`
 by hand works but the change is lost the next time anything is regenerated, so put wording
 changes in the script.
 
@@ -107,10 +107,11 @@ Each policy is its own block with its own initial line, rather than a row in a d
 
 - All prices include GST.
 - Payment is by direct debit through Ezidebit **on the client's training cycle** — weekly for weekly clients, fortnightly for flexi clients — unless otherwise agreed. App access is $22 per week, so a flexi fortnight includes two weeks of it ($104.50 + $44 = $148.50). Direct deposit can be arranged.
-- **Ezidebit transaction fees are charged in addition to the amounts below** and appear on the debit.
+- **Card payments carry no surcharge from 1 October 2026.** This applies to all cards, domestic and international. The card fee is deducted from Kinetic Hustl's settlement rather than added to the client's debit.
+- **Bank account direct debit fees are unchanged.** Any Ezidebit bank account fee is charged in addition to the amounts below and appears on the debit.
 - A minimum term of 12 weeks applies unless otherwise agreed in writing.
 
-**Weekly and flexi (1-on-1 only).** Weekly means one session per week or more. There is no upper limit and the same per-session rate applies to every session. Flexi means a minimum of one session per fortnight. Two or more sessions within a fortnight are charged at the weekly rate, however they fall across the two weeks.
+**Weekly and flexi (1-on-1 only).** Weekly means one session per week or more. There is no upper limit and the same per-session rate applies to every session. Flexi means a minimum of one session per fortnight, billed fortnightly. A client's tier is set by their agreement, not by how many sessions fall in a given fortnight. Additional or rescheduled sessions are charged at the client's agreed rate and do not change it. Moving between weekly and flexi happens by agreement, going forward.
 
 ---
 
@@ -196,10 +197,11 @@ Work through this once. Most items are quick; two need a decision and one needs 
 
 ### Decisions
 
-- [x] ~~Gym access not mentioned~~ — added as an initialled policy row in all four templates.
+- [x] ~~Gym access not mentioned~~ — added as an initialled policy row in all ten templates.
 - [x] ~~No photo/media consent, no privacy clause~~ — both added. See the flag below on the privacy one.
-- [x] ~~No business identification block~~ — added under the title. ABN 51 607 358 310 is in all eight templates.
+- [x] ~~No business identification block~~ — added under the title. ABN 51 607 358 310 is in all ten templates.
 - [x] ~~One-sided signature block~~ — a trainer counter-signature line now sits under the client's.
+- [x] ~~Card surcharge and bank account fees~~ — Card surcharge removed from 1 October 2026 for all cards, domestic and international. Bank account fees unchanged and still added to bank account debits (confirmed by Ezidebit, Sep 2026).
 - [ ] **Confirm whether the Privacy Act applies to you.** Small businesses under $3M turnover are generally exempt, but that exemption does not extend to businesses providing a health service and holding health information — which a personal trainer collecting medical history and body composition may well be. If it applies, the clause added here is a starting point rather than a complete compliance position, and you would also need a privacy policy. Worth asking whoever reviews the 12-week term to look at this at the same time. Not legal advice.
 
 ### Get advice on this one
@@ -216,6 +218,7 @@ Work through this once. Most items are quick; two need a decision and one needs 
 
 | Change | Detail |
 | --- | --- |
+| **Card surcharge removed (October 2026)** | The RBA ban on card surcharging takes effect 1 October 2026. Ezidebit now deducts card fees from settlement rather than adding them to the client debit. Bank account direct debit fees are unchanged. |
 | **Shared-session attendance rule reversed** | The January 2025 2-on-1 template said that if one person cancelled with notice, the other paid the 1:1 rate. That is gone. Nobody's cost changes when another participant is absent. |
 | **Group-size change clause added** | Previously undefined. Two-week grace period, then a confirmed-in-writing move to the rate for the new group size, with a fee-free exit if the client declines. |
 | **Separate agreements made explicit** | Already the practice; now stated in writing. |

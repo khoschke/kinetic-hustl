@@ -269,7 +269,7 @@ sits in the question itself, so the tick is against the wording rather than a he
 *Wording here has to work for all four branches, including casual. The billing cycle itself is confirmed
 inside each branch, so it is deliberately not repeated here.*
 
-1. **Payment is by direct debit through Ezidebit unless we have agreed otherwise. Ezidebit transaction fees are charged in addition to the amounts above and appear on the debit.** *(Checkbox · Required ·* "I have read and understood"*)*
+1. **Payment is by direct debit through Ezidebit unless we have agreed otherwise. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, any Ezidebit bank account fee is charged in addition to the amounts above and appears on the debit.** *(Checkbox · Required ·* "I have read and understood"*)*
 
 2. **Start date — the date of your first session, or the date you'd like your online coaching to begin** *(Date · Required)*
    *Helper text:* If we haven't locked in a time yet, put the date we've discussed and I'll confirm it with you.

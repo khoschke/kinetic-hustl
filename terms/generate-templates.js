@@ -9,6 +9,12 @@ const {
   Table, TableRow, TableCell, WidthType, ShadingType, BorderStyle
 } = require('docx');
 const fs = require('fs');
+const path = require('path');
+
+// Outputs go next to this script, not to the caller's working directory. Running
+// `node terms/generate-templates.js` from the repo root used to write eleven files
+// into the root and leave terms/ untouched.
+const out = (name) => path.join(__dirname, name);
 
 const ABN = "51 607 358 310";
 const BIZ = `Kinetic Hustl. — Karl Hoschke  ·  ABN ${ABN}  ·  Fitaz Gym, 101 Main Street, Kangaroo Point QLD 4169  ·  khoschke@gmail.com  ·  0434 869 519`;
@@ -55,8 +61,8 @@ const PHOTOS_NO = "I do not consent.";
 const APP_EXCLUDED = "This agreement does not include app access or online programming. If you would like to add it, speak with Karl and a separate agreement will apply.";
 
 const feesText = (f) => f.casual
-  ? "All prices include GST. Casual sessions are paid as booked. Direct deposit or direct debit can be arranged. Any Ezidebit transaction fees are charged in addition to the amounts agreed below."
-  : `All prices include GST. Payment is by ${f.cycle === "fortnight" ? "fortnightly" : "weekly"} direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Ezidebit transaction fees are charged in addition to the amounts agreed below and will appear on the debit.`;
+  ? "All prices include GST. Casual sessions are paid as booked. Direct deposit or direct debit can be arranged. Card payments carry no surcharge. If you pay by bank account direct debit, any Ezidebit bank account fee is charged in addition to the amounts agreed below."
+  : `All prices include GST. Payment is by ${f.cycle === "fortnight" ? "fortnightly" : "weekly"} direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, any Ezidebit bank account fee is charged in addition to the amounts agreed below and will appear on the debit.`;
 
 const appText = (f, appName, appFee) => f.cycle === "fortnight"
   ? `This agreement includes ${appName} at ${appFee} (GST incl.), charged in addition to your session rate. App access is charged per week, so each fortnightly debit includes two weeks of it ($44).`
@@ -226,8 +232,8 @@ for (const f of FORMATS) {
 
     kids.push(h("FEES"));
     kids.push(p(f.casual
-      ? "All prices include GST. Casual sessions are paid as booked. Direct deposit or direct debit can be arranged. Any Ezidebit transaction fees are charged in addition to the amounts agreed below."
-      : `All prices include GST. Payment is by ${f.cycle === "fortnight" ? "fortnightly" : "weekly"} direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Ezidebit transaction fees are charged in addition to the amounts agreed below and will appear on the debit.`));
+      ? "All prices include GST. Casual sessions are paid as booked. Direct deposit or direct debit can be arranged. Card payments carry no surcharge. If you pay by bank account direct debit, any Ezidebit bank account fee is charged in addition to the amounts agreed below."
+      : `All prices include GST. Payment is by ${f.cycle === "fortnight" ? "fortnightly" : "weekly"} direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, any Ezidebit bank account fee is charged in addition to the amounts agreed below and will appear on the debit.`));
     if (app) {
       kids.push(p(f.appOverride || appText(f, appName, appFee)));
     } else {
@@ -281,7 +287,7 @@ for (const f of FORMATS) {
     });
 
     const name = `KH-Terms-${f.file}${(!f.appModes && app) ? "-With-App-Access" : ""}.docx`;
-    Packer.toBuffer(doc).then((b) => { fs.writeFileSync(name, b); console.log("wrote", name); });
+    Packer.toBuffer(doc).then((b) => { fs.writeFileSync(out(name), b); console.log("wrote", name); });
   }
 }
 
@@ -410,6 +416,6 @@ for (const f of FORMATS) {
     }
   }
   L.push("*Generated from `generate-templates.js`. Last built alongside the ten `.docx` templates.*");
-  fs.writeFileSync("client-agreements-complete.md", L.join("\n"));
+  fs.writeFileSync(out("client-agreements-complete.md"), L.join("\n"));
   console.log("wrote client-agreements-complete.md");
 }
