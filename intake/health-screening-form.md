@@ -3,6 +3,9 @@
 Question set for the form every client completes **before their first session**, including a
 complimentary one. It replaces the old *Kinetic Hustl Waiver Form*.
 
+**Build sheet:** https://claude.ai/artifact/X9fFvvts4fzqfY5pmSsNUx — the same content laid out
+section by section for typing into Google Forms.
+
 ---
 
 ## What this form is, and what it is not
@@ -37,12 +40,12 @@ optional, it is just placed where the wrong people cannot reach it.
 question, not the date of birth field.
 
 **Google Forms cannot branch on "did you answer yes to any of these seven".** Branching reads one
-question. That is why section 5 exists: a single summary question the respondent answers themselves,
+question. That is why section 6 exists: a single summary question the respondent answers themselves,
 which drives the clearance branch. It is a prompt rather than a hard lock. The real control is you
 reading the response before you book them in.
 
 **A branch question needs its own section.** Branching fires at the end of the section containing it,
-so sections 1, 5 and 8 hold their branch question and nothing else.
+so sections 1, 6 and 9 hold their branch question and nothing else.
 
 ## Settings
 
@@ -57,22 +60,26 @@ so sections 1, 5 and 8 hold their branch question and nothing else.
 ## Section map
 
 ```
- 1  Start here                    → BRANCH on age band
- 2  Parent or guardian            → BRANCH on under 16   (under 18 only)
- 2a Under 16: safety requirements → continue             (under 16 only)
- 3  About you                     → continue
- 4  Pre-exercise screening        → continue
- 5  Screening summary             → BRANCH on yes/no
- 6  Before your first session     → go to section 7   (any yes only)
- 7  Your health
- 8  Ongoing conditions            → BRANCH on yes/no
- 9  When symptoms flare           → go to section 10  (fluctuating conditions only)
-10  Your care team
-11  Where you are now
-12  What you want
-13  Getting you booked in
-14  Privacy and declaration       → submit
+ 1  Start here                     BRANCH on age band
+ 2  Parent or guardian             BRANCH on under 16      (under 18 only)
+ 3  Under 16: safety requirements  → section 4             (under 16 only)
+ 4  About you
+ 5  Pre-exercise screening
+ 6  Screening summary              BRANCH on yes / no
+ 7  Before your first session      → section 8             (any yes only)
+ 8  Your health
+ 9  Ongoing conditions             BRANCH on yes / no
+10  When symptoms flare            → section 11            (fluctuating only)
+11  Your care team
+12  Where you are now
+13  What you want
+14  Getting you booked in
+15  Privacy and declaration        → submit
 ```
+
+Google Forms numbers sections sequentially, so there is no "2a". The under-16 section **is** section 3,
+and everything after it shifts. Sections 3, 7 and 10 each need their **After section** dropdown set
+explicitly to 4, 8 and 11. Miss one and a client falls into a section that does not apply to them.
 
 Sections 6 and 9 each need their **After section** dropdown set explicitly. Miss one and the client
 falls through into a section that does not apply to them.
@@ -102,12 +109,12 @@ falls through into a section that does not apply to them.
 
 **Which age group applies?** *(Multiple choice · Required · **Go to section based on answer**)*
 
-- 18 or older → *Go to section 3*
+- 18 or older → *Go to section 4*
 - 16 or 17 → *Go to section 2*
 - Under 16 → *Go to section 2*
 
 > **16 is the line that matters, not 18.** The Kinetic Hustl liability policy excludes clients under 16
-> unless six conditions are met (see section 2a). 16 and 17 year olds are outside that exclusion but
+> unless six conditions are met (see section 3). 16 and 17 year olds are outside that exclusion but
 > still cannot sign a release, so both bands route through the guardian section.
 >
 > **Minimum age is 12.** Under 12 is handled case by case and is not covered by this form or the
@@ -117,7 +124,7 @@ falls through into a section that does not apply to them.
 
 # 2 — Parent or guardian
 
-*Reached only by under-18s. After this section → **Continue to next section**.*
+*Reached by anyone under 18. Ends on a branch question, so no After section setting is needed.*
 
 > *Section description:* If you are under 18, a parent or guardian needs to complete this part.
 
@@ -129,16 +136,22 @@ falls through into a section that does not apply to them.
 4. Relationship to the person training *(Short answer)*
 5. **I am the parent or guardian named above. I consent to this person training with Kinetic Hustl, and I have completed or reviewed the health information in this form.** *(Checkbox · Required ·* "I consent"*)*
 
-6. **Is the person training under 16?** *(Multiple choice · Required ·* Yes / No*)*
+6. **Is the person training under 16?** *(Multiple choice · Required · **Go to section based on answer**)*
+
+   - Yes → *Go to section 3*
+   - No → *Go to section 4*
+
+   > A 16 or 17 year old must not fall through into section 3. Without this branch they are asked the
+   > under-16 safety questions, which do not apply to them.
 
 > **Junior clients sign the Junior Athlete T&Cs, not the standard set.** The standard Consent to
 > Participate in Training contains "I certify that I am 18 years or older", so a minor cannot sign it.
 
 ---
 
-# 2a — Under 16: safety requirements
+# 3 — Under 16: safety requirements
 
-*Reached only where the answer to 2.6 is Yes. After this section → **Continue to next section**.*
+*Reached only where the answer to 2.6 is Yes. After this section → **Go to section 4**.*
 
 > *Section description:*
 >
@@ -174,7 +187,7 @@ falls through into a section that does not apply to them.
 
 ---
 
-# 3 — About you
+# 4 — About you
 
 *All required unless stated. Short answer unless stated.*
 
@@ -196,7 +209,7 @@ falls through into a section that does not apply to them.
 
 ---
 
-# 4 — Pre-exercise screening
+# 5 — Pre-exercise screening
 
 > *Section description:*
 >
@@ -237,21 +250,21 @@ falls through into a section that does not apply to them.
 
 ---
 
-# 5 — Screening summary
+# 6 — Screening summary
 
 *One question only. This is the branch point.*
 
 **Did you answer yes to any of the seven questions above?** *(Multiple choice · Required · **Go to section based on answer**)*
 
-- No → *Go to section 7*
-- Yes → *Go to section 6*
-- Not sure → *Go to section 6*
+- No → *Go to section 8*
+- Yes → *Go to section 7*
+- Not sure → *Go to section 7*
 
 ---
 
-# 6 — Before your first session
+# 7 — Before your first session
 
-*Reached only by a yes or not sure. After this section → **Go to section 7**.*
+*Reached only by a yes or not sure. After this section → **Go to section 8**.*
 
 > *Section description:*
 >
@@ -280,7 +293,7 @@ falls through into a section that does not apply to them.
 
 ---
 
-# 7 — Your health
+# 8 — Your health
 
 *All Paragraph and Required unless stated. Every "list" question takes* "Type None if there are none."
 
@@ -306,7 +319,7 @@ falls through into a section that does not apply to them.
 
 ---
 
-# 8 — Ongoing conditions
+# 9 — Ongoing conditions
 
 *One question only. This is the branch point.*
 
@@ -317,14 +330,14 @@ falls through into a section that does not apply to them.
 
 *Help text: For example asthma, migraine, endometriosis, arthritis, IBS, chronic fatigue, back pain, anxiety, an autoimmune condition, or a long-term injury that flares up.*
 
-- Yes → *Go to section 9*
-- No → *Go to section 10*
+- Yes → *Go to section 10*
+- No → *Go to section 11*
 
 ---
 
-# 9 — When symptoms flare
+# 10 — When symptoms flare
 
-*Reached only by a yes. After this section → **Go to section 10**.*
+*Reached only by a yes. After this section → **Go to section 11**.*
 
 > *Section description:*
 >
@@ -365,7 +378,7 @@ falls through into a section that does not apply to them.
 
 ---
 
-# 10 — Your care team
+# 11 — Your care team
 
 > *Section description:*
 >
@@ -401,7 +414,7 @@ falls through into a section that does not apply to them.
 
 ---
 
-# 11 — Where you are now
+# 12 — Where you are now
 
 > *Section description:* No right answers here. This is the bit that tells me how to pitch the
 > starting point.
@@ -443,7 +456,7 @@ falls through into a section that does not apply to them.
 
 ---
 
-# 12 — What you want
+# 13 — What you want
 
 1. **What are you hoping to get out of training?** *(Checkboxes · Required · include Other)*
    - Reduce body fat
@@ -478,7 +491,7 @@ falls through into a section that does not apply to them.
 
 ---
 
-# 13 — Getting you booked in
+# 14 — Getting you booked in
 
 1. **How many days a week do you want to train in total?** *(Multiple choice · Required ·* 1 to 7*)*
 2. **Of those, how many would be with me?** *(Multiple choice · Required ·* 1 / 2 / 3 / 4 / Not sure yet*)*
@@ -502,7 +515,7 @@ falls through into a section that does not apply to them.
 
 ---
 
-# 14 — Privacy and declaration
+# 15 — Privacy and declaration
 
 > *Section description — this is your collection notice. Adjust the email address.*
 >
@@ -548,7 +561,7 @@ falls through into a section that does not apply to them.
 
 # Before you send it to anyone
 
-1. **Test submit four times:** over 18 with no yes answers, over 18 with a yes, under 18, and someone with a fluctuating condition. Check each run asks only what it should.
+1. **Test submit five times:** over 18 with no yes answers, over 18 with a yes, a 16 year old, a 12 year old, and someone with a fluctuating condition. Check each run asks only what it should. The classic failure is a 16 year old landing in section 3 and being asked the under-16 questions, which means the section 2 branch is wired wrong.
 2. **Re-test after any structural edit.** Reordering sections silently breaks branch targets.
-3. **Check sections 6 and 9 have their After section dropdown set** to sections 7 and 10 respectively.
+3. **Check sections 3, 7 and 10 have their After section dropdown set** to sections 4, 8 and 11 respectively.
 4. **Diarise a yearly re-screen.** Health changes, and a screen from 2025 is not a screen.
