@@ -57,8 +57,9 @@ so sections 1, 5 and 8 hold their branch question and nothing else.
 ## Section map
 
 ```
- 1  Start here                    → BRANCH on age
- 2  Parent or guardian            → continue          (under 18 only)
+ 1  Start here                    → BRANCH on age band
+ 2  Parent or guardian            → BRANCH on under 16   (under 18 only)
+ 2a Under 16: safety requirements → continue             (under 16 only)
  3  About you                     → continue
  4  Pre-exercise screening        → continue
  5  Screening summary             → BRANCH on yes/no
@@ -88,10 +89,29 @@ falls through into a section that does not apply to them.
 > There are no right answers and nothing here rules you out. The more you tell me, the better I can
 > build something that suits you.
 
-**Are you 18 years of age or older?** *(Multiple choice · Required · **Go to section based on answer**)*
+**Who is completing this form?** *(Multiple choice · Required)*
 
-- Yes → *Go to section 3*
-- No → *Go to section 2*
+- I am the person who will be training, and I am 18 or older
+- I am the person who will be training, and I am 16 or 17
+- I am a parent or guardian completing this for someone under 16
+
+> **Ask this rather than relying on date of birth.** Google Forms cannot branch on a date answer, and
+> the verified email tells you whose account submitted the form, not who typed the answers. A guardian
+> completing a 12-year-old's screen from their own account looks identical to a 12-year-old completing
+> it themselves unless you ask.
+
+**Which age group applies?** *(Multiple choice · Required · **Go to section based on answer**)*
+
+- 18 or older → *Go to section 3*
+- 16 or 17 → *Go to section 2*
+- Under 16 → *Go to section 2*
+
+> **16 is the line that matters, not 18.** The Kinetic Hustl liability policy excludes clients under 16
+> unless six conditions are met (see section 2a). 16 and 17 year olds are outside that exclusion but
+> still cannot sign a release, so both bands route through the guardian section.
+>
+> **Minimum age is 12.** Under 12 is handled case by case and is not covered by this form or the
+> junior agreement set.
 
 ---
 
@@ -109,8 +129,48 @@ falls through into a section that does not apply to them.
 4. Relationship to the person training *(Short answer)*
 5. **I am the parent or guardian named above. I consent to this person training with Kinetic Hustl, and I have completed or reviewed the health information in this form.** *(Checkbox · Required ·* "I consent"*)*
 
+6. **Is the person training under 16?** *(Multiple choice · Required ·* Yes / No*)*
+
 > **Junior clients sign the Junior Athlete T&Cs, not the standard set.** The standard Consent to
 > Participate in Training contains "I certify that I am 18 years or older", so a minor cannot sign it.
+
+---
+
+# 2a — Under 16: safety requirements
+
+*Reached only where the answer to 2.6 is Yes. After this section → **Continue to next section**.*
+
+> *Section description:*
+>
+> A few extra questions for clients under 16. These are not box-ticking. They are the conditions my
+> insurance requires before I can train someone under 16, and I would ask them anyway.
+
+1. **Does the person training have asthma, or have they ever been prescribed a reliever inhaler?** *(Multiple choice · Required)*
+   - No, never
+   - Diagnosed asthma, currently using medication
+   - Diagnosed asthma, not currently using medication
+   - Has used a reliever in the past but no current diagnosis
+   - Not sure
+
+2. **If yes to any of the above: what reliever do they use, do they carry it to training, and what sets an attack off?** *(Paragraph · Not required · "Type N/A if this does not apply.")*
+
+3. **Has the person training ever had an asthma attack that needed immediate medical attention?** *(Multiple choice · Required ·* No / Yes, more than 12 months ago / Yes, in the last 12 months / Not sure*)*
+
+4. **Second emergency contact** *(three Short answer questions, all Required: name, mobile, relationship)*
+
+5. **Name and practice of their GP** *(Short answer · Required)*
+
+6. **I consent to Karl calling an ambulance if he judges it necessary, and I understand ambulance costs are my responsibility.** *(Checkbox · Required ·* "I consent"*)*
+
+7. **I understand that a parent, guardian or other responsible adult must be present for sessions with a client under 16.** *(Checkbox · Required ·* "I understand"*)*
+
+> **Why questions 1 to 3 are here and this specific.** Condition v of the policy's child participation
+> clause requires "an asthma management plan including an emergency response plan". You cannot write one
+> from a yes/no tick, and asthma is the single most common thing that turns a normal session with a
+> 12-year-old into an emergency.
+>
+> **Question 7 is the supervision condition**, subject to the written answer from Guild on whether Karl
+> himself satisfies it. Do not soften this wording until that answer is in.
 
 ---
 
@@ -156,6 +216,14 @@ falls through into a section that does not apply to them.
 6. Do you have any diagnosed muscle, bone or joint problems that you have been told could be made worse by participating in physical activity or exercise?
 7. Do you have any other medical condition that may make it dangerous for you to participate in physical activity or exercise?
 
+> **For a client under 16, the guardian answers these on their behalf.** Add to the section
+> description: "If you are completing this for someone under 16, answer about them, not about
+> yourself." APSS Stage 1 is written for adults and a guardian will otherwise answer about themselves.
+>
+> **Screening must be completed before participation**, not before invoicing. Condition iii of the
+> policy's child participation clause says "prior to participation in any exercise program", so the
+> submission timestamp is the evidence. Do not let anyone train on a promise to fill it in later.
+>
 > **Copy the exact wording from the source, do not trust my transcription.** This is Stage 1 of the
 > **Adult Pre-Exercise Screening System (APSS)**, the tool developed jointly by Exercise & Sports
 > Science Australia, Fitness Australia and Sports Medicine Australia. Download the current PDF and

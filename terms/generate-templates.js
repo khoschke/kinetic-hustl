@@ -37,8 +37,14 @@ const consentBody = [
 
 // ------------------------------------------------------------- clause text ---
 const POLICIES = {
-  sessionCancellation: ["Session cancellation",
-    "There is a 24-hour cancellation policy for all training sessions. Sessions cancelled with 24 hours' notice or more will be rescheduled where possible. Sessions cancelled within 24 hours of the booking will be forfeited."],
+  sessionCancellation: ["Session cancellation and credits",
+    "There is a 24-hour cancellation policy for all training sessions. Sessions cancelled with 24 hours' notice or more are credited to your account. A credit can be used to rebook straight away or held and used later. Sessions cancelled within 24 hours of the booking are forfeited.",
+    "Credits expire three months from the date of the cancelled session. I may extend a credit at my discretion, and will where you have been genuinely unwell or away. Credits stay usable through your notice period and lapse when this agreement ends. Credits are not refundable and cannot be transferred to another person."],
+  flareCredit: ["Flare-ups of a disclosed condition",
+    "If you miss a session because of a flare-up of a condition you disclosed in your health screening, that session is credited rather than forfeited, even inside 24 hours. This applies up to three times in any twelve-month period. Beyond that the standard policy above applies, though I will always use my discretion where circumstances warrant it."],
+  conduct: ["Professional conduct and boundaries",
+    "Sessions are conducted on the open gym floor during staffed hours, and never in a closed or unsupervised room. Hands-on cueing is used only where it helps your technique, only with your agreement, and you can decline it at any time without explanation or any effect on your training.",
+    "If anything in a session makes you uncomfortable, tell me and it stops. If you would rather raise it another way, email khoschke@gmail.com. I hold current First Aid and CPR, full public and professional indemnity insurance, and a current Queensland Blue Card (working with children check)."],
   directDebit: ["Direct debit cancellation",
     "There is a 30-day cancellation policy for all direct debit agreements. Notice is required by email."],
   gymAccess: ["Gym access",
@@ -84,11 +90,11 @@ const h = (text) => new Paragraph({
 
 // Each policy is its own block with its own initial line, rather than a row in a
 // dense table. Far harder to scroll past on the way to the signature.
-const policy = (title, body) => ([
+const policy = (title, ...bodies) => ([
   new Paragraph({ spacing: { before: 160, after: 50 },
     children: [new TextRun({ text: title, bold: true, size: 19 })] }),
-  new Paragraph({ spacing: { after: 70 },
-    children: [new TextRun({ text: body, size: 18 })] }),
+  ...bodies.map((body) => new Paragraph({ spacing: { after: 70 },
+    children: [new TextRun({ text: body, size: 18 })] })),
   new Paragraph({
     spacing: { after: 90 },
     border: { bottom: { style: BorderStyle.SINGLE, size: 4, color: "DDDDDD" } },
@@ -222,8 +228,10 @@ for (const f of FORMATS) {
     kids.push(h("TRAINING & CANCELLATION POLICIES"));
     kids.push(p("Please initial each of the following to confirm you have read and understood it.", { italics: true, after: 40 }));
     policy(...POLICIES.sessionCancellation).forEach(x => kids.push(x));
+    policy(...POLICIES.flareCredit).forEach(x => kids.push(x));
     policy(...POLICIES.directDebit).forEach(x => kids.push(x));
     policy(...POLICIES.gymAccess).forEach(x => kids.push(x));
+    policy(...POLICIES.conduct).forEach(x => kids.push(x));
     if (f.shared) {
       policy(...POLICIES.attendance).forEach(x => kids.push(x));
       policy(...POLICIES.groupSize).forEach(x => kids.push(x));
@@ -351,13 +359,17 @@ for (const f of FORMATS) {
   L.push("");
   L.push("The client initials each of these individually.");
   L.push("");
-  ["sessionCancellation", "directDebit", "gymAccess"].forEach((k) => {
-    L.push(`**${POLICIES[k][0]}.** ${POLICIES[k][1]}`); L.push("");
+  ["sessionCancellation", "flareCredit", "directDebit", "gymAccess", "conduct"].forEach((k) => {
+    const [title, ...bodies] = POLICIES[k];
+    L.push(`**${title}.** ${bodies[0]}`); L.push("");
+    bodies.slice(1).forEach((b) => { L.push(b); L.push(""); });
   });
   L.push("**Shared formats only (2-on-1 and 3-on-1):**");
   L.push("");
   ["attendance", "groupSize", "separateAgreements"].forEach((k) => {
-    L.push(`**${POLICIES[k][0]}.** ${POLICIES[k][1]}`); L.push("");
+    const [title, ...bodies] = POLICIES[k];
+    L.push(`**${title}.** ${bodies[0]}`); L.push("");
+    bodies.slice(1).forEach((b) => { L.push(b); L.push(""); });
   });
   L.push("### Your information");
   L.push("");

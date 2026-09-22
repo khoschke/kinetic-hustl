@@ -105,7 +105,9 @@ Gym memberships are set and managed by Fitaz Gym, not Kinetic Hustl, and are sub
 ## Terms
 
 - **Minimum term:** 12 weeks, unless agreed otherwise in writing.
-- **Session cancellation:** 24 hours. Sessions cancelled with 24 hours' notice or more are rescheduled where possible. Sessions cancelled inside 24 hours are forfeited.
+- **Session cancellation and credits:** 24 hours. Sessions cancelled with 24 hours' notice or more are credited to your account, and a credit can be used to rebook straight away or held and used later. Sessions cancelled inside 24 hours are forfeited.
+- **Credit expiry:** credits expire three months from the date of the cancelled session. Karl may extend a credit at his discretion. Credits stay usable through your notice period and lapse when the agreement ends. They are not refundable and cannot be transferred to another person.
+- **Flare-ups:** if you miss a session because of a flare-up of a condition you disclosed in your health screening, the session is credited rather than forfeited, even inside 24 hours, up to three times in any twelve-month period.
 - **Direct debit cancellation:** 30 days' notice, by email.
 - **Payment:** direct debit through Ezidebit on your training cycle — weekly for weekly clients, fortnightly for flexi clients. App access is $22 per week, so a flexi fortnight is one session at $104.50 plus two weeks of app access at $44, totalling $148.50. Direct deposit can be arranged.
 - **Transaction fees:** card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, any Ezidebit bank account fee is charged in addition to the agreed amount and appears on the debit.

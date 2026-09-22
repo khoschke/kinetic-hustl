@@ -163,11 +163,15 @@ break branch targets, so re-test after any structural edit.
 *Applies to every client. Each a Checkbox question with a single option, Required. The policy wording
 sits in the question itself, so the tick is against the wording rather than a heading.*
 
-1. **Session cancellation.** There is a 24-hour cancellation policy for all training sessions. Sessions cancelled with 24 hours' notice or more will be rescheduled where possible. Sessions cancelled within 24 hours of the booking will be forfeited. → "I have read and understood"
+1. **Session cancellation and credits.** There is a 24-hour cancellation policy for all training sessions. Sessions cancelled with 24 hours' notice or more are credited to my account, and a credit can be used to rebook straight away or held and used later. Sessions cancelled within 24 hours of the booking are forfeited. Credits expire three months from the date of the cancelled session, may be extended at Karl's discretion, stay usable through my notice period, and lapse when my agreement ends. → "I have read and understood"
 
-2. **Direct debit cancellation.** There is a 30-day cancellation policy for all direct debit agreements. Notice is required by email. → "I have read and understood"
+2. **Flare-ups of a disclosed condition.** If I miss a session because of a flare-up of a condition I disclosed in my health screening, that session is credited rather than forfeited, even inside 24 hours, up to three times in any twelve-month period. → "I have read and understood"
 
-3. **Gym access.** If I train in person at Fitaz Gym, I am responsible for holding my own valid gym access for every session I attend. Gym membership is separate from training fees and is arranged directly with Fitaz Gym. → "I have read and understood"
+3. **Professional conduct and boundaries.** Sessions are conducted on the open gym floor during staffed hours and never in a closed or unsupervised room. Hands-on cueing is used only where it helps my technique, only with my agreement, and I can decline it at any time. If anything in a session makes me uncomfortable I can say so and it stops, or email khoschke@gmail.com. → "I have read and understood"
+
+4. **Direct debit cancellation.** There is a 30-day cancellation policy for all direct debit agreements. Notice is required by email. → "I have read and understood"
+
+5. **Gym access.** If I train in person at Fitaz Gym, I am responsible for holding my own valid gym access for every session I attend. Gym membership is separate from training fees and is arranged directly with Fitaz Gym. → "I have read and understood"
 
 *Conditional wording matters: an online coaching client does not train at Fitaz, so an unqualified statement would be untrue for them — and it is a required tick.*
 
