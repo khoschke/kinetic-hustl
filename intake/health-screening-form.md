@@ -349,7 +349,7 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 >
 > A tick box tells me a condition exists. It does not tell me what to do on a bad week. This bit does.
 
-1. **Which condition are you answering about?** *(Short answer · Required · "If there is more than one, answer about the one that affects training most. You have already listed them all earlier in the form.")*
+1. **Which condition are you answering about?** *(Short answer · Required · "If there is more than one, answer about the one or ones that affect training most, and name the others here too.")*
 
 2. **Roughly how many days a month do you lose to symptoms?** *(Multiple choice · Required)*
    - None at the moment
@@ -375,11 +375,13 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 6. **Is there anything I should avoid entirely?** *(Paragraph · Required · "Type None if there is nothing.")*
 
 
-> **Only one condition is profiled here, deliberately.** An earlier draft ended this section with "any
-> other conditions I should know about?", which duplicated the diagnosis list in section 8 and invited
-> people to type it twice. Section 8 captures *what* they have. This section captures *how the main one
-> behaves*. If someone has two conditions that flare differently, that is a conversation rather than a
-> form field.
+> **The others are named in question 1, not in a separate question.** An earlier draft ended this
+> section with "any other conditions I should know about?", which duplicated the diagnosis list in
+> section 8. Deleting it left question 1 telling people to "mention the others at the end", pointing at
+> a field that no longer existed, so they now name them in the same box.
+>
+> Nothing below question 1 should reference "the end" of this section. Section 8 captures *what* they
+> have. This section captures *how it behaves*.
 >
 > **Deliberately no promise about fees here.** An option reading "reschedule the session" would imply
 > the 24-hour forfeit rule does not apply, which is not what any document says. Flare-related
