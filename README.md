@@ -19,8 +19,8 @@ Karl Hoschke, operating from Fitaz Gym, Kangaroo Point QLD.
 | `terms/google-form-questions.md` | Question set for the client T&C form | Maintaining the form |
 | `intake/health-screening-form.md` | Question set for the health screening form | Maintaining the form |
 | `terms/KH-Terms-*.docx` | Ten client-ready agreement templates | Send to a client |
-| `terms/KH-Terms-Junior-Addendum.docx` | Guardian-signed addendum, attaches to any of the ten | Under-18 clients |
-| `terms/KH-Junior-Participation-Agreement.docx` | Junior-signed, plain language, **not legally binding** | Under-18 clients |
+| `terms/KH-Terms-Junior-Addendum.docx` | Full junior terms as one readable document | **Reference only.** Clients agree in the form |
+| `terms/KH-Junior-Participation-Agreement.docx` | Junior-signed, plain language, **not legally binding** | **Print and hand to the junior.** The one document that is still signed on paper |
 | `terms/generate-templates.js` | Builds the ten templates **and** the combined reference | Do not hand-edit the outputs |
 
 ## The two client forms

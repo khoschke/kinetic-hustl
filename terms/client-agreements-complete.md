@@ -364,11 +364,9 @@ I understand that all sessions are delivered by a qualified Australian fitness p
 
 ### 4. Medical disclosure and clearance
 
-I have completed the Kinetic Hustl health screening form on the Junior's behalf. The information I supplied is complete, honest and whole, and I have disclosed everything relevant to the Junior's health and their physical and medical condition.
+The Junior's health information is collected in the Kinetic Hustl health screening form, which I complete on their behalf before their first session. The declarations I make there about honesty, completeness and telling the Trainer when something changes apply to this agreement too, and are not repeated here.
 
-If I become aware of any medical condition, injury or impairment that will be detrimental to the Junior's health, I will inform the Trainer immediately.
-
-Where the Junior has a surgical history, a diagnosed condition, or an ongoing treating practitioner, I understand that written clearance from that practitioner must be provided to the Trainer before the Junior's first loaded training session. An introductory meeting or movement screen may take place before clearance is provided. Loaded training may not.
+Where the Junior has a surgical history, a diagnosed condition, or an ongoing treating practitioner, written clearance from that practitioner must be provided to the Trainer before the Junior's first loaded training session. An introductory meeting or movement screen may take place before clearance is provided. Loaded training may not.
 
 I acknowledge the recommendation that I obtain a medical practitioner's written approval before the Junior participates.
 
@@ -376,15 +374,17 @@ I acknowledge the recommendation that I obtain a medical practitioner's written 
 
 The Trainer coaches training, movement, habits and confidence. The Trainer does not diagnose, treat or manage medical conditions, and coaching runs alongside any clinical care the Junior receives rather than in place of it.
 
+The Junior's treating practitioners, and my consent for the Trainer to contact them, are recorded in the health screening form. They are not collected again here.
+
 The Guardian ticks one: consent to the Trainer contacting the Junior's treating physiotherapist, surgeon or medical practitioner for the purpose of coordinating their training, or does not consent. Practitioner name, clinic and contact are recorded.
 
 ### 6. Financial responsibility
 
-I am the responsible party for all fees under the attached agreement. That includes the session rate, app access where it applies, the direct debit arrangement, the cancellation and credit policy and the 30-day direct debit cancellation policy.
+I am the responsible party for everything the attached agreement requires of the client: the fees, the payment arrangement, the notice periods and the cancellation policies. Those terms are set out in that agreement and are not restated here.
 
 The direct debit authority is signed by me as the account holder. The Junior is the person training; I am the person paying.
 
-Gym access is separate from training fees and is arranged directly with Fitaz Gym. I am responsible for ensuring the Junior holds valid gym access for every session they attend.
+I am responsible for ensuring the Junior holds valid gym access for every session they attend.
 
 ### 7. Communication
 
@@ -452,17 +452,9 @@ If the Trainer becomes concerned about the Junior's safety or welfare, the Train
 
 The Guardian initials each of these individually.
 
-**Session cancellation and credits.** There is a 24-hour cancellation policy for all training sessions. Sessions cancelled with 24 hours' notice or more are credited to your account. A credit can be used to rebook straight away or held and used later. Sessions cancelled within 24 hours of the booking are forfeited.
-
-**Direct debit cancellation.** There is a 30-day cancellation policy for all direct debit agreements. Notice is required by email.
-
-**Gym access.** The Junior must hold their own valid gym access for every session they attend.
-
 **Medical clearance.** No loaded training takes place before written practitioner clearance is on file, where clause 4 requires it.
 
 **Supervision.** Where the Junior is under 16, a responsible adult is present for the whole session. Without one the session cannot go ahead.
-
-**Minimum term.** The minimum term in the attached agreement applies, unless otherwise agreed in writing.
 
 Signed by the Guardian and counter-signed by the Trainer.
 

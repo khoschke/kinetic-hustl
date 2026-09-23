@@ -327,18 +327,18 @@ const JUNIOR = {
     "I understand that all sessions are delivered by a qualified Australian fitness professional holding current qualifications including a Bachelor of Exercise and Movement Science, First Aid and CPR, full public and professional indemnity insurance, and a current Queensland Blue Card.",
   ],
   medical: [
-    "I have completed the Kinetic Hustl health screening form on the Junior's behalf. The information I supplied is complete, honest and whole, and I have disclosed everything relevant to the Junior's health and their physical and medical condition.",
-    "If I become aware of any medical condition, injury or impairment that will be detrimental to the Junior's health, I will inform the Trainer immediately.",
-    "Where the Junior has a surgical history, a diagnosed condition, or an ongoing treating practitioner, I understand that written clearance from that practitioner must be provided to the Trainer before the Junior's first loaded training session. An introductory meeting or movement screen may take place before clearance is provided. Loaded training may not.",
+    "The Junior's health information is collected in the Kinetic Hustl health screening form, which I complete on their behalf before their first session. The declarations I make there about honesty, completeness and telling the Trainer when something changes apply to this agreement too, and are not repeated here.",
+    "Where the Junior has a surgical history, a diagnosed condition, or an ongoing treating practitioner, written clearance from that practitioner must be provided to the Trainer before the Junior's first loaded training session. An introductory meeting or movement screen may take place before clearance is provided. Loaded training may not.",
     "I acknowledge the recommendation that I obtain a medical practitioner's written approval before the Junior participates.",
   ],
   practitioners: [
     "The Trainer coaches training, movement, habits and confidence. The Trainer does not diagnose, treat or manage medical conditions, and coaching runs alongside any clinical care the Junior receives rather than in place of it.",
+    "The Junior's treating practitioners, and my consent for the Trainer to contact them, are recorded in the health screening form. They are not collected again here.",
   ],
   financial: [
-    "I am the responsible party for all fees under the attached agreement. That includes the session rate, app access where it applies, the direct debit arrangement, the cancellation and credit policy and the 30-day direct debit cancellation policy.",
+    "I am the responsible party for everything the attached agreement requires of the client: the fees, the payment arrangement, the notice periods and the cancellation policies. Those terms are set out in that agreement and are not restated here.",
     "The direct debit authority is signed by me as the account holder. The Junior is the person training; I am the person paying.",
-    "Gym access is separate from training fees and is arranged directly with Fitaz Gym. I am responsible for ensuring the Junior holds valid gym access for every session they attend.",
+    "I am responsible for ensuring the Junior holds valid gym access for every session they attend.",
   ],
   communication: [
     "Kinetic Hustl does not operate a private messaging channel between a trainer and a client under 18.",
@@ -385,13 +385,12 @@ const JUNIOR = {
 };
 
 const JUNIOR_POLICIES = [
-  ["Session cancellation and credits", POLICIES.sessionCancellation[1]],
-  ["Direct debit cancellation", POLICIES.directDebit[1]],
-  ["Gym access", "The Junior must hold their own valid gym access for every session they attend."],
   ["Medical clearance", "No loaded training takes place before written practitioner clearance is on file, where clause 4 requires it."],
   ["Supervision", "Where the Junior is under 16, a responsible adult is present for the whole session. Without one the session cannot go ahead."],
-  ["Minimum term", "The minimum term in the attached agreement applies, unless otherwise agreed in writing."],
 ];
+// Cancellation, credits, direct debit notice, gym access and the minimum term are
+// initialled in the attached rate agreement. Repeating them here would have the
+// guardian initial the same policy twice in one signing.
 
 const numbered = (n, title) => new Paragraph({
   spacing: { before: 280, after: 120 },
