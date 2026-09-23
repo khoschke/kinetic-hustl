@@ -296,6 +296,281 @@ for (const f of FORMATS) {
   }
 }
 
+
+// ------------------------------------------------------------------ junior ---
+// One addendum that attaches to any of the ten rate agreements, plus a
+// non-legal agreement the junior signs themselves. Not a fork of the ten:
+// the rate agreement is untouched and this sits alongside it.
+//
+// The line that matters is 16, not 18. The liability policy excludes clients
+// under 16 unless six conditions are met, so the supervision and clearance
+// clauses below are cover conditions rather than preferences.
+
+const JUNIOR = {
+  works: [
+    "This addendum attaches to the agreement named above and is read together with it. The two documents form one agreement.",
+    "Where the attached agreement is written in the first person as statements by the client, those statements are made by the Guardian, on the Junior's behalf and on their own behalf. Where the attached agreement is signed by the \"Client\", that is the Guardian signing on the Junior's behalf.",
+    "Clause 3 below replaces the certification of age in the attached agreement. Clause 9 below replaces the Photos and Video section of the attached agreement in full. Everything else in the attached agreement continues to apply, including the rate, the minimum term, the cancellation policies and the payment arrangement.",
+    "The Junior signs a separate Participation Agreement. That document sets out how the Junior takes part in their training. It is not a legal agreement, it does not change anything in this one, and the Guardian receives a copy of it.",
+  ],
+  declaration: [
+    "I am the parent or legal guardian of the Junior named above. I have authority to enter this agreement and the attached agreement on their behalf.",
+    "I have read both documents and I understand them. Any questions I had have been answered to my satisfaction. I accept their terms on the Junior's behalf and on my own.",
+    "I am not under any physical or emotional duress in signing.",
+  ],
+  consent: [
+    "This clause replaces the certification of age in the attached agreement.",
+    "I consent to the Junior participating in personal training, group exercise and general physical activities under the guidance of the Trainer.",
+    "I acknowledge that the Junior participates at their own risk, and I accept responsibility on their behalf for their health, wellness, medical, physical, mental and emotional wellbeing in connection with that participation.",
+    "I acknowledge that participation may involve a risk of serious injury or illness, and in rare circumstances death may occur.",
+    "I accept those risks, and I indemnify and release the Trainer and any person or body directly or indirectly associated with the Trainer against all liability, claims, demands and proceedings arising out of the Junior's participation, to the extent permitted by law.",
+    "I understand that all sessions are delivered by a qualified Australian fitness professional holding current qualifications including a Bachelor of Exercise and Movement Science, First Aid and CPR, full public and professional indemnity insurance, and a current Queensland Blue Card.",
+  ],
+  medical: [
+    "I have completed the Kinetic Hustl health screening form on the Junior's behalf. The information I supplied is complete, honest and whole, and I have disclosed everything relevant to the Junior's health and their physical and medical condition.",
+    "If I become aware of any medical condition, injury or impairment that will be detrimental to the Junior's health, I will inform the Trainer immediately.",
+    "Where the Junior has a surgical history, a diagnosed condition, or an ongoing treating practitioner, I understand that written clearance from that practitioner must be provided to the Trainer before the Junior's first loaded training session. An introductory meeting or movement screen may take place before clearance is provided. Loaded training may not.",
+    "I acknowledge the recommendation that I obtain a medical practitioner's written approval before the Junior participates.",
+  ],
+  practitioners: [
+    "The Trainer coaches training, movement, habits and confidence. The Trainer does not diagnose, treat or manage medical conditions, and coaching runs alongside any clinical care the Junior receives rather than in place of it.",
+  ],
+  financial: [
+    "I am the responsible party for all fees under the attached agreement. That includes the session rate, app access where it applies, the direct debit arrangement, the cancellation and credit policy and the 30-day direct debit cancellation policy.",
+    "The direct debit authority is signed by me as the account holder. The Junior is the person training; I am the person paying.",
+    "Gym access is separate from training fees and is arranged directly with Fitaz Gym. I am responsible for ensuring the Junior holds valid gym access for every session they attend.",
+  ],
+  communication: [
+    "Kinetic Hustl does not operate a private messaging channel between a trainer and a client under 18.",
+    "Where the Junior is old enough to follow a program independently, they may hold their own app account. In-app messaging is set to one-way: the Trainer can send programming, instructions and notes, and the Junior cannot message the Trainer privately. Where the Junior is not yet training independently, no app account is issued and their programming sits on my account instead.",
+    "Between sessions, anything the Junior needs to raise comes to the Trainer through me, or the Junior raises it with the Trainer in person at the gym. In a session, the Junior is encouraged to raise anything directly, and the Trainer will follow up with me where it matters.",
+    "I understand the Trainer will communicate with me about the Junior's training, their program, their progress and any concerns.",
+  ],
+  supervision: [
+    "Sessions are conducted on the open gym floor during staffed hours, and never in a closed or unsupervised room.",
+    "Where the Junior is under 16, a parent, guardian or other responsible adult must be present for the whole session. This is a condition of the Trainer's insurance, not a preference, and it cannot be waived by agreement.",
+    "If no responsible adult is present at the start of a session for a Junior under 16, the session cannot go ahead. It is treated under the cancellation policy in the attached agreement, though the Trainer will use discretion where the circumstances warrant it.",
+    "Where the Junior is 16 or 17, I am welcome to attend any session and will attend the first one.",
+  ],
+  photosLead: [
+    "This clause replaces the Photos and Video section of the attached agreement in full.",
+    "Progress photos are not taken of clients under 18. This applies regardless of the Junior's goals, including where body composition is one of them. Progress is tracked using measurements, performance markers, and video of movement where it serves the coaching.",
+    "Photos and video for marketing or social media require the consent of both the Guardian and the Junior. Consent defaults to no. Where either does not consent, none are taken or used.",
+  ],
+  photoRules: [
+    "No location tagging, and no naming of the gym alongside the Junior.",
+    "Nothing that identifies when the Junior trains, including day, time, or any reference to a regular routine.",
+    "No posting in real time. Material is posted later than the session it came from.",
+    "First name only, or no name.",
+    "No comments or captions about the Junior's body, weight or appearance.",
+  ],
+  photosTail: [
+    "The reason for those rules: a post that shows a young person's face, names where they train and implies when they are there is a complete set of instructions for finding them. Consent does not make that safe.",
+    "Consent may be withdrawn at any time by either the Guardian or the Junior, by telling the Trainer. New material will not be used and existing material will be removed wherever it is practical to do so.",
+  ],
+  turningEighteen: [
+    "This addendum ends on the Junior's eighteenth birthday.",
+    "From that date the client signs the standard agreement for their format in their own name, and takes on the rate, the policies and the payment arrangement themselves. Until they do, this addendum and the attached agreement continue unchanged and I remain the responsible party.",
+    "Financial responsibility transfers to the client only once a new agreement and a new direct debit authority are in place in their name. A birthday alone does not move it.",
+  ],
+  sharedSessions: [
+    "Where the Junior trains in a 2-on-1 or 3-on-1 session alongside participants who are not members of our household, I agree to the specific participants in writing before the first shared session.",
+    "Where the Junior is under 16, the supervision requirement in clause 8 applies to every shared session as well.",
+  ],
+  concerns: [
+    "The Junior is encouraged to raise anything with the Trainer during a session, and to say so if something hurts, feels wrong, or they would rather not do it.",
+    "Nothing the Junior tells the Trainer about their training is kept secret from me. The Trainer will tell me about anything affecting the Junior's training, wellbeing or safety.",
+    "If the Trainer becomes concerned about the Junior's safety or welfare, the Trainer will raise it with me. Where the Trainer reasonably believes the Junior is at risk of harm, the Trainer may contact the appropriate authorities, and is not required to seek my agreement first.",
+  ],
+};
+
+const JUNIOR_POLICIES = [
+  ["Session cancellation and credits", POLICIES.sessionCancellation[1]],
+  ["Direct debit cancellation", POLICIES.directDebit[1]],
+  ["Gym access", "The Junior must hold their own valid gym access for every session they attend."],
+  ["Medical clearance", "No loaded training takes place before written practitioner clearance is on file, where clause 4 requires it."],
+  ["Supervision", "Where the Junior is under 16, a responsible adult is present for the whole session. Without one the session cannot go ahead."],
+  ["Minimum term", "The minimum term in the attached agreement applies, unless otherwise agreed in writing."],
+];
+
+const numbered = (n, title) => new Paragraph({
+  spacing: { before: 280, after: 120 },
+  children: [new TextRun({ text: `${n}.  ${title}`, bold: true, size: 21 })],
+});
+
+const tick = (text) => new Paragraph({ spacing: { after: 100 },
+  children: [new TextRun({ text: "☐  " + text, size: 19 })] });
+
+const bullet = (text) => new Paragraph({ spacing: { after: 70 }, bullet: { level: 0 },
+  children: [new TextRun({ text, size: 18 })] });
+
+const initialLine = (title, body) => ([
+  new Paragraph({ spacing: { before: 140, after: 50 },
+    children: [new TextRun({ text: title, bold: true, size: 19 })] }),
+  new Paragraph({ spacing: { after: 70 },
+    children: [new TextRun({ text: body, size: 18 })] }),
+  new Paragraph({ spacing: { after: 90 },
+    border: { bottom: { style: BorderStyle.SINGLE, size: 4, color: "DDDDDD" } },
+    children: [
+      new TextRun({ text: "Guardian initial:   ", size: 17, color: "666666" }),
+      new TextRun({ text: "____________", size: 19 }),
+    ] }),
+]);
+
+{
+  const k = [];
+  k.push(new Paragraph({ spacing: { after: 60 },
+    children: [new TextRun({ text: "KINETIC HUSTL.", bold: true, size: 28 })] }));
+  k.push(new Paragraph({ spacing: { after: 40 },
+    children: [new TextRun({ text: "JUNIOR CLIENT ADDENDUM", bold: true, size: 24 })] }));
+  k.push(new Paragraph({ spacing: { after: 100 },
+    children: [new TextRun({ text: "Attaches to the client's rate agreement. Signed by the parent or legal guardian.", italics: true, size: 20, color: "555555" })] }));
+  k.push(new Paragraph({ spacing: { after: 140 },
+    children: [new TextRun({ text: BIZ, size: 16, color: "666666" })] }));
+  k.push(rule());
+  k.push(p("THIS IS AN IMPORTANT DOCUMENT, WHICH AFFECTS YOUR LEGAL RIGHTS AND OBLIGATIONS", { bold: true }));
+
+  k.push(table([3400, 5600], [
+    ["Client (the Junior)", ""],
+    ["Date of birth", ""],
+    ["Parent or legal guardian (the Guardian)", ""],
+    ["Relationship to the Junior", ""],
+    ["Attached agreement", ""],
+    ["Agreed rate", ""],
+  ]));
+
+  k.push(numbered(1, "How this addendum works"));
+  JUNIOR.works.forEach(t => k.push(p(t)));
+
+  k.push(numbered(2, "Guardian declaration and authority"));
+  JUNIOR.declaration.forEach(t => k.push(p(t)));
+
+  k.push(numbered(3, "Consent to participate"));
+  JUNIOR.consent.forEach(t => k.push(p(t)));
+
+  k.push(numbered(4, "Medical disclosure and clearance"));
+  JUNIOR.medical.forEach(t => k.push(p(t)));
+
+  k.push(numbered(5, "Contact with treating practitioners"));
+  JUNIOR.practitioners.forEach(t => k.push(p(t)));
+  k.push(p("The Guardian ticks one:", { italics: true, after: 80 }));
+  k.push(tick("I consent to the Trainer contacting the Junior's treating physiotherapist, surgeon or medical practitioner for the purpose of coordinating their training."));
+  k.push(tick("I do not consent."));
+  k.push(table([3400, 5600], [["Practitioner name", ""], ["Clinic", ""], ["Contact", ""]]));
+
+  k.push(numbered(6, "Financial responsibility"));
+  JUNIOR.financial.forEach(t => k.push(p(t)));
+
+  k.push(numbered(7, "Communication"));
+  JUNIOR.communication.forEach(t => k.push(p(t)));
+  k.push(table([3400, 5600], [
+    ["Junior's app account", "☐ Yes, one-way messaging     ☐ No app access"],
+    ["Guardian contact between sessions", ""],
+  ]));
+
+  k.push(numbered(8, "Supervision and setting"));
+  JUNIOR.supervision.forEach(t => k.push(p(t)));
+
+  k.push(numbered(9, "Photos and video"));
+  JUNIOR.photosLead.forEach(t => k.push(p(t)));
+  k.push(p("Both parties tick:", { italics: true, after: 80 }));
+  k.push(tick("Guardian consents                    ☐  Guardian does not consent"));
+  k.push(tick("Junior consents                      ☐  Junior does not consent"));
+  k.push(p("Where both consent, the following apply and cannot be waived:", { after: 80 }));
+  JUNIOR.photoRules.forEach(t => k.push(bullet(t)));
+  JUNIOR.photosTail.forEach(t => k.push(p(t)));
+
+  k.push(numbered(10, "When the Junior turns 18"));
+  JUNIOR.turningEighteen.forEach(t => k.push(p(t)));
+
+  k.push(numbered(11, "Shared sessions"));
+  JUNIOR.sharedSessions.forEach(t => k.push(p(t)));
+
+  k.push(numbered(12, "Raising a concern"));
+  JUNIOR.concerns.forEach(t => k.push(p(t)));
+
+  k.push(numbered(13, "Policies"));
+  k.push(p("Please initial each of the following to confirm you have read and understood it.", { italics: true, after: 40 }));
+  JUNIOR_POLICIES.forEach(([t, b]) => initialLine(t, b).forEach(x => k.push(x)));
+
+  k.push(p("I understand that the above terms and conditions apply, together with those in the attached agreement.", { after: 340 }));
+  k.push(new Paragraph({ spacing: { after: 200 }, children: [
+    new TextRun({ text: `Guardian signature: ${fill(28)}     Date: ${fill(5)} / ${fill(5)} / ${fill(7)}`, size: 19 }) ] }));
+  k.push(new Paragraph({ spacing: { after: 120 }, children: [
+    new TextRun({ text: `Trainer signature: ${fill(29)}     Date: ${fill(5)} / ${fill(5)} / ${fill(7)}`, size: 19 }) ] }));
+
+  const doc = new Document({
+    styles: { default: { document: { run: { font: "Calibri", size: 19 } } } },
+    sections: [{ properties: { page: { margin: { top: 1000, bottom: 1000, left: 1100, right: 1100 } } }, children: k }],
+  });
+  Packer.toBuffer(doc).then((b) => {
+    fs.writeFileSync(out("KH-Terms-Junior-Addendum.docx"), b);
+    console.log("wrote KH-Terms-Junior-Addendum.docx");
+  });
+}
+
+// --------------------------------------------------- participation agreement ---
+// Signed by the Junior. Countersigned by the Trainer. Deliberately not signed
+// by the Guardian, who receives a copy. Carries no legal weight and must never
+// be drafted or presented as a waiver.
+
+const PARTICIPATION = [
+  ["I'm choosing to do this.",
+   "Nobody is making me train. I want to be here."],
+  ["I'll say something when it doesn't feel right.",
+   "If something hurts, feels wrong, or doesn't feel right afterwards, I'll tell my coach. During the session or after it. I won't push through and hope it sorts itself out."],
+  ["I'll show up, or I'll let my coach know.",
+   "If I can't make a session, I'll tell my coach rather than leaving them wondering."],
+  ["I can ask why.",
+   "Any exercise, any time. If I don't know why I'm doing something, I can ask, and I'll get a straight answer."],
+  ["I can say no.",
+   "If I don't want to do an exercise, I can say so. We'll find another way to get the same thing done."],
+  ["I know my coach talks to my parent or guardian.",
+   "About my training, how I'm going, and anything they're worried about. Nothing I tell my coach about my training is a secret from them."],
+];
+
+{
+  const k = [];
+  k.push(new Paragraph({ spacing: { after: 60 },
+    children: [new TextRun({ text: "MY TRAINING AGREEMENT", bold: true, size: 30 })] }));
+  k.push(new Paragraph({ spacing: { after: 160 },
+    children: [new TextRun({ text: "Kinetic Hustl.", bold: true, size: 22, color: "555555" })] }));
+  k.push(rule());
+  k.push(p("This is not a contract. Your parent or guardian has signed that part. This one is between you and your coach, and it is about how we work together.", { after: 260 }));
+
+  k.push(new Paragraph({ spacing: { after: 200 }, children: [
+    new TextRun({ text: `My name: ${fill(40)}`, size: 21 }) ] }));
+  k.push(new Paragraph({ spacing: { after: 300 }, children: [
+    new TextRun({ text: `My coach: ${fill(39)}`, size: 21 }) ] }));
+
+  PARTICIPATION.forEach(([head, body]) => {
+    k.push(new Paragraph({ spacing: { before: 200, after: 60 },
+      children: [new TextRun({ text: head, bold: true, size: 21 })] }));
+    k.push(new Paragraph({ spacing: { after: 60 },
+      children: [new TextRun({ text: body, size: 19 })] }));
+  });
+
+  k.push(new Paragraph({ spacing: { before: 320, after: 120 },
+    children: [new TextRun({ text: "What I want out of this:", bold: true, size: 21 })] }));
+  k.push(p(fill(78), { after: 200 }));
+  k.push(p(fill(78), { after: 340 }));
+
+  k.push(new Paragraph({ spacing: { after: 200 }, children: [
+    new TextRun({ text: `Me: ${fill(34)}     Date: ${fill(5)} / ${fill(5)} / ${fill(7)}`, size: 19 }) ] }));
+  k.push(new Paragraph({ spacing: { after: 200 }, children: [
+    new TextRun({ text: `My coach: ${fill(28)}     Date: ${fill(5)} / ${fill(5)} / ${fill(7)}`, size: 19 }) ] }));
+  k.push(p("A copy of this goes to your parent or guardian. They don't sign it. It's yours.", { italics: true, size: 17 }));
+
+  const doc = new Document({
+    styles: { default: { document: { run: { font: "Calibri", size: 19 } } } },
+    sections: [{ properties: { page: { margin: { top: 1100, bottom: 1000, left: 1200, right: 1200 } } }, children: k }],
+  });
+  Packer.toBuffer(doc).then((b) => {
+    fs.writeFileSync(out("KH-Junior-Participation-Agreement.docx"), b);
+    console.log("wrote KH-Junior-Participation-Agreement.docx");
+  });
+}
+
 // ---------------------------------------------------------------- markdown ---
 // One self-contained file carrying every agreement's text, for adding to a
 // Claude project. Generated from the same clause constants as the .docx files.
@@ -424,7 +699,74 @@ for (const f of FORMATS) {
       L.push("");
     }
   }
-  L.push("*Generated from `generate-templates.js`. Last built alongside the ten `.docx` templates.*");
+  // ---- junior clients ----
+  L.push("# Junior clients (under 18)");
+  L.push("");
+  L.push("Junior clients pay the standard rates above. There is no junior rate and no junior version of");
+  L.push("the ten agreements. A junior signs up on whichever format suits, and the **Junior Client Addendum**");
+  L.push("attaches to that agreement. The two are read as one document.");
+  L.push("");
+  L.push("The minimum age is 12. The line that matters legally is 16, not 18: the liability policy excludes");
+  L.push("clients under 16 unless six conditions are met, which is why supervision and clearance below are");
+  L.push("cover conditions rather than preferences.");
+  L.push("");
+  L.push("| Document | Signed by | Legally binding |");
+  L.push("| --- | --- | --- |");
+  L.push("| The rate agreement for their format | Guardian, on the Junior's behalf | Yes |");
+  L.push("| Junior Client Addendum | Guardian | Yes |");
+  L.push("| Junior Participation Agreement | The Junior, countersigned by the Trainer | **No, and it must never be presented as though it is** |");
+  L.push("");
+  L.push("## Junior Client Addendum");
+  L.push("");
+  const jsec = (n, title, paras) => {
+    L.push(`### ${n}. ${title}`); L.push("");
+    paras.forEach((t) => { L.push(t); L.push(""); });
+  };
+  jsec(1, "How this addendum works", JUNIOR.works);
+  jsec(2, "Guardian declaration and authority", JUNIOR.declaration);
+  jsec(3, "Consent to participate", JUNIOR.consent);
+  jsec(4, "Medical disclosure and clearance", JUNIOR.medical);
+  jsec(5, "Contact with treating practitioners", JUNIOR.practitioners);
+  L.push("The Guardian ticks one: consent to the Trainer contacting the Junior's treating physiotherapist, surgeon or medical practitioner for the purpose of coordinating their training, or does not consent. Practitioner name, clinic and contact are recorded.");
+  L.push("");
+  jsec(6, "Financial responsibility", JUNIOR.financial);
+  jsec(7, "Communication", JUNIOR.communication);
+  jsec(8, "Supervision and setting", JUNIOR.supervision);
+  jsec(9, "Photos and video", JUNIOR.photosLead);
+  L.push("Both the Guardian and the Junior tick consent or no consent. Where both consent, the following apply and cannot be waived:");
+  L.push("");
+  JUNIOR.photoRules.forEach((t) => L.push(`- ${t}`));
+  L.push("");
+  JUNIOR.photosTail.forEach((t) => { L.push(t); L.push(""); });
+  jsec(10, "When the Junior turns 18", JUNIOR.turningEighteen);
+  jsec(11, "Shared sessions", JUNIOR.sharedSessions);
+  jsec(12, "Raising a concern", JUNIOR.concerns);
+  L.push("### 13. Policies");
+  L.push("");
+  L.push("The Guardian initials each of these individually.");
+  L.push("");
+  JUNIOR_POLICIES.forEach(([t, b]) => { L.push(`**${t}.** ${b}`); L.push(""); });
+  L.push("Signed by the Guardian and counter-signed by the Trainer.");
+  L.push("");
+  L.push("---");
+  L.push("");
+  L.push("## Junior Participation Agreement");
+  L.push("");
+  L.push("> Signed by the Junior. Countersigned by the Trainer. Deliberately **not** signed by the Guardian,");
+  L.push("> who receives a copy. This document carries no legal weight and must not be drafted or presented");
+  L.push("> as a waiver. It exists because handing a junior the decision, rather than managing them through");
+  L.push("> it, changes engagement and adherence.");
+  L.push("");
+  L.push("**MY TRAINING AGREEMENT**");
+  L.push("");
+  L.push("This is not a contract. Your parent or guardian has signed that part. This one is between you and your coach, and it is about how we work together.");
+  L.push("");
+  PARTICIPATION.forEach(([head, body]) => { L.push(`**${head}**`); L.push(""); L.push(body); L.push(""); });
+  L.push("Then: *What I want out of this*, signed and dated by the Junior, counter-signed by the Trainer.");
+  L.push("");
+  L.push("---");
+  L.push("");
+  L.push("*Generated from `generate-templates.js`. Last built alongside the twelve `.docx` templates.*");
   fs.writeFileSync(out("client-agreements-complete.md"), L.join("\n"));
   console.log("wrote client-agreements-complete.md");
 }

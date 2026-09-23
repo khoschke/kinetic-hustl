@@ -112,6 +112,7 @@ Gym memberships are set and managed by Fitaz Gym, not Kinetic Hustl, and are sub
 - **Transaction fees:** card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, any Ezidebit bank account fee is charged in addition to the agreed amount and appears on the debit.
 - **Travel and time away:** if you would like to keep training while you are away, your programming can be adapted to whatever equipment and facilities you have access to. If you would rather not train, your sessions can be rescheduled.
 - **Trial:** a complimentary first session is often available.
+- **Junior clients (under 18):** standard rates apply, with no junior rate. A parent or guardian signs the rate agreement and a Junior Client Addendum, and the junior signs their own Participation Agreement. Minimum age is 12. For clients **under 16**, a responsible adult must be present for the whole session, and written practitioner clearance is required before loaded training where there is a surgical history, a diagnosed condition or an ongoing treating practitioner. No progress photos are taken of anyone under 18.
 
 ### Shared sessions (2-on-1 and 3-on-1)
 

@@ -19,6 +19,8 @@ Karl Hoschke, operating from Fitaz Gym, Kangaroo Point QLD.
 | `terms/google-form-questions.md` | Question set for the client T&C form | Maintaining the form |
 | `intake/health-screening-form.md` | Question set for the health screening form | Maintaining the form |
 | `terms/KH-Terms-*.docx` | Ten client-ready agreement templates | Send to a client |
+| `terms/KH-Terms-Junior-Addendum.docx` | Guardian-signed addendum, attaches to any of the ten | Under-18 clients |
+| `terms/KH-Junior-Participation-Agreement.docx` | Junior-signed, plain language, **not legally binding** | Under-18 clients |
 | `terms/generate-templates.js` | Builds the ten templates **and** the combined reference | Do not hand-edit the outputs |
 
 ## The two client forms
@@ -83,5 +85,6 @@ printing it to A4 from a browser.
 - An annual re-screen form is planned: APSS Stage 1 again plus what has changed, combined with a yearly review that captures client feedback. Spec notes at the end of `intake/health-screening-form.md`
 - APSS Stage 1 wording must be copied verbatim from the current ESSA/Fitness Australia PDF
 - Flare-related cancellations are handled at Karl's discretion and are deliberately not written into any document
+- The under-16 supervision clause assumes a responsible adult **other than Karl**. If Guild confirms Karl's own supervision satisfies the condition, clause 8 of the addendum can be relaxed
 - The 12-week minimum term, and whether the Privacy Act applies, are both worth one legal review
 - Existing clients have not been mapped against the new structure

@@ -1,7 +1,7 @@
 # Kinetic Hustl — Terms and Conditions (master source)
 
-**Version:** October 2026 (rev 2)
-**Status:** Source of truth. The ten client-facing `.docx` templates in this folder are generated from it.
+**Version:** October 2026 (rev 3)
+**Status:** Source of truth. The twelve client-facing `.docx` templates in this folder are generated from it.
 
 Rates below follow `pricing-rates-and-terms.md`. If a rate changes there, it changes here, and the templates are regenerated.
 
@@ -219,6 +219,7 @@ Work through this once. Most items are quick; two need a decision and one needs 
 
 | Change | Detail |
 | --- | --- |
+| **Junior clients covered** | Previously nothing covered under-18s, and the common consent block requires the client to certify they are 18 or older, which a junior cannot truthfully sign. A Junior Client Addendum now attaches to any of the ten agreements and replaces the age certification and the photos clause. A separate, deliberately non-binding Participation Agreement is signed by the junior. |
 | **Cancellations are credited, with an expiry** | Previously "rescheduled where possible", which understated actual practice. Sessions cancelled with 24 hours' notice or more are now credited; credits expire three months from the cancelled session, extendable at Karl's discretion. |
 | **Conduct and boundaries policy added** | Open gym floor during staffed hours, never a closed room; hands-on cueing only by agreement and declinable; a stated route to raise a concern; qualifications, insurance and Blue Card named. Abuse and molestation is excluded from the liability policy with defence costs only, so these clauses are the control rather than the cover. |
 | **Card surcharge removed (October 2026)** | The RBA ban on card surcharging takes effect 1 October 2026. Ezidebit now deducts card fees from settlement rather than adding them to the client debit. Bank account direct debit fees are unchanged. |

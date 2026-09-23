@@ -312,4 +312,199 @@ All prices include GST. Casual sessions are paid as booked. Direct deposit or di
 
 ---
 
-*Generated from `generate-templates.js`. Last built alongside the ten `.docx` templates.*
+# Junior clients (under 18)
+
+Junior clients pay the standard rates above. There is no junior rate and no junior version of
+the ten agreements. A junior signs up on whichever format suits, and the **Junior Client Addendum**
+attaches to that agreement. The two are read as one document.
+
+The minimum age is 12. The line that matters legally is 16, not 18: the liability policy excludes
+clients under 16 unless six conditions are met, which is why supervision and clearance below are
+cover conditions rather than preferences.
+
+| Document | Signed by | Legally binding |
+| --- | --- | --- |
+| The rate agreement for their format | Guardian, on the Junior's behalf | Yes |
+| Junior Client Addendum | Guardian | Yes |
+| Junior Participation Agreement | The Junior, countersigned by the Trainer | **No, and it must never be presented as though it is** |
+
+## Junior Client Addendum
+
+### 1. How this addendum works
+
+This addendum attaches to the agreement named above and is read together with it. The two documents form one agreement.
+
+Where the attached agreement is written in the first person as statements by the client, those statements are made by the Guardian, on the Junior's behalf and on their own behalf. Where the attached agreement is signed by the "Client", that is the Guardian signing on the Junior's behalf.
+
+Clause 3 below replaces the certification of age in the attached agreement. Clause 9 below replaces the Photos and Video section of the attached agreement in full. Everything else in the attached agreement continues to apply, including the rate, the minimum term, the cancellation policies and the payment arrangement.
+
+The Junior signs a separate Participation Agreement. That document sets out how the Junior takes part in their training. It is not a legal agreement, it does not change anything in this one, and the Guardian receives a copy of it.
+
+### 2. Guardian declaration and authority
+
+I am the parent or legal guardian of the Junior named above. I have authority to enter this agreement and the attached agreement on their behalf.
+
+I have read both documents and I understand them. Any questions I had have been answered to my satisfaction. I accept their terms on the Junior's behalf and on my own.
+
+I am not under any physical or emotional duress in signing.
+
+### 3. Consent to participate
+
+This clause replaces the certification of age in the attached agreement.
+
+I consent to the Junior participating in personal training, group exercise and general physical activities under the guidance of the Trainer.
+
+I acknowledge that the Junior participates at their own risk, and I accept responsibility on their behalf for their health, wellness, medical, physical, mental and emotional wellbeing in connection with that participation.
+
+I acknowledge that participation may involve a risk of serious injury or illness, and in rare circumstances death may occur.
+
+I accept those risks, and I indemnify and release the Trainer and any person or body directly or indirectly associated with the Trainer against all liability, claims, demands and proceedings arising out of the Junior's participation, to the extent permitted by law.
+
+I understand that all sessions are delivered by a qualified Australian fitness professional holding current qualifications including a Bachelor of Exercise and Movement Science, First Aid and CPR, full public and professional indemnity insurance, and a current Queensland Blue Card.
+
+### 4. Medical disclosure and clearance
+
+I have completed the Kinetic Hustl health screening form on the Junior's behalf. The information I supplied is complete, honest and whole, and I have disclosed everything relevant to the Junior's health and their physical and medical condition.
+
+If I become aware of any medical condition, injury or impairment that will be detrimental to the Junior's health, I will inform the Trainer immediately.
+
+Where the Junior has a surgical history, a diagnosed condition, or an ongoing treating practitioner, I understand that written clearance from that practitioner must be provided to the Trainer before the Junior's first loaded training session. An introductory meeting or movement screen may take place before clearance is provided. Loaded training may not.
+
+I acknowledge the recommendation that I obtain a medical practitioner's written approval before the Junior participates.
+
+### 5. Contact with treating practitioners
+
+The Trainer coaches training, movement, habits and confidence. The Trainer does not diagnose, treat or manage medical conditions, and coaching runs alongside any clinical care the Junior receives rather than in place of it.
+
+The Guardian ticks one: consent to the Trainer contacting the Junior's treating physiotherapist, surgeon or medical practitioner for the purpose of coordinating their training, or does not consent. Practitioner name, clinic and contact are recorded.
+
+### 6. Financial responsibility
+
+I am the responsible party for all fees under the attached agreement. That includes the session rate, app access where it applies, the direct debit arrangement, the cancellation and credit policy and the 30-day direct debit cancellation policy.
+
+The direct debit authority is signed by me as the account holder. The Junior is the person training; I am the person paying.
+
+Gym access is separate from training fees and is arranged directly with Fitaz Gym. I am responsible for ensuring the Junior holds valid gym access for every session they attend.
+
+### 7. Communication
+
+Kinetic Hustl does not operate a private messaging channel between a trainer and a client under 18.
+
+Where the Junior is old enough to follow a program independently, they may hold their own app account. In-app messaging is set to one-way: the Trainer can send programming, instructions and notes, and the Junior cannot message the Trainer privately. Where the Junior is not yet training independently, no app account is issued and their programming sits on my account instead.
+
+Between sessions, anything the Junior needs to raise comes to the Trainer through me, or the Junior raises it with the Trainer in person at the gym. In a session, the Junior is encouraged to raise anything directly, and the Trainer will follow up with me where it matters.
+
+I understand the Trainer will communicate with me about the Junior's training, their program, their progress and any concerns.
+
+### 8. Supervision and setting
+
+Sessions are conducted on the open gym floor during staffed hours, and never in a closed or unsupervised room.
+
+Where the Junior is under 16, a parent, guardian or other responsible adult must be present for the whole session. This is a condition of the Trainer's insurance, not a preference, and it cannot be waived by agreement.
+
+If no responsible adult is present at the start of a session for a Junior under 16, the session cannot go ahead. It is treated under the cancellation policy in the attached agreement, though the Trainer will use discretion where the circumstances warrant it.
+
+Where the Junior is 16 or 17, I am welcome to attend any session and will attend the first one.
+
+### 9. Photos and video
+
+This clause replaces the Photos and Video section of the attached agreement in full.
+
+Progress photos are not taken of clients under 18. This applies regardless of the Junior's goals, including where body composition is one of them. Progress is tracked using measurements, performance markers, and video of movement where it serves the coaching.
+
+Photos and video for marketing or social media require the consent of both the Guardian and the Junior. Consent defaults to no. Where either does not consent, none are taken or used.
+
+Both the Guardian and the Junior tick consent or no consent. Where both consent, the following apply and cannot be waived:
+
+- No location tagging, and no naming of the gym alongside the Junior.
+- Nothing that identifies when the Junior trains, including day, time, or any reference to a regular routine.
+- No posting in real time. Material is posted later than the session it came from.
+- First name only, or no name.
+- No comments or captions about the Junior's body, weight or appearance.
+
+The reason for those rules: a post that shows a young person's face, names where they train and implies when they are there is a complete set of instructions for finding them. Consent does not make that safe.
+
+Consent may be withdrawn at any time by either the Guardian or the Junior, by telling the Trainer. New material will not be used and existing material will be removed wherever it is practical to do so.
+
+### 10. When the Junior turns 18
+
+This addendum ends on the Junior's eighteenth birthday.
+
+From that date the client signs the standard agreement for their format in their own name, and takes on the rate, the policies and the payment arrangement themselves. Until they do, this addendum and the attached agreement continue unchanged and I remain the responsible party.
+
+Financial responsibility transfers to the client only once a new agreement and a new direct debit authority are in place in their name. A birthday alone does not move it.
+
+### 11. Shared sessions
+
+Where the Junior trains in a 2-on-1 or 3-on-1 session alongside participants who are not members of our household, I agree to the specific participants in writing before the first shared session.
+
+Where the Junior is under 16, the supervision requirement in clause 8 applies to every shared session as well.
+
+### 12. Raising a concern
+
+The Junior is encouraged to raise anything with the Trainer during a session, and to say so if something hurts, feels wrong, or they would rather not do it.
+
+Nothing the Junior tells the Trainer about their training is kept secret from me. The Trainer will tell me about anything affecting the Junior's training, wellbeing or safety.
+
+If the Trainer becomes concerned about the Junior's safety or welfare, the Trainer will raise it with me. Where the Trainer reasonably believes the Junior is at risk of harm, the Trainer may contact the appropriate authorities, and is not required to seek my agreement first.
+
+### 13. Policies
+
+The Guardian initials each of these individually.
+
+**Session cancellation and credits.** There is a 24-hour cancellation policy for all training sessions. Sessions cancelled with 24 hours' notice or more are credited to your account. A credit can be used to rebook straight away or held and used later. Sessions cancelled within 24 hours of the booking are forfeited.
+
+**Direct debit cancellation.** There is a 30-day cancellation policy for all direct debit agreements. Notice is required by email.
+
+**Gym access.** The Junior must hold their own valid gym access for every session they attend.
+
+**Medical clearance.** No loaded training takes place before written practitioner clearance is on file, where clause 4 requires it.
+
+**Supervision.** Where the Junior is under 16, a responsible adult is present for the whole session. Without one the session cannot go ahead.
+
+**Minimum term.** The minimum term in the attached agreement applies, unless otherwise agreed in writing.
+
+Signed by the Guardian and counter-signed by the Trainer.
+
+---
+
+## Junior Participation Agreement
+
+> Signed by the Junior. Countersigned by the Trainer. Deliberately **not** signed by the Guardian,
+> who receives a copy. This document carries no legal weight and must not be drafted or presented
+> as a waiver. It exists because handing a junior the decision, rather than managing them through
+> it, changes engagement and adherence.
+
+**MY TRAINING AGREEMENT**
+
+This is not a contract. Your parent or guardian has signed that part. This one is between you and your coach, and it is about how we work together.
+
+**I'm choosing to do this.**
+
+Nobody is making me train. I want to be here.
+
+**I'll say something when it doesn't feel right.**
+
+If something hurts, feels wrong, or doesn't feel right afterwards, I'll tell my coach. During the session or after it. I won't push through and hope it sorts itself out.
+
+**I'll show up, or I'll let my coach know.**
+
+If I can't make a session, I'll tell my coach rather than leaving them wondering.
+
+**I can ask why.**
+
+Any exercise, any time. If I don't know why I'm doing something, I can ask, and I'll get a straight answer.
+
+**I can say no.**
+
+If I don't want to do an exercise, I can say so. We'll find another way to get the same thing done.
+
+**I know my coach talks to my parent or guardian.**
+
+About my training, how I'm going, and anything they're worried about. Nothing I tell my coach about my training is a secret from them.
+
+Then: *What I want out of this*, signed and dated by the Junior, counter-signed by the Trainer.
+
+---
+
+*Generated from `generate-templates.js`. Last built alongside the twelve `.docx` templates.*
