@@ -87,7 +87,6 @@ Each policy is its own block with its own initial line, rather than a row in a d
 | Policy | Terms | Applies to |
 | --- | --- | --- |
 | **Session cancellation and credits** | 24-hour cancellation policy. Sessions cancelled with 24 hours' notice or more are credited; a credit can be used to rebook straight away or held. Sessions cancelled within 24 hours are forfeited. Credits expire three months from the cancelled session, extendable at Karl's discretion, and lapse when the agreement ends. | All |
-| **Flare-ups of a disclosed condition** | A session missed to a flare-up of a condition disclosed in health screening is credited rather than forfeited, even inside 24 hours. Three per twelve months. | All |
 | **Professional conduct and boundaries** | Open gym floor during staffed hours, never a closed or unsupervised room. Hands-on cueing only by agreement and declinable at any time. A stated route to raise a concern. Qualifications, insurance and current Blue Card named. | All |
 | **Direct debit cancellation** | 30-day cancellation policy on all direct debit agreements. Notice is required by email. | All |
 | **Gym access** | Training takes place at Fitaz Gym. The client is responsible for holding their own valid gym access for every session. Gym membership is separate from training fees and is arranged directly with Fitaz Gym. | All |
@@ -221,7 +220,6 @@ Work through this once. Most items are quick; two need a decision and one needs 
 | Change | Detail |
 | --- | --- |
 | **Cancellations are credited, with an expiry** | Previously "rescheduled where possible", which understated actual practice. Sessions cancelled with 24 hours' notice or more are now credited; credits expire three months from the cancelled session, extendable at Karl's discretion. |
-| **Flare-up credit added** | A session missed to a flare-up of a disclosed condition is credited rather than forfeited, even inside 24 hours, capped at three per twelve months so it cannot be used as a general excuse. |
 | **Conduct and boundaries policy added** | Open gym floor during staffed hours, never a closed room; hands-on cueing only by agreement and declinable; a stated route to raise a concern; qualifications, insurance and Blue Card named. Abuse and molestation is excluded from the liability policy with defence costs only, so these clauses are the control rather than the cover. |
 | **Card surcharge removed (October 2026)** | The RBA ban on card surcharging takes effect 1 October 2026. Ezidebit now deducts card fees from settlement rather than adding them to the client debit. Bank account direct debit fees are unchanged. |
 | **Shared-session attendance rule reversed** | The January 2025 2-on-1 template said that if one person cancelled with notice, the other paid the 1:1 rate. That is gone. Nobody's cost changes when another participant is absent. |

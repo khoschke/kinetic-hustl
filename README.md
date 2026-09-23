@@ -81,6 +81,6 @@ printing it to A4 from a browser.
 - The ten templates have not been opened in Word since the last regeneration
 - The health screening form has not been built in Google Forms yet
 - APSS Stage 1 wording must be copied verbatim from the current ESSA/Fitness Australia PDF
-- Flare-related cancellations: the health screen offers "reschedule", the T&Cs forfeit inside 24 hours
+- Flare-related cancellations are handled at Karl's discretion and are deliberately not written into any document
 - The 12-week minimum term, and whether the Privacy Act applies, are both worth one legal review
 - Existing clients have not been mapped against the new structure

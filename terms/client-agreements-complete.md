@@ -78,8 +78,6 @@ The client initials each of these individually.
 
 Credits expire three months from the date of the cancelled session. I may extend a credit at my discretion, and will where you have been genuinely unwell or away. Credits stay usable through your notice period and lapse when this agreement ends. Credits are not refundable and cannot be transferred to another person.
 
-**Flare-ups of a disclosed condition.** If you miss a session because of a flare-up of a condition you disclosed in your health screening, that session is credited rather than forfeited, even inside 24 hours. This applies up to three times in any twelve-month period. Beyond that the standard policy above applies, though I will always use my discretion where circumstances warrant it.
-
 **Direct debit cancellation.** There is a 30-day cancellation policy for all direct debit agreements. Notice is required by email.
 
 **Gym access.** If you train in person at Fitaz Gym, you are responsible for holding your own valid gym access for every session you attend. Gym membership is separate from your training fees and is arranged directly with Fitaz Gym. Speak with Karl or Fitaz Gym front of house for options.

@@ -45,7 +45,7 @@ which drives the clearance branch. It is a prompt rather than a hard lock. The r
 reading the response before you book them in.
 
 **A branch question needs its own section.** Branching fires at the end of the section containing it,
-so sections 1, 6 and 9 hold their branch question and nothing else.
+so sections 2, 6 and 9 end on their branch question.
 
 ## Settings
 
@@ -60,10 +60,10 @@ so sections 1, 6 and 9 hold their branch question and nothing else.
 ## Section map
 
 ```
- 1  Start here                     BRANCH on age band
- 2  Parent or guardian             BRANCH on under 16      (under 18 only)
- 3  Under 16: safety requirements  → section 4             (under 16 only)
- 4  About you
+ 1  About you                      → continue
+ 2  Who is training                BRANCH on age
+ 3  Parent or guardian             BRANCH on under 16      (under 18 only)
+ 4  Under 16: safety requirements  → section 5             (under 16 only)
  5  Pre-exercise screening
  6  Screening summary              BRANCH on yes / no
  7  Before your first session      → section 8             (any yes only)
@@ -77,6 +77,15 @@ so sections 1, 6 and 9 hold their branch question and nothing else.
 15  Privacy and declaration        → submit
 ```
 
+Google Forms numbers sections sequentially, so there is no "2a" or "3a". Sections 4, 7 and 10 each need
+their **After section** dropdown set explicitly to 5, 8 and 11. Miss one and a client falls into a
+section that does not apply to them.
+
+**Identity comes before the branching.** An earlier draft opened with the age question and collected
+name and emergency contact afterwards, which meant the under-16 section asked for a *second* emergency
+contact before the first one had been asked for. Everyone answers section 1, so the primary contact is
+always on file before the junior questions are reached.
+
 Google Forms numbers sections sequentially, so there is no "2a". The under-16 section **is** section 3,
 and everything after it shifts. Sections 3, 7 and 10 each need their **After section** dropdown set
 explicitly to 4, 8 and 11. Miss one and a client falls into a section that does not apply to them.
@@ -86,43 +95,52 @@ falls through into a section that does not apply to them.
 
 ---
 
-# 1 — Start here
+# 1 — About you
 
-> *Section description:*
+*All required unless stated. Short answer unless stated.*
+
+1. Full name
+2. Preferred name *(Not required · "If it is different to the above.")*
+3. Mobile number *(Response validation: regular expression, "Matches", `^(\+?61|0)[2-478][\d\s-]{7,}$` · Error text: "Please enter an Australian mobile number, for example 0412 345 678")*
+   *Helper text:* **If the person training does not have their own mobile, enter a parent or guardian's number.**
+4. Date of birth *(Date)*
+5. Suburb
+6. Emergency contact — full name
+7. Emergency contact — mobile number
+8. Emergency contact — relationship to you
+
+> **Why validation on the mobile field.** In the old form's 25 responses you had `9415783274` (not an
+> Australian mobile at all), `411677096` and `434981388` (leading zero dropped), `0433-042-849` and
+> `0475 820 641 `. Half of them will not dial from a phone.
 >
-> Before we train together I need to know a bit about your health, your history, and what you are
-> actually after. It takes about ten minutes.
->
-> There are no right answers and nothing here rules you out. The more you tell me, the better I can
-> build something that suits you.
-
-**Who is completing this form?** *(Multiple choice · Required)*
-
-- I am the person who will be training, and I am 18 or older
-- I am the person who will be training, and I am 16 or 17
-- I am a parent or guardian completing this for someone under 16
-
-> **Ask this rather than relying on date of birth.** Google Forms cannot branch on a date answer, and
-> the verified email tells you whose account submitted the form, not who typed the answers. A guardian
-> completing a 12-year-old's screen from their own account looks identical to a 12-year-old completing
-> it themselves unless you ask.
-
-**Which age group applies?** *(Multiple choice · Required · **Go to section based on answer**)*
-
-- 18 or older → *Go to section 4*
-- 16 or 17 → *Go to section 2*
-- Under 16 → *Go to section 2*
-
-> **16 is the line that matters, not 18.** The Kinetic Hustl liability policy excludes clients under 16
-> unless six conditions are met (see section 3). 16 and 17 year olds are outside that exclusion but
-> still cannot sign a release, so both bands route through the guardian section.
->
-> **Minimum age is 12.** Under 12 is handled case by case and is not covered by this form or the
-> junior agreement set.
+> **Home address is not asked here.** You only need it for the direct debit agreement, so it stays in
+> the T&C form. Collect health information and nothing more than you need alongside it.
 
 ---
 
-# 2 — Parent or guardian
+# 2 — Who is training
+
+*Two questions. The second one branches.*
+
+1. **Who is completing this form?** *(Multiple choice · Required)*
+   - The person who will be training
+   - A parent or guardian, completing it on their behalf
+
+   > Verified email tells you which account submitted the form, not who typed the answers. A guardian
+   > filling in a 12-year-old's screen from their own address is otherwise indistinguishable from the
+   > child doing it.
+
+2. **How old is the person who will be training?** *(Multiple choice · Required · **Go to section based on answer**)*
+   - 18 or older → *Go to section 5*
+   - Under 18 → *Go to section 3*
+
+   > **Two options, not three.** An earlier draft split this into 18+, 16-17 and under 16, but 16-17 and
+   > under 16 both routed to the same place, and section 3 asks the under-16 question anyway. One
+   > distinction per question.
+
+---
+
+# 3 — Parent or guardian
 
 *Reached by anyone under 18. Ends on a branch question, so no After section setting is needed.*
 
@@ -136,10 +154,10 @@ falls through into a section that does not apply to them.
 4. Relationship to the person training *(Short answer)*
 5. **I am the parent or guardian named above. I consent to this person training with Kinetic Hustl, and I have completed or reviewed the health information in this form.** *(Checkbox · Required ·* "I consent"*)*
 
-6. **Is the person training under 16?** *(Multiple choice · Required · **Go to section based on answer**)*
+5. **Is the person training under 16?** *(Multiple choice · Required · **Go to section based on answer**)*
 
-   - Yes → *Go to section 3*
-   - No → *Go to section 4*
+   - Yes → *Go to section 4*
+   - No → *Go to section 5*
 
    > A 16 or 17 year old must not fall through into section 3. Without this branch they are asked the
    > under-16 safety questions, which do not apply to them.
@@ -149,9 +167,9 @@ falls through into a section that does not apply to them.
 
 ---
 
-# 3 — Under 16: safety requirements
+# 4 — Under 16: safety requirements
 
-*Reached only where the answer to 2.6 is Yes. After this section → **Go to section 4**.*
+*Reached only where the answer to 3.5 is Yes. After this section → **Go to section 5**.*
 
 > *Section description:*
 >
@@ -169,7 +187,9 @@ falls through into a section that does not apply to them.
 
 3. **Has the person training ever had an asthma attack that needed immediate medical attention?** *(Multiple choice · Required ·* No / Yes, more than 12 months ago / Yes, in the last 12 months / Not sure*)*
 
-4. **Second emergency contact** *(three Short answer questions, all Required: name, mobile, relationship)*
+4. **A second emergency contact, other than the parent or guardian above** *(three Short answer questions, all Required: name, mobile, relationship)*
+
+   *Helper text:* **Someone else we could reach if the first two numbers do not answer.**
 
 5. **Name and practice of their GP** *(Short answer · Required)*
 
@@ -184,28 +204,6 @@ falls through into a section that does not apply to them.
 >
 > **Question 7 is the supervision condition**, subject to the written answer from Guild on whether Karl
 > himself satisfies it. Do not soften this wording until that answer is in.
-
----
-
-# 4 — About you
-
-*All required unless stated. Short answer unless stated.*
-
-1. Full name
-2. Preferred name *(Not required · "If it is different to the above.")*
-3. Mobile number *(Response validation: regular expression, "Contains", `^(\+?61|0)[2-478][\d\s-]{7,}$` · Error text: "Please enter an Australian mobile number, for example 0412 345 678")*
-4. Date of birth *(Date)*
-5. Suburb
-6. Emergency contact — full name
-7. Emergency contact — mobile number
-8. Emergency contact — relationship to you
-
-> **Why validation on the mobile field.** In the old form's 25 responses you had `9415783274` (not an
-> Australian mobile at all), `411677096` and `434981388` (leading zero dropped), `0433-042-849` and
-> `0475 820 641 `. Half of them will not dial from a phone.
->
-> **Home address is not asked here.** You only need it for the direct debit agreement, so it stays in
-> the T&C form. Collect health information and nothing more than you need alongside it.
 
 ---
 
@@ -258,13 +256,15 @@ falls through into a section that does not apply to them.
 
 - No → *Go to section 8*
 - Yes → *Go to section 7*
-- Not sure → *Go to section 7*
+
+> **Two options only.** A "not sure" here would be someone failing to recall seven answers they gave on the
+> previous screen. It adds a branch that means nothing and a column you cannot act on.
 
 ---
 
 # 7 — Before your first session
 
-*Reached only by a yes or not sure. After this section → **Go to section 8**.*
+*Reached only by a yes. After this section → **Go to section 8**.*
 
 > *Section description:*
 >
@@ -280,7 +280,6 @@ falls through into a section that does not apply to them.
    - Blood glucose control
    - Muscle, bone or joint problem
    - Another medical condition
-   - Not sure
 
 2. **Have you already talked to a doctor or allied health professional about exercising with this?** *(Multiple choice · Required)*
    - Yes
@@ -364,17 +363,17 @@ falls through into a section that does not apply to them.
    - Shorten the session
    - Move to mobility and recovery work only
    - Message me first so we decide together
-   - Reschedule the session
+   - Let you know as early as I can so we can work out what to do
 
 6. **Is there anything I should avoid entirely?** *(Paragraph · Required · "Type None if there is nothing.")*
 
 7. **Any other conditions like this I should know about?** *(Paragraph · Not required)*
 
-> **Decide this before you publish.** Option 5 includes *"Reschedule the session"*, and your T&Cs say
-> sessions cancelled inside 24 hours are forfeited. A client who ticks that box has a reasonable
-> argument that you agreed to something different. Either drop the option, or add a line to the
-> cancellation policy in the T&Cs covering flare-related cancellations. Do not leave the two
-> documents saying different things.
+> **Deliberately no promise about fees here.** An option reading "reschedule the session" would imply
+> the 24-hour forfeit rule does not apply, which is not what any document says. Flare-related
+> cancellations are handled at Karl's discretion, case by case, and are not written into the
+> agreements as an entitlement. The wording above captures what the client would want without
+> promising an outcome.
 
 ---
 
@@ -399,7 +398,10 @@ falls through into a section that does not apply to them.
 
 2. **For each person you ticked, give me their name, their discipline, and whether they are actively managing something or you just see them occasionally.** *(Paragraph · Required)*
 
-   *Help text:* Example: *Dr Sarah Chen, GP at Camp Hill, see her every three months for thyroid. Ben at Kangaroo Point Physio, actively treating my shoulder right now.*
+   *Help text:* Example: *Dr Brown, GP, I see her every three months for thyroid. Alex at my physio clinic, actively treating my shoulder right now.*
+
+   > Keep example names generic and do not name a real practice or suburb. The first draft used a
+   > plausible doctor's name at a real Brisbane suburb, which could have read as a real person.
 
 3. **Is anyone currently treating or managing something that training could affect?** *(Multiple choice · Required ·* Yes / No / Not sure*)*
 
@@ -442,11 +444,9 @@ falls through into a section that does not apply to them.
 
 4. **Of those, which is the biggest one right now?** *(Short answer · Required)*
 
-5. **How confident are you that you can train the number of days you are about to tell me about?** *(Linear scale 1 to 10 · Required · "Not confident" to "Very confident")*
+5. **How are you sleeping at the moment?** *(Multiple choice · Required ·* Well most nights / Mixed / Poorly most nights / It varies a lot*)*
 
-6. **How are you sleeping at the moment?** *(Multiple choice · Required ·* Well most nights / Mixed / Poorly most nights / It varies a lot*)*
-
-> **Questions 3, 4 and 5 replace *"How important is it for you to achieve your goals?"***, which
+> **Questions 3 and 4, with the confidence question now in section 14, replace *"How important is it for you to achieve your goals?"***, which
 > scored 4 to 10 across 25 responses and mostly 8 to 10. Nobody rates their own goals a 2, so the
 > question separates nobody.
 >
@@ -504,7 +504,13 @@ falls through into a section that does not apply to them.
    - Afternoon, 2pm to 5pm
    - Evening, after 5pm
    - Flexible
-6. **Anything else about your schedule I should know?** *(Paragraph · Not required)*
+6. **How confident are you that you can stick to that?** *(Linear scale 1 to 10 · Required · "Not confident" to "Very confident")*
+
+7. **Anything else about your schedule I should know?** *(Paragraph · Not required)*
+
+> **This question used to sit two sections earlier**, where it asked about "the number of days you are
+> about to tell me about". Forward-referencing an answer the client has not given yet reads as badly as
+> it sounds. Asked straight after they have picked days and times, it makes sense and gets a truer answer.
 
 > **This section is four questions shorter than the old one.** The old form asked total training days,
 > then *"for strength programming purposes"* days, then preferred days, then strength days again.
@@ -561,7 +567,7 @@ falls through into a section that does not apply to them.
 
 # Before you send it to anyone
 
-1. **Test submit five times:** over 18 with no yes answers, over 18 with a yes, a 16 year old, a 12 year old, and someone with a fluctuating condition. Check each run asks only what it should. The classic failure is a 16 year old landing in section 3 and being asked the under-16 questions, which means the section 2 branch is wired wrong.
+1. **Test submit five times:** over 18 with no yes answers, over 18 with a yes, a 16 year old, a 12 year old, and someone with a fluctuating condition. Check each run asks only what it should. The classic failure is a 16 year old landing in section 4 and being asked the under-16 questions, which means the section 3 branch is wired wrong.
 2. **Re-test after any structural edit.** Reordering sections silently breaks branch targets.
-3. **Check sections 3, 7 and 10 have their After section dropdown set** to sections 4, 8 and 11 respectively.
+3. **Check sections 4, 7 and 10 have their After section dropdown set** to sections 5, 8 and 11 respectively.
 4. **Diarise a yearly re-screen.** Health changes, and a screen from 2025 is not a screen.
