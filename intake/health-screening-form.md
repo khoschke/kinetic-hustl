@@ -45,7 +45,7 @@ which drives the clearance branch. It is a prompt rather than a hard lock. The r
 reading the response before you book them in.
 
 **A branch question needs its own section.** Branching fires at the end of the section containing it,
-so sections 2, 6 and 9 end on their branch question.
+so sections 2, 6, 9 and 11 end on their branch question.
 
 ## Settings
 
@@ -70,51 +70,53 @@ so sections 2, 6 and 9 end on their branch question.
  8  Your health
  9  Ongoing conditions             BRANCH on yes / no
 10  When symptoms flare            → section 11            (fluctuating only)
-11  Your care team
-12  Where you are now
-13  What you want
-14  Getting you booked in
-15  Privacy and declaration        → submit
+11  Anyone else involved           BRANCH on yes / no
+12  Your health team               → continue              (yes only)
+13  Where you are now
+14  What you want
+15  Getting you booked in
+16  Privacy and declaration        → submit
 ```
 
-Google Forms numbers sections sequentially, so there is no "2a" or "3a". Sections 4, 7 and 10 each need
-their **After section** dropdown set explicitly to 5, 8 and 11. Miss one and a client falls into a
-section that does not apply to them.
+Google Forms numbers sections sequentially. Sections 4, 7 and 10 each need their **After section**
+dropdown set explicitly to 5, 8 and 11. Section 12 is the one branch target that carries straight on to
+the next section, so it keeps the default.
 
-**Identity comes before the branching.** An earlier draft opened with the age question and collected
-name and emergency contact afterwards, which meant the under-16 section asked for a *second* emergency
-contact before the first one had been asked for. Everyone answers section 1, so the primary contact is
-always on file before the junior questions are reached.
+**Identity comes before the branching.** Everyone answers section 1, so a primary emergency contact is
+always on file before the under-16 questions ask for a second one.
 
-Google Forms numbers sections sequentially, so there is no "2a". The under-16 section **is** section 3,
-and everything after it shifts. Sections 3, 7 and 10 each need their **After section** dropdown set
-explicitly to 4, 8 and 11. Miss one and a client falls into a section that does not apply to them.
-
-Sections 6 and 9 each need their **After section** dropdown set explicitly. Miss one and the client
-falls through into a section that does not apply to them.
+**Three of the four branches exist to let people past.** Sections 7, 10 and 12 each hold questions that
+only apply to some clients. A fit 30-year-old with nothing going on answers the gate and moves on.
 
 ---
 
 # 1 — About you
+
+> *Section description:*
+>
+> Answer these about the person who will be training.
+>
+> If you are a parent or guardian filling this in for someone else, use their details here, not yours.
+> I will ask for your details in a moment.
 
 *All required unless stated. Short answer unless stated.*
 
 1. Full name
 2. Preferred name *(Not required · "If it is different to the above.")*
 3. Mobile number *(Response validation: regular expression, "Matches", `^(\+?61|0)[2-478][\d\s-]{7,}$` · Error text: "Please enter an Australian mobile number, for example 0412 345 678")*
-   *Helper text:* **If the person training does not have their own mobile, enter a parent or guardian's number.**
+   *Helper text:* **If they do not have their own mobile, put a parent or guardian's number here. It is the one field where that is fine.**
 4. Date of birth *(Date)*
-5. Suburb
-6. Emergency contact — full name
-7. Emergency contact — mobile number
-8. Emergency contact — relationship to you
+5. Emergency contact — full name
+6. Emergency contact — mobile number
+7. Emergency contact — relationship to you
 
 > **Why validation on the mobile field.** In the old form's 25 responses you had `9415783274` (not an
 > Australian mobile at all), `411677096` and `434981388` (leading zero dropped), `0433-042-849` and
 > `0475 820 641 `. Half of them will not dial from a phone.
 >
-> **Home address is not asked here.** You only need it for the direct debit agreement, so it stays in
-> the T&C form. Collect health information and nothing more than you need alongside it.
+> **No address or suburb.** You email the Ezidebit form separately, so you do not need it, and if you
+> ever did it would belong in the T&C form rather than a health screen. Collect health information and
+> nothing more than you need alongside it.
 
 ---
 
@@ -173,17 +175,22 @@ falls through into a section that does not apply to them.
 
 > *Section description:*
 >
-> A few extra questions for clients under 16. These are not box-ticking. They are the conditions my
-> insurance requires before I can train someone under 16, and I would ask them anyway.
+> A few more questions, because they are under 16.
+>
+> Most of this is about being prepared: who to call if I cannot reach you, and what to do if they have
+> an asthma attack. It takes a minute, and it means I am not guessing on the day.
 
 1. **Does the person training have asthma, or have they ever been prescribed a reliever inhaler?** *(Multiple choice · Required)*
    - No, never
-   - Diagnosed asthma, currently using medication
-   - Diagnosed asthma, not currently using medication
-   - Has used a reliever in the past but no current diagnosis
+   - Yes, diagnosed asthma and currently using medication
+   - Yes, diagnosed asthma but not currently using medication
+   - Yes, has used a reliever in the past but no current diagnosis
    - Not sure
 
-2. **If yes to any of the above: what reliever do they use, do they carry it to training, and what sets an attack off?** *(Paragraph · Not required · "Type N/A if this does not apply.")*
+2. **If yes to any of the above: what reliever do they use, do they carry it to training, and what sets an attack off?** *(Paragraph · Not required)*
+
+   > No helper text. The question already carries its own condition, and the field is not required, so
+   > anyone it does not apply to simply leaves it blank rather than typing N/A.
 
 3. **Has the person training ever had an asthma attack that needed immediate medical attention?** *(Multiple choice · Required ·* No / Yes, more than 12 months ago / Yes, in the last 12 months / Not sure*)*
 
@@ -367,7 +374,7 @@ falls through into a section that does not apply to them.
 
 6. **Is there anything I should avoid entirely?** *(Paragraph · Required · "Type None if there is nothing.")*
 
-7. **Any other conditions like this I should know about?** *(Paragraph · Not required)*
+7. **Any other conditions I should know about?** *(Paragraph · Not required)*
 
 > **Deliberately no promise about fees here.** An option reading "reschedule the session" would imply
 > the 24-hour forfeit rule does not apply, which is not what any document says. Flare-related
@@ -377,15 +384,39 @@ falls through into a section that does not apply to them.
 
 ---
 
-# 11 — Your care team
+# 11 — Anyone else involved
+
+*One question only. This is the branch point.*
 
 > *Section description:*
 >
-> If someone else is already looking after part of this, I want to work alongside them rather than
-> guess. Knowing who they are means I can send you back to the right person instead of stepping into
-> something that is not mine.
+> Some people train alongside a GP, physio or someone else who is looking after something specific.
+> Plenty of people have nobody. Both are completely normal.
 
-1. **Who else is involved in your health care?** *(Checkboxes · Required · include Other)*
+**Is anyone else currently involved in your health or fitness?** *(Multiple choice · Required · **Go to section based on answer**)*
+
+*Help text:* For example a GP you see regularly, a physio treating something, a dietitian, or a psychologist.
+
+- Yes → *Go to section 12*
+- No → *Go to section 13*
+
+> **Why this gate exists.** The old single section opened with "if someone else is already looking after
+> part of this", which assumed there was something wrong with the client and left a fit, healthy person
+> reading a section that did not apply to them. A gate lets them past in one tap and lets everyone else
+> answer properly.
+
+---
+
+# 12 — Your health team
+
+*Reached only by a yes. After this section → **Continue to next section**.*
+
+> *Section description:*
+>
+> Knowing who they are means I can work alongside them rather than guess, and send you back to the right
+> person if something comes up that is theirs rather than mine.
+
+1. **Who is involved?** *(Checkboxes · Required · include Other)*
    - GP
    - Physiotherapist
    - Exercise physiologist
@@ -394,13 +425,15 @@ falls through into a section that does not apply to them.
    - Dietitian or nutritionist
    - Psychologist or counsellor
    - Remedial massage therapist
-   - Nobody at the moment
+
+   > *"Nobody at the moment"* is gone. The gate in section 11 already caught those people, and leaving it
+   > here would let someone tick it alongside a physio.
 
 2. **For each person you ticked, give me their name, their discipline, and whether they are actively managing something or you just see them occasionally.** *(Paragraph · Required)*
 
    *Help text:* Example: *Dr Brown, GP, I see her every three months for thyroid. Alex at my physio clinic, actively treating my shoulder right now.*
 
-   > Keep example names generic and do not name a real practice or suburb. The first draft used a
+   > Keep example names generic and do not name a real practice or suburb. An earlier draft used a
    > plausible doctor's name at a real Brisbane suburb, which could have read as a real person.
 
 3. **Is anyone currently treating or managing something that training could affect?** *(Multiple choice · Required ·* Yes / No / Not sure*)*
@@ -409,14 +442,14 @@ falls through into a section that does not apply to them.
    - Yes, you can contact them
    - Ask me first each time
    - No
-   - Not applicable
 
 > **Question 4 is a consent, not a preference.** Health information is sensitive information. Do not
 > contact anyone's practitioner without it, and treat *"Ask me first each time"* as literal.
+> *"Not applicable"* is gone from the options for the same reason as above.
 
 ---
 
-# 12 — Where you are now
+# 13 — Where you are now
 
 > *Section description:* No right answers here. This is the bit that tells me how to pitch the
 > starting point.
@@ -456,7 +489,7 @@ falls through into a section that does not apply to them.
 
 ---
 
-# 13 — What you want
+# 14 — What you want
 
 1. **What are you hoping to get out of training?** *(Checkboxes · Required · include Other)*
    - Reduce body fat
@@ -491,7 +524,7 @@ falls through into a section that does not apply to them.
 
 ---
 
-# 14 — Getting you booked in
+# 15 — Getting you booked in
 
 1. **How many days a week do you want to train in total?** *(Multiple choice · Required ·* 1 to 7*)*
 2. **Of those, how many would be with me?** *(Multiple choice · Required ·* 1 / 2 / 3 / 4 / Not sure yet*)*
@@ -504,7 +537,7 @@ falls through into a section that does not apply to them.
    - Afternoon, 2pm to 5pm
    - Evening, after 5pm
    - Flexible
-6. **How confident are you that you can stick to that?** *(Linear scale 1 to 10 · Required · "Not confident" to "Very confident")*
+6. **How confident are you that you can train on the days you have just picked, most weeks?** *(Linear scale 1 to 10 · Required · "Not confident" to "Very confident")*
 
 7. **Anything else about your schedule I should know?** *(Paragraph · Not required)*
 
@@ -521,7 +554,7 @@ falls through into a section that does not apply to them.
 
 ---
 
-# 15 — Privacy and declaration
+# 16 — Privacy and declaration
 
 > *Section description — this is your collection notice. Adjust the email address.*
 >
@@ -571,3 +604,21 @@ falls through into a section that does not apply to them.
 2. **Re-test after any structural edit.** Reordering sections silently breaks branch targets.
 3. **Check sections 4, 7 and 10 have their After section dropdown set** to sections 5, 8 and 11 respectively.
 4. **Diarise a yearly re-screen.** Health changes, and a screen from 2025 is not a screen.
+
+---
+
+# Planned: the annual re-screen form
+
+Not built yet. A separate, shorter form sent to existing clients once a year, doing two jobs at once:
+
+**Re-screen.** APSS Stage 1 again, anything new since last time (conditions, injuries, surgery,
+medications, care team changes), and a re-confirmation of emergency contacts. Most clients will have
+nothing to add, so it should take two minutes for them and flag the handful who do.
+
+**Review.** The same form captures feedback, so the yearly health admin doubles as a structured check-in
+rather than being pure compliance. What is working, what is not, what they want from the next twelve
+months, and whether the format and frequency still suit them. Answers feed the conversation you would
+have anyway, and give you something to compare year on year.
+
+Worth building after the main screen and the T&C form are live and tested, so it can reuse their
+question wording rather than inventing a third voice.

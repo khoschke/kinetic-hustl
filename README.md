@@ -80,6 +80,7 @@ printing it to A4 from a browser.
 
 - The ten templates have not been opened in Word since the last regeneration
 - The health screening form has not been built in Google Forms yet
+- An annual re-screen form is planned: APSS Stage 1 again plus what has changed, combined with a yearly review that captures client feedback. Spec notes at the end of `intake/health-screening-form.md`
 - APSS Stage 1 wording must be copied verbatim from the current ESSA/Fitness Australia PDF
 - Flare-related cancellations are handled at Karl's discretion and are deliberately not written into any document
 - The 12-week minimum term, and whether the Privacy Act applies, are both worth one legal review
