@@ -16,8 +16,8 @@ Karl Hoschke, operating from Fitaz Gym, Kangaroo Point QLD.
 | `Kinetic-Hustl-Pricing.pdf` | One-page client price sheet | Attach to an email |
 | `terms/client-agreements-complete.md` | Full text of all ten agreements in one file | Add to a Claude project |
 | `terms/terms-and-conditions.md` | Clause source, review checklist, how to regenerate | Maintaining the agreements |
-| `terms/google-form-questions.md` | Question set for the client T&C form | Maintaining the form |
-| `intake/health-screening-form.md` | Question set for the health screening form | Maintaining the form |
+| `terms/google-form-questions.md` | Question set for the client T&C form ([build sheet](https://claude.ai/artifact/LybzL5S7BUuPfAYuMj4VWd)) | Maintaining the form |
+| `intake/health-screening-form.md` | Question set for the health screening form ([build sheet](https://claude.ai/artifact/X9fFvvts4fzqfY5pmSsNUx)) | Maintaining the form |
 | `terms/KH-Terms-*.docx` | Ten client-ready agreement templates | Send to a client |
 | `terms/KH-Terms-Junior-Addendum.docx` | Full junior terms as one readable document | **Reference only.** Clients agree in the form |
 | `terms/KH-Junior-Participation-Agreement.docx` | Junior-signed, plain language, **not legally binding** | **Print and hand to the junior.** The one document that is still signed on paper |
@@ -81,7 +81,7 @@ printing it to A4 from a browser.
 ## Still open
 
 - The ten templates have not been opened in Word since the last regeneration
-- The health screening form has not been built in Google Forms yet
+- Neither form has been built in Google Forms yet. The T&C form needs rebuilding rather than editing: it goes from 13 sections to 16 and reordering breaks branch targets silently
 - An annual re-screen form is planned: APSS Stage 1 again plus what has changed, combined with a yearly review that captures client feedback. Spec notes at the end of `intake/health-screening-form.md`
 - APSS Stage 1 wording must be copied verbatim from the current ESSA/Fitness Australia PDF
 - Flare-related cancellations are handled at Karl's discretion and are deliberately not written into any document
