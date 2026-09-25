@@ -309,17 +309,19 @@ break branch targets, so re-test after any structural edit.
 *Applies to every client. Each a Checkbox question with a single option, Required. The policy wording
 sits in the question itself, so the tick is against the wording rather than a heading.*
 
+> **The conduct and boundaries policy was removed from here.** Most of it was not the client agreeing to
+> anything, it was Karl stating what he does, shaped as a term they tick. For an adult 1-on-1 client at a
+> commercial gym, "never in a closed or unsupervised room" answers a question nobody asked and plants the
+> thought rather than settling it. The parts that matter survive where they belong: the open-floor and
+> supervision rules are terms in the junior section, where a parent genuinely needs them, and hands-on
+> cueing is now a preference question in the health screening form. Karl's qualifications and insurance
+> are already named in the Consent to Participate.
+
 1. **Session cancellation and credits.** There is a 24-hour cancellation policy for all training sessions. Sessions cancelled with 24 hours' notice or more are credited to my account, and a credit can be used to rebook straight away or held and used later. Sessions cancelled within 24 hours of the booking are forfeited. Credits expire three months from the date of the cancelled session, may be extended at Karl's discretion, stay usable through my notice period, and lapse when my agreement ends. → "I have read and understood"
 
-2. **Professional conduct and boundaries.** Sessions are held on the open gym floor during staffed hours and never in a closed or unsupervised room. Hands-on cueing is used only to help my technique, only with my agreement, and I can decline it at any time without giving a reason and without it affecting my training. If something in a session is not right I can tell Karl at the time or afterwards and it stops. If I would rather not raise it with Karl, I can raise it with Fitaz Gym front of house instead. → "I have read and understood"
+2. **Direct debit cancellation.** There is a 30-day cancellation policy for all direct debit agreements. Notice is required by email. → "I have read and understood"
 
-   > **The second route has to be a different person.** The old wording offered email as the alternative
-   > to speaking up, which is still Karl either way. A client who does not feel able to raise something
-   > with him needs somewhere else to go.
-
-3. **Direct debit cancellation.** There is a 30-day cancellation policy for all direct debit agreements. Notice is required by email. → "I have read and understood"
-
-4. **Gym access.** If I train in person at Fitaz Gym, I am responsible for holding my own valid gym access for every session I attend. Gym membership is separate from training fees and is arranged directly with Fitaz Gym. → "I have read and understood"
+3. **Gym access.** If I train in person at Fitaz Gym, I am responsible for holding my own valid gym access for every session I attend. Gym membership is separate from training fees and is arranged directly with Fitaz Gym. → "I have read and understood"
 
 *Conditional wording matters: an online coaching client does not train at Fitaz, so an unqualified statement would be untrue for them — and it is a required tick.*
 

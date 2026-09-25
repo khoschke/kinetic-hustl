@@ -317,6 +317,21 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 7. **Do you smoke or vape?** *(Multiple choice · Required ·* No / Occasionally / Daily / I quit in the last 12 months*)*
 8. **Is there anything about your mental health that would help me train you well?** *(Paragraph · Not required · "Only what you are comfortable sharing.")*
 
+9. **Hands-on cueing means guiding your position with a hand on your back, shoulder or hip to help your technique. Are you comfortable with that?** *(Multiple choice · Required)*
+   - Yes, that's fine
+   - Please ask me each time
+   - No, I would rather you didn't
+
+   > **This is the one part of the old conduct policy worth keeping, and it works better here.** In the
+   > T&Cs it was a statement Karl made about himself, ticked by the client, which read defensively. Asked
+   > as a preference it is a real question with a real answer, and one you act on rather than file.
+   >
+   > Plenty of people are uncomfortable with being touched and will never say so mid-session. A tick box
+   > in a contract does not change that. A question asked before you meet does.
+   >
+   > *"Please ask me each time"* is the option most people will want and the one they would never
+   > volunteer. Treat it literally.
+
 > **What changed from the old form.** The old health question was a checkbox list with `None` sitting
 > in the same list as the conditions, so a client could tick both. One response came through as a
 > single space character and the form accepted it, because the question was not required. And

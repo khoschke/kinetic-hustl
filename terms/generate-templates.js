@@ -40,9 +40,6 @@ const POLICIES = {
   sessionCancellation: ["Session cancellation and credits",
     "There is a 24-hour cancellation policy for all training sessions. Sessions cancelled with 24 hours' notice or more are credited to your account. A credit can be used to rebook straight away or held and used later. Sessions cancelled within 24 hours of the booking are forfeited.",
     "Credits expire three months from the date of the cancelled session. I may extend a credit at my discretion, and will where you have been genuinely unwell or away. Credits stay usable through your notice period and lapse when this agreement ends. Credits are not refundable and cannot be transferred to another person."],
-  conduct: ["Professional conduct and boundaries",
-    "Sessions are held on the open gym floor during staffed hours, and never in a closed or unsupervised room. Hands-on cueing is used only to help your technique, only with your agreement, and you can decline it at any time without giving a reason and without it affecting your training in any way.",
-    "If something in a session is not right, tell me at the time or afterwards and it stops. If you would rather not raise it with me, you can raise it with Fitaz Gym front of house instead. I hold current First Aid and CPR, full public and professional indemnity insurance, and a current Queensland Blue Card (working with children check)."],
   directDebit: ["Direct debit cancellation",
     "There is a 30-day cancellation policy for all direct debit agreements. Notice is required by email."],
   gymAccess: ["Gym access",
@@ -228,7 +225,6 @@ for (const f of FORMATS) {
     policy(...POLICIES.sessionCancellation).forEach(x => kids.push(x));
     policy(...POLICIES.directDebit).forEach(x => kids.push(x));
     policy(...POLICIES.gymAccess).forEach(x => kids.push(x));
-    policy(...POLICIES.conduct).forEach(x => kids.push(x));
     if (f.shared) {
       policy(...POLICIES.attendance).forEach(x => kids.push(x));
       policy(...POLICIES.groupSize).forEach(x => kids.push(x));
@@ -630,7 +626,7 @@ const PARTICIPATION = [
   L.push("");
   L.push("The client initials each of these individually.");
   L.push("");
-  ["sessionCancellation", "directDebit", "gymAccess", "conduct"].forEach((k) => {
+  ["sessionCancellation", "directDebit", "gymAccess"].forEach((k) => {
     const [title, ...bodies] = POLICIES[k];
     L.push(`**${title}.** ${bodies[0]}`); L.push("");
     bodies.slice(1).forEach((b) => { L.push(b); L.push(""); });

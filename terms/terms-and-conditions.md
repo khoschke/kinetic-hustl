@@ -1,6 +1,6 @@
 # Kinetic Hustl — Terms and Conditions (master source)
 
-**Version:** October 2026 (rev 5)
+**Version:** October 2026 (rev 6)
 **Status:** Source of truth. The twelve client-facing `.docx` templates in this folder are generated from it.
 
 Rates below follow `pricing-rates-and-terms.md`. If a rate changes there, it changes here, and the templates are regenerated.
@@ -87,7 +87,6 @@ Each policy is its own block with its own initial line, rather than a row in a d
 | Policy | Terms | Applies to |
 | --- | --- | --- |
 | **Session cancellation and credits** | 24-hour cancellation policy. Sessions cancelled with 24 hours' notice or more are credited; a credit can be used to rebook straight away or held. Sessions cancelled within 24 hours are forfeited. Credits expire three months from the cancelled session, extendable at Karl's discretion, and lapse when the agreement ends. | All |
-| **Professional conduct and boundaries** | Open gym floor during staffed hours, never a closed or unsupervised room. Hands-on cueing only by agreement and declinable at any time. A stated route to raise a concern. Qualifications, insurance and current Blue Card named. | All |
 | **Direct debit cancellation** | 30-day cancellation policy on all direct debit agreements. Notice is required by email. | All |
 | **Gym access** | Training takes place at Fitaz Gym. The client is responsible for holding their own valid gym access for every session. Gym membership is separate from training fees and is arranged directly with Fitaz Gym. | All |
 | **Attendance of other participants** | Your rate does not change if another participant is unable to attend. The session runs as scheduled for whoever attends, at the rate you have agreed. No adjustment is made in either direction. | 2-on-1, 3-on-1 |
@@ -219,6 +218,7 @@ Work through this once. Most items are quick; two need a decision and one needs 
 
 | Change | Detail |
 | --- | --- |
+| **Conduct policy removed from the adult agreements** | It was mostly Karl stating what he does, shaped as a term the client ticks, which read defensively rather than reassuringly. The open-floor and supervision rules survive as terms in the junior section, where a parent needs them. Hands-on cueing became a preference question in the health screening form, which is a real question with a real answer. Qualifications and insurance are already named in the Consent to Participate. |
 | **Bank account fee named** | Previously "any Ezidebit bank account fee". Now stated as $0.99 per debit, with a note that Ezidebit sets it and can change it. |
 | **Conduct policy gained a second route** | The old wording offered email as the alternative to raising something in person, which is still Karl either way. A client who does not want to raise something with Karl can now raise it with Fitaz Gym front of house. |
 | **Group-size change is now notice-based** | Previously the two-week grace began after a participant had already left. It now begins when a participant gives notice, so the remaining client gets warning before their rate could move and Karl has that time to find a replacement. |

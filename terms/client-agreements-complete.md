@@ -82,10 +82,6 @@ Credits expire three months from the date of the cancelled session. I may extend
 
 **Gym access.** If you train in person at Fitaz Gym, you are responsible for holding your own valid gym access for every session you attend. Gym membership is separate from your training fees and is arranged directly with Fitaz Gym. Speak with Karl or Fitaz Gym front of house for options.
 
-**Professional conduct and boundaries.** Sessions are held on the open gym floor during staffed hours, and never in a closed or unsupervised room. Hands-on cueing is used only to help your technique, only with your agreement, and you can decline it at any time without giving a reason and without it affecting your training in any way.
-
-If something in a session is not right, tell me at the time or afterwards and it stops. If you would rather not raise it with me, you can raise it with Fitaz Gym front of house instead. I hold current First Aid and CPR, full public and professional indemnity insurance, and a current Queensland Blue Card (working with children check).
-
 **Shared formats only (2-on-1 and 3-on-1):**
 
 **Attendance of other participants.** Your rate does not change if another participant is unable to attend. The session runs as scheduled for whoever attends, at the rate you have agreed. No adjustment is made in either direction.
