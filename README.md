@@ -79,6 +79,35 @@ A hand edit to any generated file is lost on the next run.
 The price sheet works the same way: `pricesheet.html` is the source, and the PDF is produced by
 printing it to A4 from a browser.
 
+## Which projects hold which file
+
+Claude projects hold **copies**. Edit a file here and every project still has the old one until it is
+re-uploaded. Fill this in and keep it current — it is the only thing standing between a change and a
+project quietly reasoning from a stale copy.
+
+| File | Projects holding it | Last uploaded |
+| --- | --- | --- |
+| `pricing-rates-and-terms.md` | | |
+| `pricing-strategy-internal.md` | | |
+| `terms/client-agreements-complete.md` | | |
+
+**How to use it.** After re-uploading a file, put today's date in its row. If the repo has a newer commit
+touching that file than the date in the row, at least one project is stale.
+
+```
+git log -1 --format=%cd --date=short -- pricing-strategy-internal.md
+```
+
+**This table exists because the mechanism failed once already.** The October card surcharge work went
+into the rates file, the agreements, both forms and the price sheet. `pricing-strategy-internal.md` sat
+five weeks behind, still dated 23 August, because nobody re-uploaded it — and it was caught by reading
+carefully rather than by any check. A date in a column would have caught it in seconds.
+
+Only the three files above belong in projects. The build sheets, the form question sets, the generator
+and the emails in `admin/` are working files: useful here, noise in a project.
+
+---
+
 ## Still open
 
 - The ten templates have not been opened in Word since the last regeneration
