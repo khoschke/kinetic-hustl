@@ -9,7 +9,7 @@
 **Health screening form:** https://forms.gle/T8yaRciEND7FJ2mU8
 **Terms and conditions form:** https://forms.gle/EQy9Ly2KgeZmShJe7
 
-**Current as at:** 23 August 2026 · **Next review:** August 2027, or sooner if Fitaz changes membership rates or the shared formats prove mispriced in practice.
+**Current as at:** 1 October 2026 · **Next review:** August 2027, or sooner if Fitaz changes membership rates, the shared formats prove mispriced in practice, or Ezidebit changes its fee schedule.
 
 ---
 
@@ -85,6 +85,37 @@ Two existing 1-on-1 clients who pair up take that slot from $110 to $176 a week.
 
 This is also the justification for the shared-session attendance rule: when someone can't attend, nobody else's cost changes. Charging the difference on the day is awkward and sours the session. The premium a shared slot earns over a 1-on-1 is the insurance for those occasions.
 
+### Card transaction fees (from 1 October 2026)
+
+**The RBA has banned surcharging on eftpos, Mastercard and Visa, effective 1 October 2026.** A merchant can no longer pass the card cost to the customer as a separate charge.
+
+**What Ezidebit has done.** Card fees are now deducted from Kinetic Hustl's settlement rather than added to the client's debit. The client is debited exactly the agreed amount; the fee comes out before the money lands.
+
+From the Ezidebit client settings page, September 2026:
+
+| Fee | Rate | Who pays it |
+| --- | --- | --- |
+| Card transaction fee | $0.80 per transaction | Kinetic Hustl — **unchanged**, this was never passed on |
+| Card MSF, domestic (Mastercard, Visa, Amex) | 1.99% | Was the client. **Kinetic Hustl from 1 Oct.** |
+| Card MSF, international | 4.23% | Was the client. **Kinetic Hustl from 1 Oct.** |
+| Bank account transaction fee | $0.99 per debit | The client — **unchanged** |
+
+**Ezidebit has confirmed the change covers all cards, domestic and international.** That is broader than the ban itself, which names eftpos, Mastercard and Visa. Amex is not a designated scheme under the RBA reform, so Ezidebit is applying the no-surcharge treatment more widely than it is required to.
+
+**That gap is worth watching.** If Ezidebit later narrows its implementation to only the mandated schemes, Amex surcharging could reappear while the agreements say card payments carry no surcharge. The T&Cs make a blanket promise; Ezidebit's implementation is what has to keep it. Re-check if they change the fee schedule.
+
+**What it costs.** On a weekly 1-on-1 client paying $110 by card, 1.99% is about $2.19 a week, or roughly $114 a year. The card-versus-bank-account split across the book is not known, so the total is not either — it is worth finding out, because it sizes everything below.
+
+**Bank account fees are still passed on, and that creates a quiet incentive.** A client paying by bank account carries $0.99 per debit; a client paying by card carries nothing. Nobody has been told to switch, but any client who notices has a reason to move to card, which moves the cost onto Kinetic Hustl. Possible drift, not a prediction.
+
+**Open decision: whether to absorb the bank account fee as well.** Stating it as $0.99 in the agreements settles *what it is*, not *who should bear it*. Arguments both ways: absorbing it removes the incentive to drift to card and makes "the amount we agreed is the amount debited" true for everyone, at roughly $51 a year per weekly client; passing it on keeps a real third-party cost visible and is exactly what the fee is. **Not decided.** Revisit once the payment-method split is known.
+
+**Rule: do not raise prices in response to the ban.** Absorbing the MSF is a genuine margin hit and the temptation is to recover it. Don't. The ban changes a cost, not the value of the service, and raising rates in the same quarter the surcharge disappears reads to a client as taking back with one hand what was given with the other. Absorb it, and let the next increase happen on its own merits at its own time.
+
+### Session credits are a liability, not just a policy
+
+Cancellations with 24 hours' notice or more are credited from October 2026, expiring three months from the cancelled session, extendable at Karl's discretion. Every unexpired credit is a session owed that has already been paid for. The three-month expiry exists to stop that balance accumulating: without it, a client who leaves holding six credits is either refunded or argued with. Worth a glance at the credit balance whenever the numbers above are reviewed.
+
 ---
 
 ## 4. Positioning
@@ -119,6 +150,32 @@ increase. Two things worth having in hand before starting:
 One case is already live: the 3-on-1 group quoted $64 per session in February 2026. If they signed at
 that rate, the current equivalent is $55 on the app or $77 without, so any move is an increase and
 should be handled as one.
+
+**The card surcharge change applies to existing clients too**, and is the one October change that does.
+It is not a rate change, so the new-clients-only rule does not hold it back: from 1 October every client
+paying by card is debited the amount agreed, with nothing added. Existing clients were emailed about it
+in September 2026, before it took effect.
+
+The session credit policy is the other change that reaches existing clients, and it needs different
+handling: a credit is a concession rather than a rate, so telling them is enough. Their **terms** are
+not being reissued, because the T&C form's rate dropdowns carry only current rates and a legacy client
+cannot record what they actually pay. Terms get updated when the rate moves.
+
+### Junior clients (under 18)
+
+**No junior rate.** Juniors pay the standard rates for whichever format they train in. A parent or
+guardian signs the agreement and is the responsible party for fees; the direct debit authority is in the
+guardian's name, since the junior has no account. Minimum age 12.
+
+Two things that touch pricing rather than paperwork:
+
+- **Under-16s require a responsible adult present for the whole session.** That is a condition of the
+  liability policy, not a preference. It constrains which slots can be sold to that group — a 6am
+  session a parent cannot attend is not a session that can be booked, whatever the client wants.
+- **Written practitioner clearance is required before loaded training** where there is a surgical
+  history, a diagnosed condition or an ongoing treating practitioner. An introductory session can be
+  charged and delivered before clearance; loaded training cannot, so the revenue starts later than the
+  enquiry suggests.
 
 ---
 
@@ -173,6 +230,41 @@ Shared formats were formalised in August 2026. Before that, 2-on-1 had no rate c
 
 **On legacy arrangements:** a long-term 2-on-1 pair were on a bespoke rate from January 2025 ($50/session plus $20/week app). That was a special deal reflecting their tenure and the absence of a defined structure at the time. It is not a precedent and should not be used to derive current pricing.
 
+### Transaction fees
+
+| Period | Card payments | Bank account direct debit |
+| --- | --- | --- |
+| Until 30 Sep 2026 | MSF passed to the client on top of the agreed amount — 1.99% domestic, 4.23% international. $0.80 per transaction borne by Kinetic Hustl. | $0.99 per debit, passed to the client |
+| From 1 Oct 2026 | **No surcharge.** MSF deducted from Kinetic Hustl's settlement. $0.80 per transaction unchanged. | $0.99 per debit, passed to the client — **unchanged** |
+
+The card column changed because of the RBA ban, not by choice. The bank account column is unchanged and
+remains a live decision — see §3.
+
+---
+
+## Open items
+
+Two carried over from the review checklist in `terms/terms-and-conditions.md`, because both could change
+what the rates and terms are allowed to say.
+
+- **Confirm whether the Privacy Act 1988 (Cth) applies.** Small businesses under $3M turnover are
+  generally exempt, but the exemption does not extend to a business providing a **health service** and
+  holding **health information** — which a personal trainer collecting medical history, medications and
+  body composition may well be. If it applies, the privacy clause in the agreements is a starting point
+  rather than a compliance position, and a privacy policy is also needed. Relevant here because the
+  health screening form now collects considerably more than the old waiver did.
+- **Get the 12-week minimum term reviewed under unfair contract terms law.** Minimum-term clauses in
+  standard-form consumer contracts can attract scrutiny under the Australian Consumer Law regime, where
+  penalties have applied since November 2023. It is common industry practice and has been used for
+  years, so this is a "have it looked at once" item rather than a red flag. Worth flagging to the same
+  reviewer that the term also binds a **guardian** on a junior's behalf, which is the more exposed
+  version of it.
+
+Also open, from §3: **whether to absorb the $0.99 bank account fee.** Commercial rather than legal, and
+waiting on the payment-method split across the book.
+
+Neither of the first two blocks anything. Both are worth one sitting with a lawyer rather than two.
+
 ---
 
 ## Sources
@@ -186,5 +278,10 @@ Shared formats were formalised in August 2026. Before that, 2-on-1 had no rate c
 | Drive: `TK Pricing decision advice.md` | 5 Dec 2025 | Legacy-rate policy |
 | Drive: `PT Pricing Model Advice.md` | 19 Feb 2026 | Frequency-discount philosophy |
 | Drive: `PT Pricing Structure Feedback.md` | 30 Jun 2025 | Mid-2025 price points and market context |
-| Email thread re: debits | 16 Jan 2026 | Ezidebit fees charged on top of listed prices |
+| Email thread re: debits | 16 Jan 2026 | Ezidebit fees charged on top of listed prices. **Superseded for card payments from 1 Oct 2026** — still current for bank account debits |
 | Karl, direct | 23 Aug 2026 | Shared-format rates and policies; app break-even intent; legacy deals are not precedent |
+| RBA conclusions paper on card surcharging | Mar 2026 | The ban on surcharging eftpos, Mastercard and Visa, effective 1 Oct 2026. **Recorded on Karl's advice — the paper itself has not been read against this file, so check it before relying on the scope.** |
+| Ezidebit email re: fee change | Sep 2026 | Notice that card fees move to settlement deduction from 1 Oct 2026 |
+| Ezidebit support confirmation | Sep 2026 | The change covers **all** cards, domestic and international; bank account fees unchanged |
+| Ezidebit client settings page | Sep 2026 | The exact schedule: $0.80 card transaction fee (business), 1.99% / 4.23% MSF, $0.99 bank account fee (customer) |
+| Karl, direct | 25 Sep 2026 | Junior arrangements; credit expiry at three months; existing clients emailed about the surcharge change before 1 October |
