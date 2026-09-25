@@ -187,7 +187,7 @@ Each file is written for one audience. Give a project only the files its audienc
 | --- | --- | --- |
 | `pricing-rates-and-terms.md` | Rates, client-facing terms, how to present them | Any project that touches pricing |
 | `pricing-strategy-internal.md` (this file) | Rules, revenue maths, positioning | Business and strategy projects only |
-| `terms/terms-and-conditions.md` | Contract clauses, review checklist | Admin and onboarding projects |
+| `terms/client-agreements-complete.md` | Full contract wording for all ten agreements plus the junior documents | Admin and onboarding projects |
 
 **Suggested mapping**
 
@@ -195,7 +195,7 @@ Each file is written for one audience. Give a project only the files its audienc
 | --- | --- |
 | Client communications, marketing, enquiries | Rates and terms |
 | Business strategy, pricing decisions | Rates and terms **+** this file |
-| Client onboarding, admin, contracts | Rates and terms **+** T&Cs |
+| Client onboarding, admin, contracts | Rates and terms **+** client agreements |
 | Fitaz PT team management | Rates and terms only, and only as background — see §5 |
 
 **Keeping it current.** Each fact lives in exactly one file, so there is one place to change it. When a rate changes: edit `pricing-rates-and-terms.md`, then re-upload it to every project that holds it. Keep a note of which projects hold which file so a re-upload is never missed.
@@ -244,7 +244,7 @@ remains a live decision — see §3.
 
 ## Open items
 
-Two carried over from the review checklist in `terms/terms-and-conditions.md`, because both could change
+Two carried over from the review checklist in the old terms and conditions file, now retired, because both could change
 what the rates and terms are allowed to say.
 
 - **Confirm whether the Privacy Act 1988 (Cth) applies.** Small businesses under $3M turnover are
