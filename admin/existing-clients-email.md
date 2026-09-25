@@ -38,8 +38,7 @@ takes about ten minutes, and it replaces the old waiver form.
 
 If we have trained together for a while and nothing has changed, this will feel like paperwork. It is
 not. The old form never asked about medications, past surgery, or who else is looking after your health,
-and those are the things that actually change how I program for you. I will ask everyone to refresh it
-once a year from here.
+and those are the things that actually change how I program for you.
 
 **2. One policy change, in your favour**
 
@@ -62,6 +61,9 @@ Karl
 - Expect a handful to ask whether their price is going up. The line is already in the email; repeat it
   plainly if asked. New rates apply to new clients.
 - **Card surcharges are not mentioned.** Clients were already told separately, in September 2026.
+- **No annual refresh is promised.** An earlier draft said everyone would be asked to redo it yearly.
+  That is not happening for now, and promising it would either create an obligation you do not want or
+  quietly lapse.
 - **Credit extensions are not mentioned either**, deliberately. Naming the circumstances in which a
   credit would be extended turns a discretion into an entitlement and invites people to argue they
   qualify. The email states the three months and stops there.

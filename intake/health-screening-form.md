@@ -16,7 +16,7 @@ section by section for typing into Google Forms.
 | --- | --- |
 | **Purpose** | Screen for safety, understand the person, and work out where my role stops and someone else's starts |
 | **Who completes it** | Everyone, before session one. Complimentary session, paid client, online client, junior. |
-| **When** | Before the first session, and again once a year |
+| **When** | Before the first session. No scheduled re-screen at this stage. |
 | **Contains a release or indemnity?** | **No.** Deliberately. |
 
 The old form ended with one line doing all the legal work: *"I will not hold Kinetic Hustl liable in
@@ -611,13 +611,14 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 1. **Test submit five times:** over 18 with no yes answers, over 18 with a yes, a 16 year old, a 12 year old, and someone with a fluctuating condition. Check each run asks only what it should. The classic failure is a 16 year old landing in section 4 and being asked the under-16 questions, which means the section 3 branch is wired wrong.
 2. **Re-test after any structural edit.** Reordering sections silently breaks branch targets.
 3. **Check sections 4, 7 and 10 have their After section dropdown set** to sections 5, 8 and 11 respectively.
-4. **Diarise a yearly re-screen.** Health changes, and a screen from 2025 is not a screen.
+4. **No scheduled re-screen at this stage.** The T&Cs oblige clients to report changes, and that is the
+   mechanism for now. See the note at the end on why an annual prompt was considered and parked.
 
 ---
 
-# Planned: the annual re-screen form
+# Parked: the annual re-screen form
 
-Not built yet.
+**Not being done. Recorded here so the reasoning is not lost if it comes up again.**
 
 ## It is not a requirement, and that decides its shape
 

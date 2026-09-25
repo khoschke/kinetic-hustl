@@ -100,9 +100,8 @@ break branch targets, so re-test after any structural edit.
 4. Home address
 
 > **Emergency contact is not asked here.** It sits in the health screening form
-> (`intake/health-screening-form.md`), which every client completes before their first session and
-> refreshes yearly. An emergency contact frozen at the date someone signed their agreement is worse
-> than one that gets re-confirmed.
+> (`intake/health-screening-form.md`), which every client completes before their first session. Keeping
+> it there rather than in the agreement means it can be re-confirmed without reissuing a contract.
 
 ---
 
