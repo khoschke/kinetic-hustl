@@ -41,8 +41,8 @@ const POLICIES = {
     "There is a 24-hour cancellation policy for all training sessions. Sessions cancelled with 24 hours' notice or more are credited to your account. A credit can be used to rebook straight away or held and used later. Sessions cancelled within 24 hours of the booking are forfeited.",
     "Credits expire three months from the date of the cancelled session. I may extend a credit at my discretion, and will where you have been genuinely unwell or away. Credits stay usable through your notice period and lapse when this agreement ends. Credits are not refundable and cannot be transferred to another person."],
   conduct: ["Professional conduct and boundaries",
-    "Sessions are conducted on the open gym floor during staffed hours, and never in a closed or unsupervised room. Hands-on cueing is used only where it helps your technique, only with your agreement, and you can decline it at any time without explanation or any effect on your training.",
-    "If anything in a session makes you uncomfortable, tell me and it stops. If you would rather raise it another way, email khoschke@gmail.com. I hold current First Aid and CPR, full public and professional indemnity insurance, and a current Queensland Blue Card (working with children check)."],
+    "Sessions are held on the open gym floor during staffed hours, and never in a closed or unsupervised room. Hands-on cueing is used only to help your technique, only with your agreement, and you can decline it at any time without giving a reason and without it affecting your training in any way.",
+    "If something in a session is not right, tell me at the time or afterwards and it stops. If you would rather not raise it with me, you can raise it with Fitaz Gym front of house instead. I hold current First Aid and CPR, full public and professional indemnity insurance, and a current Queensland Blue Card (working with children check)."],
   directDebit: ["Direct debit cancellation",
     "There is a 30-day cancellation policy for all direct debit agreements. Notice is required by email."],
   gymAccess: ["Gym access",
@@ -50,7 +50,7 @@ const POLICIES = {
   attendance: ["Attendance of other participants",
     "Your rate does not change if another participant is unable to attend. The session runs as scheduled for whoever attends, at the rate you have agreed. No adjustment is made in either direction."],
   groupSize: ["Change to group size",
-    "If a participant leaves permanently, you will continue at your agreed rate for two weeks while a replacement is sought. Before that period ends the Trainer will confirm to you in writing the rate that would apply to the new group size. Your rate will not change unless you agree to the new rate in writing. If you would prefer not to continue at that rate, you may end this agreement at that point without further notice period or fee."],
+    "If a participant gives notice or leaves, the Trainer will tell you as soon as they know and confirm in writing the rate that would apply to the new group size. You will have at least two weeks' notice before any new rate takes effect, and the Trainer will use that time to look for a replacement. Your rate does not change unless you agree to the new rate in writing. If you would rather not continue at the new rate, you may end this agreement at that point with no further notice period and no fee."],
   separateAgreements: ["Separate agreements",
     "Each participant holds their own agreement and their own payment arrangement. Participants are not jointly responsible for one another's fees."],
 };
@@ -65,8 +65,8 @@ const PHOTOS_NO = "I do not consent.";
 const APP_EXCLUDED = "This agreement does not include app access or online programming. If you would like to add it, speak with Karl and a separate agreement will apply.";
 
 const feesText = (f) => f.casual
-  ? "All prices include GST. Casual sessions are paid as booked. Direct deposit or direct debit can be arranged. Card payments carry no surcharge. If you pay by bank account direct debit, any Ezidebit bank account fee is charged in addition to the amounts agreed below."
-  : `All prices include GST. Payment is by ${f.cycle === "fortnight" ? "fortnightly" : "weekly"} direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, any Ezidebit bank account fee is charged in addition to the amounts agreed below and will appear on the debit.`;
+  ? "All prices include GST. Casual sessions are paid as booked. Direct deposit or direct debit can be arranged. Card payments carry no surcharge. If you pay by bank account direct debit, Ezidebit charges a transaction fee of $0.99 per debit. It is added to the amounts agreed below and appears on the debit. That fee is set by Ezidebit rather than by Kinetic Hustl and can change."
+  : `All prices include GST. Payment is by ${f.cycle === "fortnight" ? "fortnightly" : "weekly"} direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, Ezidebit charges a transaction fee of $0.99 per debit. It is added to the amounts agreed below and appears on the debit. That fee is set by Ezidebit rather than by Kinetic Hustl and can change.`;
 
 const appText = (f, appName, appFee) => f.cycle === "fortnight"
   ? `This agreement includes ${appName} at ${appFee} (GST incl.), charged in addition to your session rate. App access is charged per week, so each fortnightly debit includes two weeks of it ($44).`
@@ -237,8 +237,8 @@ for (const f of FORMATS) {
 
     kids.push(h("FEES"));
     kids.push(p(f.casual
-      ? "All prices include GST. Casual sessions are paid as booked. Direct deposit or direct debit can be arranged. Card payments carry no surcharge. If you pay by bank account direct debit, any Ezidebit bank account fee is charged in addition to the amounts agreed below."
-      : `All prices include GST. Payment is by ${f.cycle === "fortnight" ? "fortnightly" : "weekly"} direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, any Ezidebit bank account fee is charged in addition to the amounts agreed below and will appear on the debit.`));
+      ? "All prices include GST. Casual sessions are paid as booked. Direct deposit or direct debit can be arranged. Card payments carry no surcharge. If you pay by bank account direct debit, Ezidebit charges a transaction fee of $0.99 per debit. It is added to the amounts agreed below and appears on the debit. That fee is set by Ezidebit rather than by Kinetic Hustl and can change."
+      : `All prices include GST. Payment is by ${f.cycle === "fortnight" ? "fortnightly" : "weekly"} direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, Ezidebit charges a transaction fee of $0.99 per debit. It is added to the amounts agreed below and appears on the debit. That fee is set by Ezidebit rather than by Kinetic Hustl and can change.`));
     if (app) {
       kids.push(p(f.appOverride || appText(f, appName, appFee)));
     } else {

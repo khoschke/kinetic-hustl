@@ -24,8 +24,8 @@ Nothing conditional is ever marked optional. It is simply placed where the wrong
 ## Branch on format, not on all ten agreements
 
 Ten branches is a lot to build and more to maintain. Only three questions genuinely differ by *format* —
-the shared-session policies — so branch on the four formats and use a dropdown inside each branch to
-capture which specific rate applies.
+the shared-session policies — so branch on the five formats and use a dropdown inside each branch where
+more than one rate applies.
 
 | Branch | Who lands here | What is different |
 | --- | --- | --- |
@@ -34,7 +34,7 @@ capture which specific rate applies.
 | 3-on-1 | With or without app | Rate dropdown, training partners, **three shared-session policies**, minimum term |
 | Casual | With or without app | Rate dropdown, **no minimum term** |
 
-Four sections to build instead of ten, and the rate a client agrees to is still stated explicitly.
+Five sections to build instead of ten, and the rate a client agrees to is still stated explicitly.
 
 ## Section order
 
@@ -49,22 +49,21 @@ S4   Junior clients             → go to S6          (under 18 only)
 S5   Consent to participate     → continue          (18+ only)
 S6   Policies (all clients)     → continue
 S7   Which format?              → BRANCH on format
-S8   1-on-1 branch              → go to S12
-S9   2-on-1 branch              → go to S12
-S10  3-on-1 branch              → go to S12
-S11  Casual branch              → go to S12
-S12  Payment and start date     → continue
-S13  Your information           → continue
-S14  Which photo rules apply?   → BRANCH on adult / under 18
-S15  Photos and video           → continue          (18+ only)
-S16  Confirmation               → submit
+S8   1-on-1                     → go to S13
+S9   2-on-1                     → go to S13
+S10  3-on-1                     → go to S13
+S11  Online coaching            → go to S13
+S12  Casual coaching            → go to S13
+S13  Payment and start date     → continue
+S14  Your information           → continue
+S15  Confirmation               → submit
 ```
 
-Two branch points exist only to route juniors: S3, which sends them to their own terms instead of the
-adult consent section, and S14, which sends them past the adult photos section because theirs was already
-taken in S4.
+Fifteen sections and **two** branch points. Photo consent sits inside S4 for juniors and S5 for adults,
+which removed a third branch and its section: routing juniors past an adult photos section meant asking
+their age a second time, because Forms cannot remember an earlier answer.
 
-The four format branch sections each need their **After section** dropdown set to *Go to section 12*. Miss one
+The five format branch sections each need their **After section** dropdown set to *Go to section 13*. Miss one
 and that client falls through into the next branch and is asked to agree to someone else's rate.
 
 ## Settings
@@ -78,13 +77,18 @@ and that client falls through into the next branch and is asked to agree to some
 
 ## Before you send it to anyone
 
-Submit the form yourself once per branch — four test runs. Check each one asked only for what that
+Submit the form yourself once per branch — five format runs plus one junior run. Check each one asked only for what that
 client should see, and that the response row records the right rate. Reordering sections can silently
 break branch targets, so re-test after any structural edit.
 
 ---
 
 # S1 — Your details
+
+> *Section description:*
+>
+> These are the client's details. If you are a parent or guardian completing this for someone under 18,
+> enter their details here, not yours. I will ask for yours in a moment.
 
 *All required. Short answer unless stated.*
 
@@ -157,53 +161,53 @@ break branch targets, so re-test after any structural edit.
 1. Your full name
 2. Your relationship to the client
 3. Your mobile number
-4. The client's full name
-5. The client's date of birth *(Date)*
-
-> Collected again here even though the health screening form has them, because a contract has to identify
-> its own parties on its own face, and the screen may have been completed months earlier.
+> The client's own name and date of birth are already in section 1, so they are not asked again. Only the
+> guardian's details are new here.
 
 **Authority and consent**
 
 *Each a Checkbox question with a single option, Required.*
 
-6. **I am the parent or legal guardian of the client named above, and I have authority to enter this agreement on their behalf.** → "I confirm"
+4. **I am the parent or legal guardian of the client named above, and I have authority to enter this agreement on their behalf.** → "I confirm"
 
-7. **I have read the Consent to Participate in Training, and I accept its terms on the client's behalf and on my own. Where it is written in the first person, those statements are made by me.** → "I accept"
+5. **I have read the Consent to Participate in Training, and I accept its terms on the client's behalf and on my own. Where it is written in the first person, those statements are made by me.** → "I accept"
 
-8. **I acknowledge that the client participates at their own risk, and I accept responsibility on their behalf for their health, wellness, medical, physical, mental and emotional wellbeing in connection with that participation. I accept those risks and indemnify and release the Trainer to the extent permitted by law.** → "I accept"
+6. **I acknowledge that the client participates at their own risk, and I accept responsibility on their behalf for their health, wellness, medical, physical, mental and emotional wellbeing in connection with that participation. I accept those risks and indemnify and release the Trainer to the extent permitted by law.** → "I accept"
 
-> **This replaces question 2 of section 5 for juniors** ("I confirm I am 18 years of age or older"), which
+> **Question 6 replaces question 2 of section 5 for juniors** ("I confirm I am 18 years of age or older"), which
 > is why juniors skip that section entirely.
 
 **Medical clearance**
 
-9. **Where the client has a surgical history, a diagnosed condition, or an ongoing treating practitioner, I understand written clearance from that practitioner must be provided before their first loaded training session. An introductory meeting or movement screen may take place before clearance. Loaded training may not.** *(Checkbox · Required ·* "I understand"*)*
+7. **Where the client has a surgical history, a diagnosed condition, or an ongoing treating practitioner, I understand written clearance from that practitioner must be provided before their first loaded training session. An introductory meeting or movement screen may take place before clearance. Loaded training may not.** *(Checkbox · Required ·* "I understand"*)*
 
 **Supervision**
 
-10. **Where the client is under 16, a parent, guardian or other responsible adult must be present for the whole session. This is a condition of the Trainer's insurance and cannot be waived by agreement.** *(Checkbox · Required ·* "I understand"*)*
+8. **Where the client is under 16, a parent, guardian or other responsible adult must be present for the whole session. This is a condition of the Trainer's insurance and cannot be waived by agreement.** *(Checkbox · Required ·* "I understand"*)*
 
-11. **If no responsible adult is present at the start of a session for a client under 16, the session cannot go ahead and is treated under the cancellation policy. Karl will use discretion where the circumstances warrant it.** *(Checkbox · Required ·* "I understand"*)*
+9. **If no responsible adult is present at the start of a session for a client under 16, the session cannot go ahead and is treated under the cancellation policy. Karl will use discretion where the circumstances warrant it.** *(Checkbox · Required ·* "I understand"*)*
 
 **Money**
 
-12. **I am the responsible party for everything this agreement requires of the client: the fees, the payment arrangement, the notice periods and the cancellation policies. The direct debit authority is signed by me as the account holder.** *(Checkbox · Required ·* "I agree"*)*
+10. **I am the responsible party for everything this agreement requires of the client: the fees, the payment arrangement, the notice periods and the cancellation policies. The direct debit authority is signed by me as the account holder.** *(Checkbox · Required ·* "I agree"*)*
 
 **Communication**
 
-13. **Kinetic Hustl does not operate a private messaging channel between a trainer and a client under 18. Where the client is old enough to follow a program independently they may hold their own app account with one-way messaging, so Karl can send programming and the client cannot message him privately. Between sessions, anything the client needs to raise comes through me or is raised in person at the gym.** *(Checkbox · Required ·* "I have read and understood"*)*
+11. **Kinetic Hustl does not operate a private messaging channel between a trainer and a client under 18. Where the client is old enough to follow a program independently they may hold their own app account with one-way messaging, so Karl can send programming and the client cannot message him privately. Between sessions, anything the client needs to raise comes through me or is raised in person at the gym.** *(Checkbox · Required ·* "I have read and understood"*)*
 
-14. **Does the client have their own app account?** *(Multiple choice · Required)*
-    - Yes, with one-way messaging
+12. **How will the client access their program?** *(Multiple choice · Required)*
+    - Their own app account, with one-way messaging
+    - On my account, not theirs
     - No app access
-    - Their programming sits on my account
+
+    > **Asked as a decision, not a fact.** At signing the account does not exist yet, so "does the client
+    > have" has no true answer. This is the arrangement being chosen.
 
 **Photos and video**
 
-15. **Progress photos are not taken of clients under 18. This applies regardless of their goals, including where body composition is one of them. Progress is tracked using measurements, performance markers, and video of movement where it serves the coaching.** *(Checkbox · Required ·* "I have read and understood"*)*
+13. **Progress photos are not taken of clients under 18. This applies regardless of their goals, including where body composition is one of them. Progress is tracked using measurements, performance markers, and video of movement where it serves the coaching.** *(Checkbox · Required ·* "I have read and understood"*)*
 
-16. **Photos and video for marketing or social media** *(Multiple choice · Required)*
+14. **Photos and video for marketing or social media** *(Multiple choice · Required)*
     - I consent, and I have asked the client, who also consents
     - I do not consent
     - The client does not consent
@@ -216,15 +220,19 @@ break branch targets, so re-test after any structural edit.
 
 **When the client turns 18**
 
-17. **This section ends on the client's eighteenth birthday. From that date they sign the standard agreement in their own name. Until they do, this agreement continues unchanged and I remain the responsible party. Financial responsibility transfers only once a new agreement and a new direct debit authority are in place in their name.** *(Checkbox · Required ·* "I understand"*)*
+15. **When the client turns 18, the junior terms in this section stop applying to them. Everything else in this agreement continues as it is, and I remain the responsible party for the fees, until the client signs a new agreement in their own name and sets up their own direct debit. Nothing changes automatically on their birthday.** *(Checkbox · Required ·* "I understand"*)*
+
+    > **The old wording contradicted itself.** It said the section "ends on the eighteenth birthday" and
+    > then that the agreement "continues unchanged", which cannot both be true. What ends is the junior
+    > terms. What continues is everything else, including who pays, until a new agreement replaces it.
 
 **Shared sessions**
 
-18. **Where the client trains 2-on-1 or 3-on-1 alongside participants outside our household, I agree to the specific participants in writing before the first shared session. Where the client is under 16, the supervision requirement applies to shared sessions too.** *(Checkbox · Required ·* "I agree"*)*
+16. **Where the client trains 2-on-1 or 3-on-1 alongside participants outside our household, I agree to the specific participants in writing before the first shared session. Where the client is under 16, the supervision requirement applies to shared sessions too.** *(Checkbox · Required ·* "I agree"*)*
 
 **Raising a concern**
 
-19. **The client is encouraged to raise anything with Karl during a session. Nothing the client tells Karl about their training is kept secret from me. If Karl becomes concerned about the client's safety or welfare he will raise it with me, and where he reasonably believes the client is at risk of harm he may contact the appropriate authorities without seeking my agreement first.** *(Checkbox · Required ·* "I have read and understood"*)*
+17. **The client is encouraged to raise anything with Karl during a session. Nothing the client tells Karl about their training is kept secret from me. If Karl becomes concerned about the client's safety or welfare he will raise it with me, and where he reasonably believes the client is at risk of harm he may contact the appropriate authorities without seeking my agreement first.** *(Checkbox · Required ·* "I have read and understood"*)*
 
 > **The Junior Participation Agreement is separate and stays on paper.** The client signs it, Karl
 > counter-signs it, the guardian receives a copy and does not sign. It carries no legal weight, and
@@ -277,6 +285,23 @@ break branch targets, so re-test after any structural edit.
 2. **I confirm I am 18 years of age or older.** → "I confirm"
 3. **I confirm that all information I have provided is complete, honest and accurate.** → "I confirm"
 
+**Photos and video**
+
+> *Add as a question description on question 4:* Progress photos are taken for your own tracking and are
+> never shared or published without your consent. Separately, I sometimes take photos or video in the gym
+> for social media and marketing. This is entirely optional and does not affect your training. You can
+> withdraw consent at any time by telling me, and I will stop using new material and remove existing
+> material wherever practical.
+
+4. **Photos and video for marketing and social media** *(Multiple choice · Required)*
+   - I consent to photos and video of me, including progress photos, being used in Kinetic Hustl marketing and social media
+   - I do not consent
+
+> **Photo consent lives here rather than in its own section near the end.** It used to sit in S15 with a
+> branch in front of it to route juniors past, which meant asking the client's age a second time because
+> Forms cannot remember an earlier answer. With adult consent here and junior consent in section 4, that
+> branch and that section both disappear.
+
 ---
 
 # S6 — Policies
@@ -286,7 +311,11 @@ sits in the question itself, so the tick is against the wording rather than a he
 
 1. **Session cancellation and credits.** There is a 24-hour cancellation policy for all training sessions. Sessions cancelled with 24 hours' notice or more are credited to my account, and a credit can be used to rebook straight away or held and used later. Sessions cancelled within 24 hours of the booking are forfeited. Credits expire three months from the date of the cancelled session, may be extended at Karl's discretion, stay usable through my notice period, and lapse when my agreement ends. → "I have read and understood"
 
-2. **Professional conduct and boundaries.** Sessions are conducted on the open gym floor during staffed hours and never in a closed or unsupervised room. Hands-on cueing is used only where it helps my technique, only with my agreement, and I can decline it at any time. If anything in a session makes me uncomfortable I can say so and it stops, or email khoschke@gmail.com. → "I have read and understood"
+2. **Professional conduct and boundaries.** Sessions are held on the open gym floor during staffed hours and never in a closed or unsupervised room. Hands-on cueing is used only to help my technique, only with my agreement, and I can decline it at any time without giving a reason and without it affecting my training. If something in a session is not right I can tell Karl at the time or afterwards and it stops. If I would rather not raise it with Karl, I can raise it with Fitaz Gym front of house instead. → "I have read and understood"
+
+   > **The second route has to be a different person.** The old wording offered email as the alternative
+   > to speaking up, which is still Karl either way. A client who does not feel able to raise something
+   > with him needs somewhere else to go.
 
 3. **Direct debit cancellation.** There is a 30-day cancellation policy for all direct debit agreements. Notice is required by email. → "I have read and understood"
 
@@ -305,7 +334,8 @@ sits in the question itself, so the tick is against the wording rather than a he
 - 1-on-1 → *Go to section 8*
 - 2-on-1, training with one other person → *Go to section 9*
 - 3-on-1, small group of up to three → *Go to section 10*
-- Casual, booked as needed → *Go to section 11*
+- Online coaching → *Go to section 11*
+- Casual, booked as needed → *Go to section 12*
 
 > **No "not sure" option.** A respondent who takes it would skip every agreement section and still reach the
 > confirmation, producing a submission that looks complete but records no format and no rate. If a client does
@@ -315,7 +345,7 @@ sits in the question itself, so the tick is against the wording rather than a he
 
 # S8 — 1-on-1
 
-*After this section → **Go to section 12**.*
+*After this section → **Go to section 13**.*
 
 1. **Which rate applies to you?** *(Dropdown · Required)*
    - Weekly, with app access — $88 per session plus $22 per week
@@ -335,7 +365,7 @@ sits in the question itself, so the tick is against the wording rather than a he
 
 # S9 — 2-on-1
 
-*After this section → **Go to section 12**.*
+*After this section → **Go to section 13**.*
 
 1. **Which rate applies to you?** *(Dropdown · Required)*
    - With app access — $66 per person, per session, plus $22 per week
@@ -347,7 +377,11 @@ sits in the question itself, so the tick is against the wording rather than a he
 
 4. **Attendance of other participants.** My rate does not change if another participant is unable to attend. The session runs as scheduled for whoever attends, at the rate I have agreed. No adjustment is made in either direction. *(Checkbox · Required ·* "I have read and understood"*)*
 
-5. **Change to group size.** If a participant leaves permanently, I continue at my agreed rate for two weeks while a replacement is sought. Karl will then confirm in writing the rate for the new group size. My rate will not change unless I agree to it in writing, and I may end the agreement at that point without further notice period or fee. *(Checkbox · Required ·* "I have read and understood"*)*
+5. **Change to group size.** If a participant gives notice or leaves, Karl will tell me as soon as he knows and confirm in writing the rate that would apply to the new group size. I will have at least two weeks' notice before any new rate takes effect, and Karl will use that time to look for a replacement. My rate does not change unless I agree to it in writing. If I would rather not continue at the new rate, I may end this agreement at that point with no further notice period and no fee. *(Checkbox · Required ·* "I have read and understood"*)*
+
+   > **The clock now starts at notice, not at departure.** Previously the two-week grace began once
+   > someone had already left, which gave the remaining client no warning and Karl no time to find a
+   > replacement. A departing participant almost always gives notice, so that is the moment to use.
 
 6. **Separate agreements.** Each participant holds their own agreement and their own payment arrangement. Participants are not responsible for one another's fees. *(Checkbox · Required ·* "I have read and understood"*)*
 
@@ -359,7 +393,7 @@ sits in the question itself, so the tick is against the wording rather than a he
 
 # S10 — 3-on-1
 
-*After this section → **Go to section 12**. Identical to S9 with these changes:*
+*After this section → **Go to section 13**. Identical to S9 with these changes:*
 
 1. **Which rate applies to you?** *(Dropdown · Required)*
    - With app access — $55 per person, per session, plus $22 per week
@@ -373,26 +407,43 @@ sits in the question itself, so the tick is against the wording rather than a he
 
 ---
 
-# S11 — Casual
+# S11 — Online coaching
 
-*After this section → **Go to section 12**. No minimum-term question here — none applies.*
+*After this section → **Go to section 13**.*
 
-1. **Which rate applies to you?** *(Dropdown · Required)*
-   - With app access — $121 per session, and I hold online coaching at $44 per week
-   - Without app access — $143 per session
+1. **I agree to the rate of $44 per week for online coaching. All prices include GST.** *(Checkbox · Required ·* "I agree"*)*
 
-2. **I agree to the rate I have selected above. All prices include GST.** *(Checkbox · Required ·* "I agree"*)*
+2. **Additional sessions: $121 per casual session. All prices include GST.** *(Checkbox · Required ·* "Noted"*)*
 
-3. **Casual sessions are booked and paid as required. No minimum term applies.** *(Checkbox · Required ·* "I have read and understood"*)*
+3. **A minimum term of 12 weeks applies unless agreed otherwise in writing.** *(Checkbox · Required ·* "I agree"*)*
 
 ---
 
-# S12 — Payment and start date
+# S12 — Casual coaching
+
+*After this section → **Go to section 13**. No minimum-term question here — none applies.*
+
+1. **I agree to the rate of $143 per 45-minute coaching session. All prices include GST.** *(Checkbox · Required ·* "I agree"*)*
+
+2. **Casual sessions are booked and paid as required. No minimum term applies.** *(Checkbox · Required ·* "I have read and understood"*)*
+
+> **Two sections, not one with a dropdown.** Online coaching is an ongoing $44 per week arrangement with a
+> minimum term; casual is a one-off $143 session with none. The $121 rate is what an online coaching client
+> pays for a session, which is why it sits in S11 and not here. Combining them into a single branch with a
+> dropdown made a client choose between two options that are really two different products.
+
+---
+
+# S13 — Payment and start date
 
 *Wording here has to work for all four branches, including casual. The billing cycle itself is confirmed
 inside each branch, so it is deliberately not repeated here.*
 
-1. **Payment is by direct debit through Ezidebit unless we have agreed otherwise. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, any Ezidebit bank account fee is charged in addition to the amounts above and appears on the debit.** *(Checkbox · Required ·* "I have read and understood"*)*
+1. **Payment is by direct debit through Ezidebit unless we have agreed otherwise. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, Ezidebit charges a transaction fee of $0.99 per debit, added to the amount above and shown on the debit. That fee is set by Ezidebit rather than by Kinetic Hustl and can change.** *(Checkbox · Required ·* "I have read and understood"*)*
+
+   > **Naming the figure, with the caveat.** $0.99 is what the Ezidebit client settings page shows as of
+   > September 2026, paid by the customer. Stating it is more use to a client than "any applicable fee",
+   > and the caveat means the wording does not go stale the day Ezidebit changes it.
 
 2. **Start date — the date of your first session, or the date you'd like your online coaching to begin** *(Date · Required)*
    *Helper text:* If we haven't locked in a time yet, put the date we've discussed and I'll confirm it with you.
@@ -410,7 +461,7 @@ inside each branch, so it is deliberately not repeated here.*
 
 ---
 
-# S13 — Your information
+# S14 — Your information
 
 > *Section description:* To coach you I collect personal details, health and medical information,
 > training records and body composition measurements. This is used to design and adjust your program and
@@ -423,39 +474,7 @@ inside each branch, so it is deliberately not repeated here.*
 
 ---
 
-# S14 — Which photo rules apply?
-
-*One question only. This is the branch point.*
-
-**Photos and video are handled differently for clients under 18. Which applies?** *(Multiple choice · Required · **Go to section based on answer**)*
-
-- The client is 18 or older → *Go to section 15*
-- The client is under 18 → *Go to section 16*
-
-> **Yes, this repeats something section 3 already knows.** Google Forms branching reads one question at a
-> time and cannot remember an earlier answer, so a second branch is the only way to route juniors past
-> the adult photos section. Worded as a photos question rather than a repeat of "how old are you", it
-> reads as part of the section it introduces.
->
-> Junior photo consent is collected in section 4, questions 15 and 16.
-
----
-
-# S15 — Photos and video
-
-> *Section description:* Progress photos are taken for your own tracking and are never shared or
-> published without your consent. Separately, I sometimes take photos or video in the gym for social
-> media and marketing. This is entirely optional and does not affect your training. You can withdraw
-> consent at any time by telling me — I will stop using new material and remove existing material
-> wherever practical.
-
-1. **Photos and video for marketing and social media** *(Multiple choice · Required)*
-   - I consent to photos and video of me, including progress photos, being used in Kinetic Hustl marketing and social media
-   - I do not consent
-
----
-
-# S16 — Confirmation
+# S15 — Confirmation
 
 1. **Type your full name to confirm you accept these terms and conditions.** *(Short answer · Required)*
 2. **Today's date** *(Date · Required)*

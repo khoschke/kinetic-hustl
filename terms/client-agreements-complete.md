@@ -82,15 +82,15 @@ Credits expire three months from the date of the cancelled session. I may extend
 
 **Gym access.** If you train in person at Fitaz Gym, you are responsible for holding your own valid gym access for every session you attend. Gym membership is separate from your training fees and is arranged directly with Fitaz Gym. Speak with Karl or Fitaz Gym front of house for options.
 
-**Professional conduct and boundaries.** Sessions are conducted on the open gym floor during staffed hours, and never in a closed or unsupervised room. Hands-on cueing is used only where it helps your technique, only with your agreement, and you can decline it at any time without explanation or any effect on your training.
+**Professional conduct and boundaries.** Sessions are held on the open gym floor during staffed hours, and never in a closed or unsupervised room. Hands-on cueing is used only to help your technique, only with your agreement, and you can decline it at any time without giving a reason and without it affecting your training in any way.
 
-If anything in a session makes you uncomfortable, tell me and it stops. If you would rather raise it another way, email khoschke@gmail.com. I hold current First Aid and CPR, full public and professional indemnity insurance, and a current Queensland Blue Card (working with children check).
+If something in a session is not right, tell me at the time or afterwards and it stops. If you would rather not raise it with me, you can raise it with Fitaz Gym front of house instead. I hold current First Aid and CPR, full public and professional indemnity insurance, and a current Queensland Blue Card (working with children check).
 
 **Shared formats only (2-on-1 and 3-on-1):**
 
 **Attendance of other participants.** Your rate does not change if another participant is unable to attend. The session runs as scheduled for whoever attends, at the rate you have agreed. No adjustment is made in either direction.
 
-**Change to group size.** If a participant leaves permanently, you will continue at your agreed rate for two weeks while a replacement is sought. Before that period ends the Trainer will confirm to you in writing the rate that would apply to the new group size. Your rate will not change unless you agree to the new rate in writing. If you would prefer not to continue at that rate, you may end this agreement at that point without further notice period or fee.
+**Change to group size.** If a participant gives notice or leaves, the Trainer will tell you as soon as they know and confirm in writing the rate that would apply to the new group size. You will have at least two weeks' notice before any new rate takes effect, and the Trainer will use that time to look for a replacement. Your rate does not change unless you agree to the new rate in writing. If you would rather not continue at the new rate, you may end this agreement at that point with no further notice period and no fee.
 
 **Separate agreements.** Each participant holds their own agreement and their own payment arrangement. Participants are not jointly responsible for one another's fees.
 
@@ -132,7 +132,7 @@ This agreement includes access to the Kinetic Hustl App at $22 per week (GST inc
 
 Weekly means one session per week or more. There is no upper limit and the same per-session rate applies to every session, so a second, third or fourth session in a week is charged at the same rate as the first. Your rate is set by this agreement. If you move to training less often on an ongoing basis, flexi rates will apply and a new agreement will be issued.
 
-All prices include GST. Payment is by weekly direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, any Ezidebit bank account fee is charged in addition to the amounts agreed below and will appear on the debit.
+All prices include GST. Payment is by weekly direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, Ezidebit charges a transaction fee of $0.99 per debit. It is added to the amounts agreed below and appears on the debit. That fee is set by Ezidebit rather than by Kinetic Hustl and can change.
 
 ---
 
@@ -148,7 +148,7 @@ This agreement does not include app access or online programming. If you would l
 
 Weekly means one session per week or more. There is no upper limit and the same per-session rate applies to every session, so a second, third or fourth session in a week is charged at the same rate as the first. Your rate is set by this agreement. If you move to training less often on an ongoing basis, flexi rates will apply and a new agreement will be issued.
 
-All prices include GST. Payment is by weekly direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, any Ezidebit bank account fee is charged in addition to the amounts agreed below and will appear on the debit.
+All prices include GST. Payment is by weekly direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, Ezidebit charges a transaction fee of $0.99 per debit. It is added to the amounts agreed below and appears on the debit. That fee is set by Ezidebit rather than by Kinetic Hustl and can change.
 
 ---
 
@@ -164,7 +164,7 @@ This agreement includes access to the Kinetic Hustl App at $22 per week (GST inc
 
 Flexi means a minimum of one session per fortnight, billed fortnightly. Your rate is set by this agreement. Additional sessions are charged at your agreed rate and do not change it. If you decide to train more often on an ongoing basis, weekly rates may apply and a new agreement will be issued.
 
-All prices include GST. Payment is by fortnightly direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, any Ezidebit bank account fee is charged in addition to the amounts agreed below and will appear on the debit.
+All prices include GST. Payment is by fortnightly direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, Ezidebit charges a transaction fee of $0.99 per debit. It is added to the amounts agreed below and appears on the debit. That fee is set by Ezidebit rather than by Kinetic Hustl and can change.
 
 ---
 
@@ -180,7 +180,7 @@ This agreement does not include app access or online programming. If you would l
 
 Flexi means a minimum of one session per fortnight, billed fortnightly. Your rate is set by this agreement. Additional sessions are charged at your agreed rate and do not change it. If you decide to train more often on an ongoing basis, weekly rates may apply and a new agreement will be issued.
 
-All prices include GST. Payment is by fortnightly direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, any Ezidebit bank account fee is charged in addition to the amounts agreed below and will appear on the debit.
+All prices include GST. Payment is by fortnightly direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, Ezidebit charges a transaction fee of $0.99 per debit. It is added to the amounts agreed below and appears on the debit. That fee is set by Ezidebit rather than by Kinetic Hustl and can change.
 
 ---
 
@@ -194,7 +194,7 @@ All prices include GST. Payment is by fortnightly direct debit through Ezidebit 
 
 This agreement includes access to the Kinetic Hustl App at $22 per week (GST incl.), charged in addition to your session rate.
 
-All prices include GST. Payment is by weekly direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, any Ezidebit bank account fee is charged in addition to the amounts agreed below and will appear on the debit.
+All prices include GST. Payment is by weekly direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, Ezidebit charges a transaction fee of $0.99 per debit. It is added to the amounts agreed below and appears on the debit. That fee is set by Ezidebit rather than by Kinetic Hustl and can change.
 
 Optional extras, charged as taken:
 
@@ -217,7 +217,7 @@ The three shared-format policies above apply to this agreement.
 
 This agreement does not include app access or online programming. If you would like to add it, speak with Karl and a separate agreement will apply.
 
-All prices include GST. Payment is by weekly direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, any Ezidebit bank account fee is charged in addition to the amounts agreed below and will appear on the debit.
+All prices include GST. Payment is by weekly direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, Ezidebit charges a transaction fee of $0.99 per debit. It is added to the amounts agreed below and appears on the debit. That fee is set by Ezidebit rather than by Kinetic Hustl and can change.
 
 Optional extras, charged as taken:
 
@@ -240,7 +240,7 @@ The three shared-format policies above apply to this agreement.
 
 This agreement includes access to the Kinetic Hustl App at $22 per week (GST incl.), charged in addition to your session rate.
 
-All prices include GST. Payment is by weekly direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, any Ezidebit bank account fee is charged in addition to the amounts agreed below and will appear on the debit.
+All prices include GST. Payment is by weekly direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, Ezidebit charges a transaction fee of $0.99 per debit. It is added to the amounts agreed below and appears on the debit. That fee is set by Ezidebit rather than by Kinetic Hustl and can change.
 
 Optional extras, charged as taken:
 
@@ -264,7 +264,7 @@ The three shared-format policies above apply to this agreement.
 
 This agreement does not include app access or online programming. If you would like to add it, speak with Karl and a separate agreement will apply.
 
-All prices include GST. Payment is by weekly direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, any Ezidebit bank account fee is charged in addition to the amounts agreed below and will appear on the debit.
+All prices include GST. Payment is by weekly direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, Ezidebit charges a transaction fee of $0.99 per debit. It is added to the amounts agreed below and appears on the debit. That fee is set by Ezidebit rather than by Kinetic Hustl and can change.
 
 Optional extras, charged as taken:
 
@@ -288,7 +288,7 @@ The three shared-format policies above apply to this agreement.
 
 Online coaching is $44 per week (GST incl.) and includes personalised programming, progress tracking and message support through the Kinetic Hustl App. It does not include in-person training sessions; these can be booked separately at the casual rate below.
 
-All prices include GST. Payment is by weekly direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, any Ezidebit bank account fee is charged in addition to the amounts agreed below and will appear on the debit.
+All prices include GST. Payment is by weekly direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, Ezidebit charges a transaction fee of $0.99 per debit. It is added to the amounts agreed below and appears on the debit. That fee is set by Ezidebit rather than by Kinetic Hustl and can change.
 
 Optional extras, charged as taken:
 
@@ -308,7 +308,7 @@ Optional extras, charged as taken:
 
 This agreement does not include app access or online programming. If you would like to add it, speak with Karl and a separate agreement will apply.
 
-All prices include GST. Casual sessions are paid as booked. Direct deposit or direct debit can be arranged. Card payments carry no surcharge. If you pay by bank account direct debit, any Ezidebit bank account fee is charged in addition to the amounts agreed below.
+All prices include GST. Casual sessions are paid as booked. Direct deposit or direct debit can be arranged. Card payments carry no surcharge. If you pay by bank account direct debit, Ezidebit charges a transaction fee of $0.99 per debit. It is added to the amounts agreed below and appears on the debit. That fee is set by Ezidebit rather than by Kinetic Hustl and can change.
 
 ---
 

@@ -1,6 +1,6 @@
 # Kinetic Hustl — Terms and Conditions (master source)
 
-**Version:** October 2026 (rev 4)
+**Version:** October 2026 (rev 5)
 **Status:** Source of truth. The twelve client-facing `.docx` templates in this folder are generated from it.
 
 Rates below follow `pricing-rates-and-terms.md`. If a rate changes there, it changes here, and the templates are regenerated.
@@ -109,7 +109,7 @@ Each policy is its own block with its own initial line, rather than a row in a d
 - All prices include GST.
 - Payment is by direct debit through Ezidebit **on the client's training cycle** — weekly for weekly clients, fortnightly for flexi clients — unless otherwise agreed. App access is $22 per week, so a flexi fortnight includes two weeks of it ($104.50 + $44 = $148.50). Direct deposit can be arranged.
 - **Card payments carry no surcharge from 1 October 2026.** This applies to all cards, domestic and international. The card fee is deducted from Kinetic Hustl's settlement rather than added to the client's debit.
-- **Bank account direct debit fees are unchanged.** Any Ezidebit bank account fee is charged in addition to the amounts below and appears on the debit.
+- **Bank account direct debit fees are unchanged**, at **$0.99 per debit**, charged in addition to the amounts below and shown on the debit. Confirmed against the Ezidebit client settings page, September 2026. The fee is Ezidebit's and can change, so the wording says so rather than presenting it as a Kinetic Hustl charge.
 - A minimum term of 12 weeks applies unless otherwise agreed in writing.
 
 **Weekly and flexi (1-on-1 only).** Weekly means one session per week or more. There is no upper limit and the same per-session rate applies to every session. Flexi means a minimum of one session per fortnight, billed fortnightly. A client's tier is set by their agreement, not by how many sessions fall in a given fortnight. Additional or rescheduled sessions are charged at the client's agreed rate and do not change it. Moving between weekly and flexi happens by agreement, going forward.
@@ -219,6 +219,9 @@ Work through this once. Most items are quick; two need a decision and one needs 
 
 | Change | Detail |
 | --- | --- |
+| **Bank account fee named** | Previously "any Ezidebit bank account fee". Now stated as $0.99 per debit, with a note that Ezidebit sets it and can change it. |
+| **Conduct policy gained a second route** | The old wording offered email as the alternative to raising something in person, which is still Karl either way. A client who does not want to raise something with Karl can now raise it with Fitaz Gym front of house. |
+| **Group-size change is now notice-based** | Previously the two-week grace began after a participant had already left. It now begins when a participant gives notice, so the remaining client gets warning before their rate could move and Karl has that time to find a replacement. |
 | **Junior terms moved into the T&C form** | The junior addendum was drafted as a Word document a guardian would sign. Clients sign in the Google Form, so it is now a branch in that form (S3 and S4) and the `.docx` is reference text like the other ten. Clauses that repeated the health screening form or the rate agreement were removed rather than carried across. |
 | **Junior clients covered** | Previously nothing covered under-18s, and the common consent block requires the client to certify they are 18 or older, which a junior cannot truthfully sign. A Junior Client Addendum now attaches to any of the ten agreements and replaces the age certification and the photos clause. A separate, deliberately non-binding Participation Agreement is signed by the junior. |
 | **Cancellations are credited, with an expiry** | Previously "rescheduled where possible", which understated actual practice. Sessions cancelled with 24 hours' notice or more are now credited; credits expire three months from the cancelled session, extendable at Karl's discretion. |
