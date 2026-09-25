@@ -83,7 +83,7 @@ printing it to A4 from a browser.
 
 - The ten templates have not been opened in Word since the last regeneration
 - Neither form has been built in Google Forms yet. The T&C form needs rebuilding rather than editing: it goes from 13 sections to 16 and reordering breaks branch targets silently
-- An annual re-screen form is planned: APSS Stage 1 again plus what has changed, combined with a yearly review that captures client feedback. Spec notes at the end of `intake/health-screening-form.md`
+- An annual re-screen form is planned. It is **not** a requirement: the policy asks for screening before participation, not annually, and the T&Cs already oblige clients to report changes. It exists because people do not volunteer changes they think are irrelevant. Short by default, full screen for under-16s. Spec at the end of `intake/health-screening-form.md`
 - APSS Stage 1 wording must be copied verbatim from the current ESSA/Fitness Australia PDF
 - Flare-related cancellations are handled at Karl's discretion and are deliberately not written into any document
 - The under-16 supervision clause assumes a responsible adult **other than Karl**. If Guild confirms Karl's own supervision satisfies the condition, clause 8 of the addendum can be relaxed

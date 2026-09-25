@@ -617,16 +617,51 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 
 # Planned: the annual re-screen form
 
-Not built yet. A separate, shorter form sent to existing clients once a year, doing two jobs at once:
+Not built yet.
 
-**Re-screen.** APSS Stage 1 again, anything new since last time (conditions, injuries, surgery,
-medications, care team changes), and a re-confirmation of emergency contacts. Most clients will have
-nothing to add, so it should take two minutes for them and flag the handful who do.
+## It is not a requirement, and that decides its shape
 
-**Review.** The same form captures feedback, so the yearly health admin doubles as a structured check-in
-rather than being pure compliance. What is working, what is not, what they want from the next twelve
-months, and whether the format and frequency still suit them. Answers feed the conversation you would
-have anyway, and give you something to compare year on year.
+The liability policy requires a pre-exercise screening **"prior to participation"**, not annually. The
+T&Cs already oblige clients to tell Karl when anything about their health, injuries or medications
+changes. On paper the ground is covered.
 
-Worth building after the main screen and the T&C form are live and tested, so it can reuse their
-question wording rather than inventing a third voice.
+But that clause protects Karl rather than informing him. Someone who starts on a beta blocker does not
+think to tell their personal trainer; they think it is a GP matter. The clause means it is their fault
+they did not say. It does not mean Karl knows.
+
+So the annual prompt is **a safety net for a clause that depends on people volunteering things they do
+not think are relevant.** That is a good enough reason to do it, and a bad reason to make it long.
+
+## Do not re-send this form
+
+Fifteen sections completed annually gets maybe a third of them back, which is worse than not asking:
+partial coverage with no way to tell who ignored it. The re-screen is short by default.
+
+1. **Has anything changed since your last screening?** Conditions, injuries, surgery, medications, who
+   else is involved in your care, emergency contact. Yes / No. *(Branch.)*
+2. **No** → straight to the review questions. Under a minute.
+3. **Yes** → what changed, plus APSS Stage 1 again.
+4. **The review, for everyone:** what is working, what is not, what they want from the next twelve
+   months, whether the format and frequency still suit them.
+
+Most people answer no and leave a useful review. The few who answer yes get properly re-screened. The
+point is finding the two or three changes Karl does not know about, not re-collecting 26 identical
+records.
+
+## One exception
+
+**Clients under 16 get the full screen annually, not the short one.** They are growing, and the asthma
+detail, emergency contacts and what they can safely be loaded with all move. It is also the group where
+screening is a condition of cover rather than good practice.
+
+## Timing
+
+Send it to everyone in the same week each year rather than tracking 26 individual anniversaries. The
+first week of July works, alongside the ageing-figures check. One annual admin block.
+
+A calendar entry beats an automation here: a reminder set to fire twelve months out depends on
+infrastructure surviving a year, and a silent failure is invisible.
+
+## Build it after the first batch of screens is in
+
+So it reuses wording that has settled, rather than inventing a third voice.
