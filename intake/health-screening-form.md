@@ -3,6 +3,8 @@
 Question set for the form every client completes **before their first session**, including a
 complimentary one. It replaces the old *Kinetic Hustl Waiver Form*.
 
+**Live form:** https://forms.gle/T8yaRciEND7FJ2mU8
+
 **Build sheet:** https://claude.ai/artifact/X9fFvvts4fzqfY5pmSsNUx — the same content laid out
 section by section for typing into Google Forms.
 

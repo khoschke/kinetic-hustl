@@ -2,6 +2,8 @@
 
 Question set for the form clients complete instead of initialling a printed document.
 
+**Live form:** https://forms.gle/EQy9Ly2KgeZmShJe7
+
 **Build sheet:** https://claude.ai/artifact/LybzL5S7BUuPfAYuMj4VWd — the same content laid out
 section by section for typing into Google Forms.
 

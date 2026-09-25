@@ -3,7 +3,8 @@
 Pricing structure, client agreements and business documentation for Kinetic Hustl —
 Karl Hoschke, operating from Fitaz Gym, Kangaroo Point QLD.
 
-**Terms and conditions form:** https://forms.gle/tPDFx94HQAFqNQkL6
+**Health screening form:** https://forms.gle/T8yaRciEND7FJ2mU8 — everyone, before the first session
+**Terms and conditions form:** https://forms.gle/EQy9Ly2KgeZmShJe7 — on sign-up
 
 ---
 

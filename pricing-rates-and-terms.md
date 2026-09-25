@@ -6,8 +6,13 @@
 
 ---
 
-> **Terms and conditions form:** https://forms.gle/tPDFx94HQAFqNQkL6
-> This is the link clients complete to accept the terms and confirm their rate. Include it when sending pricing to a new client.
+> **Health screening form:** https://forms.gle/T8yaRciEND7FJ2mU8
+> Everyone completes this before their first session, including a complimentary one.
+>
+> **Terms and conditions form:** https://forms.gle/EQy9Ly2KgeZmShJe7
+> Clients complete this on sign-up, to accept the terms and confirm their rate.
+>
+> Send the health screening link when you book the first session, and the terms link when they sign up.
 >
 > Full contract wording for all ten agreements is in `terms/client-agreements-complete.md`.
 > These rates apply to **new clients**; existing clients remain on their current arrangements.

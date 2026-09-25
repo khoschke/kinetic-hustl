@@ -6,7 +6,8 @@
 >
 > **This file is internal only.** Never send it to a client, and keep it out of client-facing projects — not because pricing is secret, but because revenue-per-slot figures and positioning reasoning have no place in a client email.
 
-**Terms and conditions form:** https://forms.gle/tPDFx94HQAFqNQkL6
+**Health screening form:** https://forms.gle/T8yaRciEND7FJ2mU8
+**Terms and conditions form:** https://forms.gle/EQy9Ly2KgeZmShJe7
 
 **Current as at:** 23 August 2026 · **Next review:** August 2027, or sooner if Fitaz changes membership rates or the shared formats prove mispriced in practice.
 

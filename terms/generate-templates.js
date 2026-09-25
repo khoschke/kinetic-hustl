@@ -583,7 +583,9 @@ const PARTICIPATION = [
   L.push("Everything a client agrees to, across all ten agreements, in one file. Safe to quote to a client.");
   L.push("Rates here mirror `pricing-rates-and-terms.md`; if the two ever disagree, the rates file wins.");
   L.push("");
-  L.push("**Terms and conditions form:** https://forms.gle/tPDFx94HQAFqNQkL6");
+  L.push("**Health screening form** (everyone, before the first session)**:** https://forms.gle/T8yaRciEND7FJ2mU8");
+  L.push("");
+  L.push("**Terms and conditions form** (on sign-up)**:** https://forms.gle/EQy9Ly2KgeZmShJe7");
   L.push("");
   L.push("Clients accept these terms and confirm their rate by completing that form. It records their details,");
   L.push("health information, consent, policy acknowledgements and agreed rate, and emails them a copy.");
