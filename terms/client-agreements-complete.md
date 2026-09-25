@@ -78,7 +78,7 @@ The client initials each of these individually.
 
 **Session cancellation and credits.** There is a 24-hour cancellation policy for all training sessions. Sessions cancelled with 24 hours' notice or more are credited to your account. A credit can be used to rebook straight away or held and used later. Sessions cancelled within 24 hours of the booking are forfeited.
 
-Credits expire three months from the date of the cancelled session. I may extend a credit at my discretion, and will where you have been genuinely unwell or away. Credits stay usable through your notice period and lapse when this agreement ends. Credits are not refundable and cannot be transferred to another person.
+Credits expire three months from the date of the cancelled session. A credit may be extended at my discretion. Credits stay usable through your notice period and lapse when this agreement ends. Credits are not refundable and cannot be transferred to another person.
 
 **Direct debit cancellation.** There is a 30-day cancellation policy for all direct debit agreements. Notice is required by email.
 

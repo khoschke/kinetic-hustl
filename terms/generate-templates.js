@@ -39,7 +39,7 @@ const consentBody = [
 const POLICIES = {
   sessionCancellation: ["Session cancellation and credits",
     "There is a 24-hour cancellation policy for all training sessions. Sessions cancelled with 24 hours' notice or more are credited to your account. A credit can be used to rebook straight away or held and used later. Sessions cancelled within 24 hours of the booking are forfeited.",
-    "Credits expire three months from the date of the cancelled session. I may extend a credit at my discretion, and will where you have been genuinely unwell or away. Credits stay usable through your notice period and lapse when this agreement ends. Credits are not refundable and cannot be transferred to another person."],
+    "Credits expire three months from the date of the cancelled session. A credit may be extended at my discretion. Credits stay usable through your notice period and lapse when this agreement ends. Credits are not refundable and cannot be transferred to another person."],
   directDebit: ["Direct debit cancellation",
     "There is a 30-day cancellation policy for all direct debit agreements. Notice is required by email."],
   gymAccess: ["Gym access",
@@ -527,38 +527,38 @@ const PARTICIPATION = [
 {
   const k = [];
   k.push(new Paragraph({ spacing: { after: 60 },
-    children: [new TextRun({ text: "MY TRAINING AGREEMENT", bold: true, size: 30 })] }));
+    children: [new TextRun({ text: "MY TRAINING AGREEMENT", bold: true, size: 34 })] }));
   k.push(new Paragraph({ spacing: { after: 160 },
-    children: [new TextRun({ text: "Kinetic Hustl.", bold: true, size: 22, color: "555555" })] }));
+    children: [new TextRun({ text: "Kinetic Hustl.", bold: true, size: 24, color: "555555" })] }));
   k.push(rule());
-  k.push(p("This is not a contract. Your parent or guardian has signed that part. This one is between you and your coach, and it is about how we work together.", { after: 260 }));
+  k.push(p("This is not a contract. Your parent or guardian has signed that part. This one is between you and your coach, and it is about how we work together.", { after: 240, size: 23 }));
 
   k.push(new Paragraph({ spacing: { after: 200 }, children: [
-    new TextRun({ text: `My name: ${fill(40)}`, size: 21 }) ] }));
+    new TextRun({ text: `My name: ${fill(40)}`, size: 24 }) ] }));
   k.push(new Paragraph({ spacing: { after: 300 }, children: [
-    new TextRun({ text: `My coach: ${fill(39)}`, size: 21 }) ] }));
+    new TextRun({ text: `My coach: ${fill(39)}`, size: 24 }) ] }));
 
   PARTICIPATION.forEach(([head, body]) => {
-    k.push(new Paragraph({ spacing: { before: 200, after: 60 },
-      children: [new TextRun({ text: head, bold: true, size: 21 })] }));
-    k.push(new Paragraph({ spacing: { after: 60 },
-      children: [new TextRun({ text: body, size: 19 })] }));
+    k.push(new Paragraph({ spacing: { before: 190, after: 50 },
+      children: [new TextRun({ text: head, bold: true, size: 24 })] }));
+    k.push(new Paragraph({ spacing: { after: 50 },
+      children: [new TextRun({ text: body, size: 22 })] }));
   });
 
-  k.push(new Paragraph({ spacing: { before: 320, after: 120 },
-    children: [new TextRun({ text: "What I want out of this:", bold: true, size: 21 })] }));
-  k.push(p(fill(78), { after: 200 }));
-  k.push(p(fill(78), { after: 340 }));
+  k.push(new Paragraph({ spacing: { before: 280, after: 110 },
+    children: [new TextRun({ text: "What I want out of this:", bold: true, size: 24 })] }));
+  k.push(p(fill(72), { after: 190, size: 22 }));
+  k.push(p(fill(72), { after: 300, size: 22 }));
 
   k.push(new Paragraph({ spacing: { after: 200 }, children: [
-    new TextRun({ text: `Me: ${fill(34)}     Date: ${fill(5)} / ${fill(5)} / ${fill(7)}`, size: 19 }) ] }));
+    new TextRun({ text: `Me: ${fill(32)}     Date: ${fill(5)} / ${fill(5)} / ${fill(7)}`, size: 22 }) ] }));
   k.push(new Paragraph({ spacing: { after: 200 }, children: [
-    new TextRun({ text: `My coach: ${fill(28)}     Date: ${fill(5)} / ${fill(5)} / ${fill(7)}`, size: 19 }) ] }));
-  k.push(p("A copy of this goes to your parent or guardian. They don't sign it. It's yours.", { italics: true, size: 17 }));
+    new TextRun({ text: `My coach: ${fill(26)}     Date: ${fill(5)} / ${fill(5)} / ${fill(7)}`, size: 22 }) ] }));
+  k.push(p("A copy of this goes to your parent or guardian. They don't sign it. It's yours.", { italics: true, size: 22 }));
 
   const doc = new Document({
-    styles: { default: { document: { run: { font: "Calibri", size: 19 } } } },
-    sections: [{ properties: { page: { margin: { top: 1100, bottom: 1000, left: 1200, right: 1200 } } }, children: k }],
+    styles: { default: { document: { run: { font: "Calibri", size: 22 } } } },
+    sections: [{ properties: { page: { margin: { top: 900, bottom: 800, left: 1100, right: 1100 } } }, children: k }],
   });
   Packer.toBuffer(doc).then((b) => {
     fs.writeFileSync(out("KH-Junior-Participation-Agreement.docx"), b);

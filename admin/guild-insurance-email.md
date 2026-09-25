@@ -3,6 +3,22 @@
 **Status:** not yet sent
 **Policy:** P00329386 · Client A3938736 · renewed 10/10/2026 to 10/10/2027
 
+## How to send it
+
+**The policy documents contain no email address.** The only contact details across the schedule, the
+certificates and the 38-page PDS are the phone number **1800 810 213** and the portal at
+**guildinsurance.com.au/policyhub**.
+
+So either:
+
+1. **Send it through PolicyHub's enquiry or message function.** Better than email for this purpose: it is
+   logged against the policy, so the questions and the answers sit with the account rather than in an
+   inbox.
+2. **Or call 1800 810 213, say you need written answers to five underwriting questions, and ask them to
+   email you** so you can reply with the text below. That also gets you a named person to chase.
+
+Do not settle for the answers over the phone. The point of asking is to have them on file.
+
 ## Why this is being asked
 
 The policy carries a general exclusion at page 25 of the PDS:

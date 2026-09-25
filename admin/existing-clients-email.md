@@ -5,8 +5,8 @@
 
 ## What this email does and does not do
 
-**Does:** get a health screening form on file for every client, and tell them about two policy changes
-that are concessions in their favour.
+**Does:** get a health screening form on file for every client, and tell them that cancellations are now
+credited, which is a concession in their favour.
 
 **Does not:** ask them to complete the T&C form. The rate dropdowns in that form only carry the new
 rates, so a client on a legacy rate cannot record what they actually pay. Their terms get updated when
@@ -21,7 +21,7 @@ liability policy, so that one is not optional.
 
 ## The email
 
-**Subject:** Two quick things — your health details, and a couple of policy updates
+**Subject:** Two quick things — your health details, and an update on cancellations
 
 ---
 
@@ -41,16 +41,11 @@ not. The old form never asked about medications, past surgery, or who else is lo
 and those are the things that actually change how I program for you. I will ask everyone to refresh it
 once a year from here.
 
-**2. Two policy changes, both in your favour**
+**2. One policy change, in your favour**
 
 **Cancellations are now credited.** Cancel with 24 hours' notice or more and the session is credited to
-your account, to use straight away or later. Credits last three months and I will extend them if you have
-been unwell or away. The old wording only said I would reschedule where possible, which promised you less
-than I was actually doing.
-
-**No more card surcharges.** From 1 October, card payments are debited at exactly the amount we agreed.
-The percentage that used to be added on top is gone. If you pay by bank account rather than card,
-Ezidebit's $0.99 per debit is unchanged.
+your account, to use straight away or later. Credits last three months. The old wording only said I would
+reschedule where possible, which promised you less than I was actually doing.
 
 **Your rate is not changing.** Nothing here affects what you pay.
 
@@ -66,6 +61,10 @@ Karl
   information and the email is about their account.
 - Expect a handful to ask whether their price is going up. The line is already in the email; repeat it
   plainly if asked. New rates apply to new clients.
+- **Card surcharges are not mentioned.** Clients were already told separately, in September 2026.
+- **Credit extensions are not mentioned either**, deliberately. Naming the circumstances in which a
+  credit would be extended turns a discretion into an entitlement and invites people to argue they
+  qualify. The email states the three months and stops there.
 - Chase the under-16 client first rather than waiting for the batch to come back.
 - Once screens are in, read them. The point of collecting them is the handful that say something you did
   not know.
