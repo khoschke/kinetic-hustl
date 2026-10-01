@@ -59,6 +59,38 @@ so sections 2, 6, 9 and 11 end on their branch question.
 | Progress bar | **On** | It is a long form, show people where they are |
 | Link to a spreadsheet | **Yes** | Becomes your screening register |
 
+## Revision, 1 October 2026 — what changed and why
+
+A 16-year-old client with bilateral knee chondral repair surgery, diagnosed Ehlers-Danlos Syndrome,
+fibromyalgia, four knee operations in four years, an orthopaedic surgeon's written training restrictions
+and an actively treating physiotherapist completed this form. Her guardian answered **No** to the APSS
+question about diagnosed joint problems, and **No** to whether anyone was treating something training
+could affect, three questions after naming the physiotherapist.
+
+Neither answer was careless. Both questions asked her to **assess a risk** rather than **report a fact**,
+and on that reading No was defensible each time.
+
+Section 8 captured the conditions and section 9 routed her into the flare questions, so the information
+was not absent. **It simply never escalated**: a No on the APSS gate skips the whole of section 7, and the
+fields that would have caught her — GP, ambulance consent — sat behind an under-16 branch that a
+16-year-old does not enter.
+
+**The rule that came out of it.** Every question that failed asks for a judgement. Every question that
+worked asks for an artefact or an event. Convert judgements into one or the other.
+
+| | Change | Section |
+| --- | --- | --- |
+| **A** | Five questions **moved out** of the under-16 branch | 4 → 8 |
+| **B** | Two questions **added** after APSS, deliberately outside the standard | 5 |
+| **C** | Gate question **reworded**, "seven" removed | 6 |
+| **D** | Five questions **received** from section 4 | 8 |
+| **E** | One question **reworded** | 12 |
+
+**No section is added, removed or renumbered, and no branch target changes.** Fifteen sections before and
+after. Every edit is inside an existing section.
+
+---
+
 ## Section map
 
 ```
@@ -182,36 +214,22 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 > Most of this is about being prepared: who to call if I cannot reach you, and what to do if they have
 > an asthma attack. It takes a minute, and it means I am not guessing on the day.
 
-1. **Does the person training have asthma, or have they ever been prescribed a reliever inhaler?** *(Multiple choice · Required)*
-   - No, never
-   - Yes, diagnosed asthma and currently using medication
-   - Yes, diagnosed asthma but not currently using medication
-   - Yes, has used a reliever in the past but no current diagnosis
-   - Not sure
-
-2. **If yes to any of the above: what reliever do they use, do they carry it to training, and what sets an attack off?** *(Paragraph · Not required)*
-
-   > No helper text. The question already carries its own condition, and the field is not required, so
-   > anyone it does not apply to simply leaves it blank rather than typing N/A.
-
-3. **Has the person training ever had an asthma attack that needed immediate medical attention?** *(Multiple choice · Required ·* No / Yes, more than 12 months ago / Yes, in the last 12 months / Not sure*)*
-
-4. **A second emergency contact, other than the parent or guardian above** *(three Short answer questions, all Required: name, mobile, relationship)*
+1. **A second emergency contact, other than the parent or guardian above** *(three Short answer questions, all Required: name, mobile, relationship)*
 
    *Helper text:* **Someone else we could reach if the first two numbers do not answer.**
 
-5. **Name and practice of their GP** *(Short answer · Required)*
+2. **I understand that a parent, guardian or other responsible adult must be present for sessions with a client under 16.** *(Checkbox · Required ·* "I understand"*)*
 
-6. **I consent to Karl calling an ambulance if he judges it necessary, and I understand ambulance costs are my responsibility.** *(Checkbox · Required ·* "I consent"*)*
-
-7. **I understand that a parent, guardian or other responsible adult must be present for sessions with a client under 16.** *(Checkbox · Required ·* "I understand"*)*
-
-> **Why questions 1 to 3 are here and this specific.** Condition v of the policy's child participation
-> clause requires "an asthma management plan including an emergency response plan". You cannot write one
-> from a yes/no tick, and asthma is the single most common thing that turns a normal session with a
-> 12-year-old into an emergency.
+> **This section used to hold five more questions.** Asthma detail, GP name and practice, and ambulance
+> consent now sit in section 8 and are asked of everyone. They were only here because the insurance
+> conditions for under-16s named them, which was the wrong axis to organise by: an adult needs a GP on file
+> and an ambulance consent just as much as a 12-year-old does. The cost of getting that wrong was real —
+> the most medically complex client on the books, aged 16, has neither recorded.
 >
-> **Question 7 is the supervision condition**, subject to the written answer from Guild on whether Karl
+> Condition v still requires "an asthma management plan including an emergency response plan", and
+> questions 9 to 11 in section 8 are what satisfy it. Being asked of everyone does not stop them counting.
+>
+> **Question 2 is the supervision condition**, subject to the written answer from Guild on whether Karl
 > himself satisfies it. Do not soften this wording until that answer is in.
 
 ---
@@ -235,6 +253,29 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 5. If you have diabetes (type 1 or type 2), have you had trouble controlling your blood glucose in the last 3 months?
 6. Do you have any diagnosed muscle, bone or joint problems that you have been told could be made worse by participating in physical activity or exercise?
 7. Do you have any other medical condition that may make it dangerous for you to participate in physical activity or exercise?
+
+**Then a title block, and two questions that are not part of APSS.**
+
+> *Title block text:* **A few more, and these are not part of the standard screen**
+
+8. **Has any health professional given you restrictions, limits, or things to avoid in training, even if they also encouraged you to exercise?** *(Multiple choice · Required ·* Yes / No / Not sure*)*
+
+   *Helper text:* **This includes advice to work within a range, to avoid certain movements, or to build up gradually. Most people with an injury or a diagnosed condition have had some version of this conversation.**
+
+9. **Do you have anything in writing from a health professional about exercise, such as a clearance letter, a rehab program, or a list of restrictions?** *(Multiple choice · Required)*
+   - No
+   - Yes, I can send it to you
+   - Yes, but I would need to request a copy
+
+> **Why these sit outside APSS, and must stay outside it.** APSS question 6 asks about diagnosed problems
+> "you have been told could be made worse" by exercise. That offers two states, dangerous or fine, and has
+> no slot for the state most musculoskeletal clients are actually in: **exercise is prescribed, with
+> restrictions.** A client whose surgeon told her to train within limits answers No, honestly, and the whole
+> of section 7 is skipped behind her. Question 8 is that missing middle. Question 9 asks for the document,
+> which is the most useful thing a client can hand over and which nothing else in the form requests.
+>
+> **Do not fix this by editing the APSS wording.** Its value is being the recognised standard, which is what
+> condition iii of the liability policy points at. Reword it and it is no longer APSS.
 
 > **For a client under 16, the guardian answers these on their behalf.** Add to the section
 > description: "If you are completing this for someone under 16, answer about them, not about
@@ -261,12 +302,16 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 
 *One question only. This is the branch point.*
 
-**Did you answer yes to any of the seven questions above?** *(Multiple choice · Required · **Go to section based on answer**)*
+**Did you answer yes to any of the questions above?** *(Multiple choice · Required · **Go to section based on answer**)*
 
 - No → *Go to section 8*
 - Yes → *Go to section 7*
 
-> **Two options only.** A "not sure" here would be someone failing to recall seven answers they gave on the
+> **"Seven" was removed from this question.** Section 5 now holds nine, and a yes to either of the two new
+> ones has to route here as well. Leaving the number in would have told clients to ignore exactly the
+> questions added to catch what APSS misses.
+>
+> **Two options only.** A "not sure" here would be someone failing to recall answers they gave on the
 > previous screen. It adds a branch that means nothing and a column you cannot act on.
 
 ---
@@ -318,6 +363,27 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 6. **If you answered yes, is there anything you have been advised to avoid?** *(Paragraph · Not required)*
 7. **Do you smoke or vape?** *(Multiple choice · Required ·* No / Occasionally / Daily / I quit in the last 12 months*)*
 8. **Is there anything about your mental health that would help me train you well?** *(Paragraph · Not required · "Only what you are comfortable sharing.")*
+
+9. **Do you have asthma, or have you ever been prescribed a reliever inhaler?** *(Multiple choice · Required)*
+   - No, never
+   - Yes, diagnosed asthma and currently using medication
+   - Yes, diagnosed asthma but not currently using medication
+   - Yes, have used a reliever in the past but no current diagnosis
+   - Not sure
+
+10. **If yes to any of the above: what reliever do you use, do you carry it to training, and what sets an attack off?** *(Paragraph · Not required)*
+
+11. **Have you ever had an asthma attack that needed immediate medical attention?** *(Multiple choice · Required ·* No / Yes, more than 12 months ago / Yes, in the last 12 months / Not sure*)*
+
+12. **Name and practice of your GP** *(Short answer · Required)*
+
+13. **I consent to Karl calling an ambulance if he judges it necessary, and I understand ambulance costs are my responsibility.** *(Checkbox · Required ·* "I consent"*)*
+
+> **Questions 9 to 13 moved here from the under-16 section**, where they were age-gated because the
+> insurance conditions for under-16s named them. None of the five is actually age-specific, and gating them
+> meant a 16-year-old with four knee operations had no GP and no ambulance consent on file. APSS asks
+> whether there has been an asthma attack needing medical attention, but never what someone carries or what
+> sets one off, which is the part that matters on the gym floor.
 
 > **What changed from the old form.** The old health question was a checkbox list with `None` sitting
 > in the same list as the conditions, so a client could tick both. One response came through as a
@@ -444,7 +510,13 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
    > Keep example names generic and do not name a real practice or suburb. An earlier draft used a
    > plausible doctor's name at a real Brisbane suburb, which could have read as a real person.
 
-3. **Is anyone currently treating or managing something that training could affect?** *(Multiple choice · Required ·* Yes / No / Not sure*)*
+3. **Has anyone involved in your care given you instructions, limits or restrictions about exercise or training?** *(Multiple choice · Required ·* Yes / No / Not sure*)*
+
+   > **Replaces "is anyone currently treating or managing something that training could affect".** That asked
+   > the client to predict an interaction between training and a condition, which is the practitioner's
+   > judgement rather than theirs, and it framed itself as "is there a problem?" — to which someone whose
+   > physio already knows about their training honestly answers no. One client answered No here three
+   > questions after naming an actively treating physiotherapist by name. This version asks for a fact.
 
 4. **If we needed to, would you be happy for me to contact them about your training?** *(Multiple choice · Required)*
    - Yes, you can contact them
