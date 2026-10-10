@@ -86,7 +86,7 @@ worked asks for an artefact or an event. Convert judgements into one or the othe
 | **D** | Five questions **received** from section 4 | 8 |
 | **E** | One question **reworded** | 12 |
 
-**No section is added, removed or renumbered, and no branch target changes.** Fifteen sections before and
+**No section is added, removed or renumbered, and no branch target changes.** Sixteen sections before and
 after. Every edit is inside an existing section.
 
 ---

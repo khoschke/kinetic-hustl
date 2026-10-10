@@ -110,8 +110,7 @@ and the emails in `admin/` are working files: useful here, noise in a project.
 
 ## Still open
 
-- The ten templates have not been opened in Word since the last regeneration
-- Neither form has been built in Google Forms yet. The T&C form needs rebuilding rather than editing: it goes from 13 sections to 16 and reordering breaks branch targets silently
+- The ten reference templates have not been opened in Word since the 10 October regeneration. `KH-Junior-Participation-Agreement.docx` is the only one printed and handed to a client, and it has no fees section, so the October fee change does not reach it
 - An annual re-screen was considered and **parked**. Not a requirement: the policy asks for screening before participation, not annually, and the T&Cs oblige clients to report changes. Reasoning kept at the end of `intake/health-screening-form.md` in case it comes up again
 - APSS Stage 1 wording must be copied verbatim from the current ESSA/Fitness Australia PDF
 - Flare-related cancellations are handled at Karl's discretion and are deliberately not written into any document
