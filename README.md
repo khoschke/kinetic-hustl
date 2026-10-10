@@ -87,9 +87,11 @@ project quietly reasoning from a stale copy.
 
 | File | Projects holding it | Last uploaded |
 | --- | --- | --- |
-| `pricing-rates-and-terms.md` | | |
-| `pricing-strategy-internal.md` | | |
-| `terms/client-agreements-complete.md` | | |
+| `pricing-rates-and-terms.md` | Kinetic Hustl, Kinetic Hustl: Clients | 25 Sep 2026 |
+| `pricing-strategy-internal.md` | Kinetic Hustl | 25 Sep 2026 |
+| `terms/client-agreements-complete.md` | Kinetic Hustl, Kinetic Hustl: Clients | 25 Sep 2026 |
+| `Kinetic-Hustl-Pricing.pdf` | Kinetic Hustl, Kinetic Hustl: Clients | 25 Sep 2026 |
+| `terms/KH-Junior-Participation-Agreement.docx` | Kinetic Hustl, Kinetic Hustl: Clients | 25 Sep 2026 |
 
 **How to use it.** After re-uploading a file, put today's date in its row. If the repo has a newer commit
 touching that file than the date in the row, at least one project is stale.
@@ -103,8 +105,15 @@ into the rates file, the agreements, both forms and the price sheet. `pricing-st
 five weeks behind, still dated 23 August, because nobody re-uploaded it — and it was caught by reading
 carefully rather than by any check. A date in a column would have caught it in seconds.
 
-Only the three files above belong in projects. The build sheets, the form question sets, the generator
+Only the files above belong in projects. The build sheets, the form question sets, the generator
 and the emails in `admin/` are working files: useful here, noise in a project.
+
+**The PDF is easy to forget.** It is generated from `pricesheet.html`, so a change to the price sheet
+makes the PDF stale, and the PDF is the copy that gets emailed to clients. Regenerate it in the same
+pass, then re-upload it.
+
+**`Kinetic Hustl: Clients` does not hold `pricing-strategy-internal.md`**, which is deliberate: it is an
+internal reasoning document and that project is for client work.
 
 ---
 
