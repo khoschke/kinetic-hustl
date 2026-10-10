@@ -237,6 +237,8 @@ Shared formats were formalised in August 2026. Before that, 2-on-1 had no rate c
 | Until 30 Sep 2026 | MSF passed to the client on top of the agreed amount — 1.99% domestic, 4.23% international. $0.80 per transaction borne by Kinetic Hustl. | $0.99 per debit, passed to the client |
 | From 1 Oct 2026 | **No surcharge.** MSF deducted from Kinetic Hustl's settlement. $0.80 per transaction unchanged. | $0.99 per debit, passed to the client — **unchanged** |
 
+**Two fees sit outside the table**, because they apply whichever payment method the client uses: a once-off administration fee of **up to $5.50** on the first debit, and **$9.90** on a failed payment. Both are Ezidebit's. Neither was disclosed to clients until October 2026. SMS payment reminders are not enabled, so that fee does not arise. Figures from the signed Ezidebit New Customer Form, DDR Service Agreement Ver 1.13.
+
 The card column changed because of the RBA ban, not by choice. The bank account column is unchanged and
 remains a live decision — see §3.
 
@@ -285,3 +287,4 @@ Neither of the first two blocks anything. Both are worth one sitting with a lawy
 | Ezidebit support confirmation | Sep 2026 | The change covers **all** cards, domestic and international; bank account fees unchanged |
 | Ezidebit client settings page | Sep 2026 | The exact schedule: $0.80 card transaction fee (business), 1.99% / 4.23% MSF, $0.99 bank account fee (customer) |
 | Karl, direct | 25 Sep 2026 | Junior arrangements; credit expiry at three months; existing clients emailed about the surcharge change before 1 October |
+| **Signed Ezidebit New Customer Form, DDR Service Agreement Ver 1.13** | Oct 2026 | The authoritative fee schedule: administration fee up to $5.50 once only, $0.99 bank account transaction fee, $0.00 MSF on Visa/Mastercard/AMEX/Diners both domestic and international, $9.90 failed payment, SMS reminders N/A. Supersedes the settings-page reading above for client-facing wording. |

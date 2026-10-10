@@ -2,7 +2,7 @@
 
 **Karl Hoschke | Kinetic Hustl.** — Fitaz Gym, 101 Main Street, Kangaroo Point, QLD
 **All prices include GST.** Sessions are 45 minutes.
-**Current as at:** 1 October 2026
+**Current as at:** 10 October 2026
 
 ---
 
@@ -114,7 +114,7 @@ Gym memberships are set and managed by Fitaz Gym, not Kinetic Hustl, and are sub
 - **Credit expiry:** credits expire three months from the date of the cancelled session. Karl may extend a credit at his discretion. Credits stay usable through your notice period and lapse when the agreement ends. They are not refundable and cannot be transferred to another person.
 - **Direct debit cancellation:** 30 days' notice, by email.
 - **Payment:** direct debit through Ezidebit on your training cycle — weekly for weekly clients, fortnightly for flexi clients. App access is $22 per week, so a flexi fortnight is one session at $104.50 plus two weeks of app access at $44, totalling $148.50. Direct deposit can be arranged.
-- **Transaction fees:** card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, Ezidebit charges $0.99 per debit, added to the agreed amount and shown on the debit. That fee is Ezidebit's, not Kinetic Hustl's, and can change.
+- **Transaction fees:** Ezidebit charges its own fees in addition to your agreed amount. A once-off administration fee of up to $5.50 applies on your first debit. After that it is $0.99 per debit if you pay from a bank account, and nothing per debit if you pay by card. A failed payment costs $9.90. There is no card surcharge, on any card, Australian or international. These are Ezidebit's fees, not Kinetic Hustl's, and Ezidebit can change them. Debits appear on your statement as EZI*KARLHOSCHKE rather than Kinetic Hustl.
 - **Travel and time away:** if you would like to keep training while you are away, your programming can be adapted to whatever equipment and facilities you have access to. If you would rather not train, your sessions can be rescheduled.
 - **Trial:** a complimentary first session is often available.
 - **Junior clients (under 18):** standard rates apply, with no junior rate. A parent or guardian signs the rate agreement and a Junior Client Addendum, and the junior signs their own Participation Agreement. Minimum age is 12. For clients **under 16**, a responsible adult must be present for the whole session, and written practitioner clearance is required before loaded training where there is a surgical history, a diagnosed condition or an ongoing treating practitioner. No progress photos are taken of anyone under 18.

@@ -1,6 +1,6 @@
 # Kinetic Hustl — Terms and Conditions (master source)
 
-**Version:** October 2026 (rev 6)
+**Version:** October 2026 (rev 7)
 **Status:** Source of truth. The twelve client-facing `.docx` templates in this folder are generated from it.
 
 Rates below follow `pricing-rates-and-terms.md`. If a rate changes there, it changes here, and the templates are regenerated.
@@ -107,8 +107,9 @@ Each policy is its own block with its own initial line, rather than a row in a d
 
 - All prices include GST.
 - Payment is by direct debit through Ezidebit **on the client's training cycle** — weekly for weekly clients, fortnightly for flexi clients — unless otherwise agreed. App access is $22 per week, so a flexi fortnight includes two weeks of it ($104.50 + $44 = $148.50). Direct deposit can be arranged.
-- **Card payments carry no surcharge from 1 October 2026.** This applies to all cards, domestic and international. The card fee is deducted from Kinetic Hustl's settlement rather than added to the client's debit.
-- **Bank account direct debit fees are unchanged**, at **$0.99 per debit**, charged in addition to the amounts below and shown on the debit. Confirmed against the Ezidebit client settings page, September 2026. The fee is Ezidebit's and can change, so the wording says so rather than presenting it as a Kinetic Hustl charge.
+- **Ezidebit's fees, in full.** A once-off administration fee of up to $5.50 on the first debit; $0.99 per debit from a bank account; $0.00 per debit by card; $9.90 on a failed payment. SMS payment reminders are not enabled. All are Ezidebit's fees rather than Kinetic Hustl's, and Ezidebit can change them. Source: the signed Ezidebit New Customer Form, DDR Service Agreement Ver 1.13.
+- **Card payments carry no surcharge from 1 October 2026.** Merchant service fees are $0.00 on Visa, Mastercard, AMEX and Diners, domestic and international. The card fee is deducted from Kinetic Hustl's settlement rather than added to the client's debit.
+- **Debits show as EZI\*KARLHOSCHKE**, not Kinetic Hustl. Worth stating to clients: an unrecognised statement descriptor is a common cause of payment queries and card disputes.
 - A minimum term of 12 weeks applies unless otherwise agreed in writing.
 
 **Weekly and flexi (1-on-1 only).** Weekly means one session per week or more. There is no upper limit and the same per-session rate applies to every session. Flexi means a minimum of one session per fortnight, billed fortnightly. A client's tier is set by their agreement, not by how many sessions fall in a given fortnight. Additional or rescheduled sessions are charged at the client's agreed rate and do not change it. Moving between weekly and flexi happens by agreement, going forward.
@@ -233,4 +234,5 @@ Work through this once. Most items are quick; two need a decision and one needs 
 | **Two rates shown per format** | Every format now has a with-app and without-app rate, replacing single-rate schedules. |
 | **3-on-1 rate standardised** | Previously quoted at $50 (Jan 2025), $55 (Oct 2025 template) and $64 (Feb 2026 email). Now $55 with app access, $77 without. |
 | **Ezidebit fees disclosed** | Not previously mentioned, which caused at least one client query about the difference between the agreed amount and the debited amount. |
+| **Ezidebit's full fee schedule disclosed (rev 7)** | The earlier wording named only the $0.99 bank account fee and promised card payments were debited "at the agreed amount". The once-off administration fee of up to $5.50 makes the second half of that promise wrong on the first debit, and the $9.90 failed payment fee was disclosed nowhere. Both are now stated, along with the EZI\*KARLHOSCHKE statement descriptor. The no-surcharge statement was always accurate and is unchanged. Taken from the signed Ezidebit New Customer Form, DDR Service Agreement Ver 1.13, which supersedes the September 2026 settings-page reading as the citation. |
 | **Cancellation window standardised at 24 hours** | The previous group template used 72 hours. All formats are now 24 hours, matching `pricing-rates-and-terms.md`. |

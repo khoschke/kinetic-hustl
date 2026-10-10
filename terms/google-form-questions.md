@@ -442,11 +442,14 @@ sits in the question itself, so the tick is against the wording rather than a he
 *Wording here has to work for all four branches, including casual. The billing cycle itself is confirmed
 inside each branch, so it is deliberately not repeated here.*
 
-1. **Payment is by direct debit through Ezidebit unless we have agreed otherwise. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, Ezidebit charges a transaction fee of $0.99 per debit, added to the amount above and shown on the debit. That fee is set by Ezidebit rather than by Kinetic Hustl and can change.** *(Checkbox · Required ·* "I have read and understood"*)*
+1. **Payment is by direct debit through Ezidebit unless we have agreed otherwise. Ezidebit charges its own fees in addition to the amount above: a once-off administration fee of up to $5.50 on your first debit, then $0.99 per debit if you pay from a bank account and nothing per debit if you pay by card. A failed payment costs $9.90. There is no card surcharge, on any card, Australian or international. These are Ezidebit's fees rather than Kinetic Hustl's and Ezidebit can change them. Your debits will appear on your statement as EZI*KARLHOSCHKE.** *(Checkbox · Required ·* "I have read and understood"*)*
 
-   > **Naming the figure, with the caveat.** $0.99 is what the Ezidebit client settings page shows as of
-   > September 2026, paid by the customer. Stating it is more use to a client than "any applicable fee",
-   > and the caveat means the wording does not go stale the day Ezidebit changes it.
+   > **Naming every figure, with the caveat.** These are the fees on the signed Ezidebit New Customer
+   > Form, DDR Service Agreement Ver 1.13. The administration fee is "up to $5.50" on the form, so it is
+   > stated that way rather than as a flat amount. Stating the figures is more use to a client than
+   > "any applicable fees", and the caveat means the wording does not go stale the day Ezidebit
+   > changes them. The statement descriptor is here because an unrecognised one is a common cause
+   > of payment queries.
 
 2. **Start date — the date of your first session, or the date you'd like your online coaching to begin** *(Date · Required)*
    *Helper text:* If we haven't locked in a time yet, put the date we've discussed and I'll confirm it with you.

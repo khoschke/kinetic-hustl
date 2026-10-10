@@ -61,9 +61,25 @@ const PHOTOS_YES = "I consent to photos and video of me, including progress phot
 const PHOTOS_NO = "I do not consent.";
 const APP_EXCLUDED = "This agreement does not include app access or online programming. If you would like to add it, speak with Karl and a separate agreement will apply.";
 
-const feesText = (f) => f.casual
-  ? "All prices include GST. Casual sessions are paid as booked. Direct deposit or direct debit can be arranged. Card payments carry no surcharge. If you pay by bank account direct debit, Ezidebit charges a transaction fee of $0.99 per debit. It is added to the amounts agreed below and appears on the debit. That fee is set by Ezidebit rather than by Kinetic Hustl and can change."
-  : `All prices include GST. Payment is by ${f.cycle === "fortnight" ? "fortnightly" : "weekly"} direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, Ezidebit charges a transaction fee of $0.99 per debit. It is added to the amounts agreed below and appears on the debit. That fee is set by Ezidebit rather than by Kinetic Hustl and can change.`;
+// Ezidebit's fees, from the signed DDR form (Service Agreement Ver 1.13).
+// The admin fee is "up to $5.50", not a flat amount. Keep the "up to".
+const eziFees = (casual) => [
+  (casual
+    ? "If you pay by direct debit, Ezidebit charges its own fees in addition to the amounts agreed below."
+    : "Ezidebit charges its own fees in addition to the amounts agreed below.")
+    + " These are Ezidebit's fees rather than Kinetic Hustl's, and Ezidebit can change them.",
+  "A once-off administration fee of up to $5.50 applies on your first debit. After that it is $0.99 per debit if you pay from a bank account, and nothing per debit if you pay by card. A failed payment costs $9.90.",
+  "There is no card surcharge, on any card, Australian or international. Debits appear on your statement as EZI*KARLHOSCHKE rather than Kinetic Hustl.",
+];
+
+// One copy of the fees wording, consumed by both the .docx builder and the
+// markdown builder. These used to be separate literals and could drift apart.
+const feesText = (f) => [
+  f.casual
+    ? "All prices include GST. Casual sessions are paid as booked. Direct deposit or direct debit can be arranged."
+    : `All prices include GST. Payment is by ${f.cycle === "fortnight" ? "fortnightly" : "weekly"} direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged.`,
+  ...eziFees(f.casual),
+];
 
 const appText = (f, appName, appFee) => f.cycle === "fortnight"
   ? `This agreement includes ${appName} at ${appFee} (GST incl.), charged in addition to your session rate. App access is charged per week, so each fortnightly debit includes two weeks of it ($44).`
@@ -232,9 +248,7 @@ for (const f of FORMATS) {
     }
 
     kids.push(h("FEES"));
-    kids.push(p(f.casual
-      ? "All prices include GST. Casual sessions are paid as booked. Direct deposit or direct debit can be arranged. Card payments carry no surcharge. If you pay by bank account direct debit, Ezidebit charges a transaction fee of $0.99 per debit. It is added to the amounts agreed below and appears on the debit. That fee is set by Ezidebit rather than by Kinetic Hustl and can change."
-      : `All prices include GST. Payment is by ${f.cycle === "fortnight" ? "fortnightly" : "weekly"} direct debit through Ezidebit unless otherwise agreed. Direct deposit can be arranged. Card payments are debited at the agreed amount, with no surcharge. If you pay by bank account direct debit, Ezidebit charges a transaction fee of $0.99 per debit. It is added to the amounts agreed below and appears on the debit. That fee is set by Ezidebit rather than by Kinetic Hustl and can change.`));
+    feesText(f).forEach((t) => kids.push(p(t)));
     if (app) {
       kids.push(p(f.appOverride || appText(f, appName, appFee)));
     } else {
@@ -681,7 +695,7 @@ const PARTICIPATION = [
       L.push(app ? (f.appOverride || appText(f, appName, appFee)) : APP_EXCLUDED);
       L.push("");
       if (f.tierNote) { L.push(f.tierNote); L.push(""); }
-      L.push(feesText(f));
+      L.push(feesText(f).join("\n\n"));
       L.push("");
       if (f.extrasHead) {
         L.push("Optional extras, charged as taken:");
