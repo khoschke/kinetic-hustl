@@ -87,11 +87,11 @@ project quietly reasoning from a stale copy.
 
 | File | Projects holding it | Last uploaded |
 | --- | --- | --- |
-| `pricing-rates-and-terms.md` | Kinetic Hustl, Kinetic Hustl: Clients | 25 Sep 2026 |
-| `pricing-strategy-internal.md` | Kinetic Hustl | 25 Sep 2026 |
-| `terms/client-agreements-complete.md` | Kinetic Hustl, Kinetic Hustl: Clients | 25 Sep 2026 |
-| `Kinetic-Hustl-Pricing.pdf` | Kinetic Hustl, Kinetic Hustl: Clients | 25 Sep 2026 |
-| `terms/KH-Junior-Participation-Agreement.docx` | Kinetic Hustl, Kinetic Hustl: Clients | 25 Sep 2026 |
+| `pricing-rates-and-terms.md` | Kinetic Hustl, Kinetic Hustl: Clients | 11 Oct 2026 |
+| `pricing-strategy-internal.md` | Kinetic Hustl | 11 Oct 2026 |
+| `terms/client-agreements-complete.md` | Kinetic Hustl, Kinetic Hustl: Clients | 11 Oct 2026 |
+| `Kinetic-Hustl-Pricing.pdf` | Kinetic Hustl, Kinetic Hustl: Clients | 11 Oct 2026 |
+| `terms/KH-Junior-Participation-Agreement.docx` | Kinetic Hustl, Kinetic Hustl: Clients | 11 Oct 2026 |
 
 **How to use it.** After re-uploading a file, put today's date in its row. If the repo has a newer commit
 touching that file than the date in the row, at least one project is stale.
