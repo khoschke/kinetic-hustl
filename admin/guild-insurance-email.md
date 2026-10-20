@@ -92,7 +92,17 @@ Policy P00329386 · Client A3938736
 
 ## When the reply comes back
 
-- **Answer 3 is the one to act on first.** It decides clause 8 of the junior section in the T&C form.
+- **Answered 15 October 2026** by June Rivera, Admin Officer. Q2: the exclusion will not apply as long
+  as a current working with children certificate is held. Q3: the adult in condition vi "can be you as
+  the practitioner", which releases the guardian-presence requirement now at clause 9 of the junior
+  section. Q5: cover applies while working within scope of practice. Q4 was not answered: Guild
+  declined to say what satisfies the asthma condition and suggested independent advice.
+- **Q1 was not answered either, and reading the PDS suggests the concern was right.** The Child
+  Participation benefit is an additional benefit of Section - Professional Indemnity (p14). The
+  Working with Children exclusion sits in the policy-wide Exclusions list (p24) with no proviso and no
+  section qualifier, and Public and Products Liability has no equivalent carve-back. A bodily injury
+  claim by an under-16 may therefore not respond. Put back to Guild 20 October 2026, with the asthma
+  question. **Do not relax the supervision clause until that is answered.**
 - File the reply with the policy documents. It is the evidence that the six conditions were checked
   rather than assumed.
 - If they name a children's trainer qualification you do not hold, that becomes a blocker for under-16

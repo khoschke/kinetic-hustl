@@ -123,6 +123,8 @@ internal reasoning document and that project is for client work.
 - An annual re-screen was considered and **parked**. Not a requirement: the policy asks for screening before participation, not annually, and the T&Cs oblige clients to report changes. Reasoning kept at the end of `intake/health-screening-form.md` in case it comes up again
 - APSS Stage 1 wording must be copied verbatim from the current ESSA/Fitness Australia PDF
 - Flare-related cancellations are handled at Karl's discretion and are deliberately not written into any document
-- The under-16 supervision clause assumes a responsible adult **other than Karl**. If Guild confirms Karl's own supervision satisfies the condition, clause 8 of the addendum can be relaxed
+- **Guild has not confirmed that Public and Products Liability responds to an under-16 bodily injury claim.** The Child Participation carve-back is an additional benefit of the Professional Indemnity section (PDS p14); the Working with Children exclusion is policy-wide (p24) with no equivalent carve-back under Public and Products Liability. Asked again on 20 October 2026. This governs whether under-16s can be trained at all, so it outranks the supervision question below
+- Guild confirmed on 15 October 2026 that Karl's own supervision satisfies condition vi, so the guardian-presence requirement (clause 9 of the junior section, clause 8 of the addendum) **can** be relaxed. Held pending the answer above, because guardian presence is also a risk control and it matters more while cover is uncertain
+- Guild declined to say what satisfies the asthma management plan condition. The junior terms now require a doctor-completed Asthma Action Plan; Guild has been asked to confirm that meets condition v
 - The 12-week minimum term, and whether the Privacy Act applies, are both worth one legal review
 - Existing clients have not been mapped against the new structure

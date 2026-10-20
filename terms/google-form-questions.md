@@ -182,21 +182,31 @@ break branch targets, so re-test after any structural edit.
 
 7. **Where the client has a surgical history, a diagnosed condition, or an ongoing treating practitioner, I understand written clearance from that practitioner must be provided before their first loaded training session. An introductory meeting or movement screen may take place before clearance. Loaded training may not.** *(Checkbox · Required ·* "I understand"*)*
 
+8. **Where the client is under 16 and has asthma, I understand a current Asthma Action Plan completed by their doctor must be provided before their first session, and that I will be asked for an updated one each year.** *(Checkbox · Required ·* "I understand"*)*
+
+   > **Why this is here.** Condition v of the Child Participation benefit in the Guild PDS (p14) requires
+   > that "an asthma management plan including an emergency response plan is in place". Asked what
+   > satisfies it, Guild declined to specify and suggested independent advice. The Asthma Australia
+   > action plan, completed by the treating GP, is the recognised Australian instrument and is what
+   > schools require, so it is what this clause asks for. Guild has been asked to confirm it in writing.
+   > The health screening form already collects asthma history, triggers and reliever medication, but a
+   > history is not a plan.
+
 **Supervision**
 
-8. **Where the client is under 16, a parent, guardian or other responsible adult must be present for the whole session. This is a condition of the Trainer's insurance and cannot be waived by agreement.** *(Checkbox · Required ·* "I understand"*)*
+9. **Where the client is under 16, a parent, guardian or other responsible adult must be present for the whole session. This is a condition of the Trainer's insurance and cannot be waived by agreement.** *(Checkbox · Required ·* "I understand"*)*
 
-9. **If no responsible adult is present at the start of a session for a client under 16, the session cannot go ahead and is treated under the cancellation policy. Karl will use discretion where the circumstances warrant it.** *(Checkbox · Required ·* "I understand"*)*
+10. **If no responsible adult is present at the start of a session for a client under 16, the session cannot go ahead and is treated under the cancellation policy. Karl will use discretion where the circumstances warrant it.** *(Checkbox · Required ·* "I understand"*)*
 
 **Money**
 
-10. **I am the responsible party for everything this agreement requires of the client: the fees, the payment arrangement, the notice periods and the cancellation policies. The direct debit authority is signed by me as the account holder.** *(Checkbox · Required ·* "I agree"*)*
+11. **I am the responsible party for everything this agreement requires of the client: the fees, the payment arrangement, the notice periods and the cancellation policies. The direct debit authority is signed by me as the account holder.** *(Checkbox · Required ·* "I agree"*)*
 
 **Communication**
 
-11. **Kinetic Hustl does not operate a private messaging channel between a trainer and a client under 18. Where the client is old enough to follow a program independently they may hold their own app account with one-way messaging, so Karl can send programming and the client cannot message him privately. Between sessions, anything the client needs to raise comes through me or is raised in person at the gym.** *(Checkbox · Required ·* "I have read and understood"*)*
+12. **Kinetic Hustl does not operate a private messaging channel between a trainer and a client under 18. Where the client is old enough to follow a program independently they may hold their own app account with one-way messaging, so Karl can send programming and the client cannot message him privately. Between sessions, anything the client needs to raise comes through me or is raised in person at the gym.** *(Checkbox · Required ·* "I have read and understood"*)*
 
-12. **How will the client access their program?** *(Multiple choice · Required)*
+13. **How will the client access their program?** *(Multiple choice · Required)*
     - Their own app account, with one-way messaging
     - On my account, not theirs
     - No app access
@@ -206,9 +216,9 @@ break branch targets, so re-test after any structural edit.
 
 **Photos and video**
 
-13. **Progress photos are not taken of clients under 18. This applies regardless of their goals, including where body composition is one of them. Progress is tracked using measurements, performance markers, and video of movement where it serves the coaching.** *(Checkbox · Required ·* "I have read and understood"*)*
+14. **Progress photos are not taken of clients under 18. This applies regardless of their goals, including where body composition is one of them. Progress is tracked using measurements, performance markers, and video of movement where it serves the coaching.** *(Checkbox · Required ·* "I have read and understood"*)*
 
-14. **Photos and video for marketing or social media** *(Multiple choice · Required)*
+15. **Photos and video for marketing or social media** *(Multiple choice · Required)*
     - I consent, and I have asked the client, who also consents
     - I do not consent
     - The client does not consent
@@ -221,7 +231,7 @@ break branch targets, so re-test after any structural edit.
 
 **When the client turns 18**
 
-15. **When the client turns 18, the junior terms in this section stop applying to them. Everything else in this agreement continues as it is, and I remain the responsible party for the fees, until the client signs a new agreement in their own name and sets up their own direct debit. Nothing changes automatically on their birthday.** *(Checkbox · Required ·* "I understand"*)*
+16. **When the client turns 18, the junior terms in this section stop applying to them. Everything else in this agreement continues as it is, and I remain the responsible party for the fees, until the client signs a new agreement in their own name and sets up their own direct debit. Nothing changes automatically on their birthday.** *(Checkbox · Required ·* "I understand"*)*
 
     > **The old wording contradicted itself.** It said the section "ends on the eighteenth birthday" and
     > then that the agreement "continues unchanged", which cannot both be true. What ends is the junior
@@ -229,11 +239,11 @@ break branch targets, so re-test after any structural edit.
 
 **Shared sessions**
 
-16. **Where the client trains 2-on-1 or 3-on-1 alongside participants outside our household, I agree to the specific participants in writing before the first shared session. Where the client is under 16, the supervision requirement applies to shared sessions too.** *(Checkbox · Required ·* "I agree"*)*
+17. **Where the client trains 2-on-1 or 3-on-1 alongside participants outside our household, I agree to the specific participants in writing before the first shared session. Where the client is under 16, the supervision requirement applies to shared sessions too.** *(Checkbox · Required ·* "I agree"*)*
 
 **Raising a concern**
 
-17. **The client is encouraged to raise anything with Karl during a session. Nothing the client tells Karl about their training is kept secret from me. If Karl becomes concerned about the client's safety or welfare he will raise it with me, and where he reasonably believes the client is at risk of harm he may contact the appropriate authorities without seeking my agreement first.** *(Checkbox · Required ·* "I have read and understood"*)*
+18. **The client is encouraged to raise anything with Karl during a session. Nothing the client tells Karl about their training is kept secret from me. If Karl becomes concerned about the client's safety or welfare he will raise it with me, and where he reasonably believes the client is at risk of harm he may contact the appropriate authorities without seeking my agreement first.** *(Checkbox · Required ·* "I have read and understood"*)*
 
 > **The Junior Participation Agreement is separate and stays on paper.** The client signs it, Karl
 > counter-signs it, the guardian receives a copy and does not sign. It carries no legal weight, and
