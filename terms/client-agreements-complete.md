@@ -426,6 +426,12 @@ The Junior's health information is collected in the Kinetic Hustl health screeni
 
 Where the Junior has a surgical history, a diagnosed condition, or an ongoing treating practitioner, written clearance from that practitioner must be provided to the Trainer before the Junior's first loaded training session. An introductory meeting or movement screen may take place before clearance is provided. Loaded training may not.
 
+Where the Junior has asthma, a current Asthma Australia Action Plan signed by their doctor is provided before the first session. No session goes ahead without it.
+
+The Junior brings their reliever, and their spacer and adrenaline autoinjector if prescribed, to every session.
+
+I consent to the Trainer giving asthma first aid, including reliever medication and adrenaline, and calling 000, in line with the Junior's Action Plan or Asthma Australia first aid.
+
 I acknowledge the recommendation that I obtain a medical practitioner's written approval before the Junior participates.
 
 ### 5. Contact with treating practitioners

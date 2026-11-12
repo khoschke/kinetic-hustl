@@ -13,6 +13,7 @@ Karl Hoschke, operating from Fitaz Gym, Kangaroo Point QLD.
 | File | What it is | Who it is for |
 | --- | --- | --- |
 | `pricing-rates-and-terms.md` | **The price list.** Rates of record and client-facing terms | Any project or person that communicates pricing |
+| `junior-onboarding.md` | The junior flow end to end: booking, the pre-first-session gates, first session, every session, ongoing | Karl's reference |
 | `junior-messaging-policy.md` | Two-way messaging for under-18s: the rule, the guardrail, where it is captured | Karl's reference; the client-facing wording lives in the T&C form and the Participation Agreement |
 | `pricing-strategy-internal.md` | The reasoning behind the prices — the four rules, revenue maths, positioning | **Internal only.** Never send to a client |
 | `Kinetic-Hustl-Pricing.pdf` | One-page client price sheet | Attach to an email |
@@ -79,6 +80,30 @@ A hand edit to any generated file is lost on the next run.
 
 The price sheet works the same way: `pricesheet.html` is the source, and the PDF is produced by
 printing it to A4 from a browser.
+
+## Policies held outside the repo
+
+Two asthma documents live in Google Drive rather than here, because Drive holds the masters and
+copying them in would create a second version to forget about.
+
+| Document | Link | Who sees it |
+| --- | --- | --- |
+| **Junior Asthma Emergency Procedure** | [Drive](https://docs.google.com/document/d/1eg6UUZSWvMROiByQg7IO1teQgtT7Hsx774G3HQkoWXA/edit) | **Internal only.** Karl. Never linked in anything a client sees |
+| **Asthma Safety for Junior Clients** (parent guide) | [Drive](https://docs.google.com/document/d/1or0bHqMoGeP1pQFsOqFkm00kpVdCrIdpE5S4pjkB4_M/view) | Client-facing. Shared by link, readable by anyone with it |
+
+The parent guide is the client-facing version of the master. Both are based on Asthma Australia's
+2026 Blue Reliever asthma first aid chart (v13), are reviewed each year at insurance renewal, and
+are **updated together**. Changing one without the other is how they drift apart.
+
+The master is the written asthma emergency response procedure required by condition v of the Child
+Participation benefit in Guild policy P00329386. It applies to every client under 16, whether they
+have asthma or not.
+
+**Only the parent guide link goes in client-facing material.** It is the link in section 4 of the
+health screening form. Permissions checked 12 November 2026: the guide is reader-for-anyone-with-link,
+the master is owner-only.
+
+---
 
 ## Which projects hold which file
 

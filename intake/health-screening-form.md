@@ -42,7 +42,7 @@ optional, it is just placed where the wrong people cannot reach it.
 question, not the date of birth field.
 
 **Google Forms cannot branch on "did you answer yes to any of these seven".** Branching reads one
-question. That is why section 6 exists: a single summary question the respondent answers themselves,
+question. That is why section 7 exists: a single summary question the respondent answers themselves,
 which drives the clearance branch. It is a prompt rather than a hard lock. The real control is you
 reading the response before you book them in.
 
@@ -70,8 +70,8 @@ could affect, three questions after naming the physiotherapist.
 Neither answer was careless. Both questions asked her to **assess a risk** rather than **report a fact**,
 and on that reading No was defensible each time.
 
-Section 8 captured the conditions and section 9 routed her into the flare questions, so the information
-was not absent. **It simply never escalated**: a No on the APSS gate skips the whole of section 7, and the
+Section 9 captured the conditions and section 10 routed her into the flare questions, so the information
+was not absent. **It simply never escalated**: a No on the APSS gate skips the whole of section 8, and the
 fields that would have caught her — GP, ambulance consent — sat behind an under-16 branch that a
 16-year-old does not enter.
 
@@ -89,6 +89,11 @@ worked asks for an artefact or an event. Convert judgements into one or the othe
 **No section is added, removed or renumbered, and no branch target changes.** Sixteen sections before and
 after. Every edit is inside an existing section.
 
+> **The section numbers in the table above are the October 2026 numbering and have not been updated.**
+> The November asthma pass inserted a new section 5, so everything from the old section 5 onwards
+> shifted up by one. Read the table as a record of what changed in October, not as a map of the form
+> as it stands. The current map is below.
+
 ---
 
 ## Section map
@@ -97,24 +102,29 @@ after. Every edit is inside an existing section.
  1  About you                      → continue
  2  Who is training                BRANCH on age
  3  Parent or guardian             BRANCH on under 16      (under 18 only)
- 4  Under 16: safety requirements  → section 5             (under 16 only)
- 5  Pre-exercise screening
- 6  Screening summary              BRANCH on yes / no
- 7  Before your first session      → section 8             (any yes only)
- 8  Your health
- 9  Ongoing conditions             BRANCH on yes / no
-10  When symptoms flare            → section 11            (fluctuating only)
-11  Anyone else involved           BRANCH on yes / no
-12  Your health team               → continue              (yes only)
-13  Where you are now
-14  What you want
-15  Getting you booked in
-16  Privacy and declaration        → submit
+ 4  Under 16: safety requirements  BRANCH on asthma        (under 16 only)
+ 5  Asthma: plan and medication    → section 6            (asthma yes / not sure)
+ 6  Pre-exercise screening
+ 7  Screening summary              BRANCH on yes / no
+ 8  Before your first session      → section 9            (any yes only)
+ 9  Your health
+10  Ongoing conditions             BRANCH on yes / no
+11  When symptoms flare            → section 12           (fluctuating only)
+12  Anyone else involved           BRANCH on yes / no
+13  Your health team               → continue             (yes only)
+14  Where you are now
+15  What you want
+16  Getting you booked in
+17  Privacy and declaration        → submit
 ```
 
-Google Forms numbers sections sequentially. Sections 4, 7 and 10 each need their **After section**
-dropdown set explicitly to 5, 8 and 11. Section 12 is the one branch target that carries straight on to
+Google Forms numbers sections sequentially. Sections 5, 8 and 11 each need their **After section**
+dropdown set explicitly to 6, 9 and 12. Section 13 is the one branch target that carries straight on to
 the next section, so it keeps the default.
+
+**Section 4 became a branch when the asthma block was added.** It used to run straight on to the
+pre-exercise screening. It now branches on question 4.3: asthma yes or not sure goes to section 5,
+no goes to section 6.
 
 **Identity comes before the branching.** Everyone answers section 1, so a primary emergency contact is
 always on file before the under-16 questions ask for a second one.
@@ -167,7 +177,7 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
    > child doing it.
 
 2. **How old is the person who will be training?** *(Multiple choice · Required · **Go to section based on answer**)*
-   - 18 or older → *Go to section 5*
+   - 18 or older → *Go to section 6*
    - Under 18 → *Go to section 3*
 
    > **Two options, not three.** An earlier draft split this into 18+, 16-17 and under 16, but 16-17 and
@@ -193,7 +203,7 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 5. **Is the person training under 16?** *(Multiple choice · Required · **Go to section based on answer**)*
 
    - Yes → *Go to section 4*
-   - No → *Go to section 5*
+   - No → *Go to section 6*
 
    > A 16 or 17 year old must not fall through into section 3. Without this branch they are asked the
    > under-16 safety questions, which do not apply to them.
@@ -205,7 +215,7 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 
 # 4 — Under 16: safety requirements
 
-*Reached only where the answer to 3.5 is Yes. After this section → **Go to section 5**.*
+*Reached only where the answer to 3.5 is Yes. This section **branches** on question 3.*
 
 > *Section description:*
 >
@@ -220,21 +230,108 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 
 2. **I understand that Karl supervises clients under 16 for the whole session, and that I am welcome to stay and watch.** *(Checkbox · Required ·* "I understand"*)*
 
+> **Asthma.** Kinetic Hustl follows a written asthma emergency procedure for every client under 16,
+> whether they have asthma or not. You can read it here:
+> https://docs.google.com/document/d/1or0bHqMoGeP1pQFsOqFkm00kpVdCrIdpE5S4pjkB4_M/view
+
+3. **Has the person training ever been diagnosed with asthma, or used a reliever puffer?** *(Multiple choice · Required · **Go to section based on answer**)*
+
+   - Yes → *Go to section 5*
+   - No → *Go to section 6*
+   - Not sure → *Go to section 5*
+
+   *Helper text:* Including as a younger child, even if they have grown out of it.
+
+   > **"Not sure" goes to the detail section, not past it.** A parent who is unsure is more useful to me
+   > answering the next few questions than skipping them.
+
 > **This section used to hold five more questions.** Asthma detail, GP name and practice, and ambulance
-> consent now sit in section 8 and are asked of everyone. They were only here because the insurance
+> consent now sit in section 9 and are asked of everyone. They were only here because the insurance
 > conditions for under-16s named them, which was the wrong axis to organise by: an adult needs a GP on file
 > and an ambulance consent just as much as a 12-year-old does. The cost of getting that wrong was real —
 > the most medically complex client on the books, aged 16, has neither recorded.
 >
 > Condition v still requires "an asthma management plan including an emergency response plan", and
-> questions 9 to 11 in section 8 are what satisfy it. Being asked of everyone does not stop them counting.
+> questions 9 to 11 in section 9 are what satisfy it. Being asked of everyone does not stop them counting.
 >
-> **Question 2 is the supervision condition**, subject to the written answer from Guild on whether Karl
-> himself satisfies it. Do not soften this wording until that answer is in.
+> **Question 2 was softened on 12 November 2026.** It previously required a parent, guardian or other
+> responsible adult to be present for the whole session. Guild confirmed on 15 October 2026 that Karl
+> himself satisfies PDS condition vi, so the requirement was dropped.
 
 ---
 
-# 5 — Pre-exercise screening
+# 5 — Asthma: plan and medication
+
+*Reached only where the answer to 4.3 is Yes. After this section → **Go to section 6**.*
+
+> *Section description:*
+>
+> A few questions about their asthma, so I know what to do on the day and what to have on hand.
+
+1. **What reliever do they use?** *(Short answer · Required)*
+
+   *Helper text:* The blue or grey puffer, for example Ventolin, Asmol, Airomir or Bricanyl. Include the device if you know it.
+
+2. **Do they use a spacer?** *(Multiple choice · Required ·* Yes / No / Not sure*)*
+
+3. **Any preventer or other asthma medication?** *(Short answer · Not required)*
+
+   *Helper text:* For example Flixotide, Seretide, Symbicort. Leave blank if none.
+
+4. **Does their Action Plan say to take their reliever before exercise?** *(Multiple choice · Required ·* Yes / No / Not sure*)*
+
+5. **What sets their asthma off?** *(Checkboxes · Required · tick all that apply)*
+
+   - Exercise
+   - Cold or dry air
+   - Pollen or hay fever
+   - Smoke or haze
+   - Thunderstorms
+   - Colds and viruses
+   - Something else
+   - Not sure
+
+6. **Anything else about their triggers I should know?** *(Paragraph · Not required)*
+
+7. **When was their last flare-up?** *(Multiple choice · Required ·* In the last month / 1 to 6 months ago / 6 to 12 months ago / More than 12 months ago / Not sure*)*
+
+8. **Have they ever been to an emergency department or stayed in hospital for asthma?** *(Multiple choice · Required ·* No / Yes, more than 12 months ago / Yes, in the last 12 months / Not sure*)*
+
+9. **Do they have any allergies?** *(Paragraph · Not required)*
+
+   *Helper text:* Food, insects, medication. Leave blank if none.
+
+10. **Have they ever had anaphylaxis?** *(Multiple choice · Required ·* No / Yes / Not sure*)*
+
+11. **Have they been prescribed an adrenaline autoinjector (EpiPen or Anapen)?** *(Multiple choice · Required ·* No / Yes*)*
+
+12. **Name and clinic of the doctor who manages their asthma** *(Short answer · Required)*
+
+13. **Upload their signed Asthma Australia Action Plan** *(File upload · Not required · PDF or image)*
+
+    *Helper text:* If it is easier, email it to khoschke@gmail.com instead. Uploading here needs a Google account, so do not worry if it will not let you.
+
+14. **Date the plan was signed** *(Date · Not required)*
+
+15. **Next review date on the plan** *(Date · Not required)*
+
+> **The upload is not the gate, and must not be made Required.** Google Forms file upload only works for
+> respondents signed into a Google account, so making it required would lock out any parent without one.
+> The real gate is clause 4 of the Guardian Addendum and Karl's own check before the first session: no
+> current signed plan on file, no session. The form collects it where it can and names an email fallback.
+
+> **Why this block is age-gated when the October pass removed age-gating.** Questions 9 to 11 of section 9
+> ask every client about asthma, and that stays. This block is the extra detail Guild's condition v
+> requires for under-16s specifically: the Action Plan, the device, the triggers, the autoinjector. The
+> October mistake was gating *universal* clinical questions behind age. This is genuinely under-16 only,
+> and it sits on top of the universal ones rather than replacing them.
+
+> **A junior with asthma answers a similar gate twice**, once at 4.3 and once at 9.9. Forms branching
+> reads one question at a time and cannot remember an earlier answer, so there is no way to skip the
+> second. Left as is deliberately: the duplication is mild and the alternative is losing one of them.
+
+---
+# 6 — Pre-exercise screening
 
 > *Section description:*
 >
@@ -271,7 +368,7 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 > "you have been told could be made worse" by exercise. That offers two states, dangerous or fine, and has
 > no slot for the state most musculoskeletal clients are actually in: **exercise is prescribed, with
 > restrictions.** A client whose surgeon told her to train within limits answers No, honestly, and the whole
-> of section 7 is skipped behind her. Question 8 is that missing middle. Question 9 asks for the document,
+> of section 8 is skipped behind her. Question 8 is that missing middle. Question 9 asks for the document,
 > which is the most useful thing a client can hand over and which nothing else in the form requests.
 >
 > **Do not fix this by editing the APSS wording.** Its value is being the recognised standard, which is what
@@ -298,16 +395,16 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 
 ---
 
-# 6 — Screening summary
+# 7 — Screening summary
 
 *One question only. This is the branch point.*
 
 **Did you answer yes to any of the questions above?** *(Multiple choice · Required · **Go to section based on answer**)*
 
-- No → *Go to section 8*
-- Yes → *Go to section 7*
+- No → *Go to section 9*
+- Yes → *Go to section 8*
 
-> **"Seven" was removed from this question.** Section 5 now holds nine, and a yes to either of the two new
+> **"Seven" was removed from this question.** Section 6 now holds nine, and a yes to either of the two new
 > ones has to route here as well. Leaving the number in would have told clients to ignore exactly the
 > questions added to catch what APSS misses.
 >
@@ -316,9 +413,9 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 
 ---
 
-# 7 — Before your first session
+# 8 — Before your first session
 
-*Reached only by a yes. After this section → **Go to section 8**.*
+*Reached only by a yes. After this section → **Go to section 9**.*
 
 > *Section description:*
 >
@@ -346,7 +443,7 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 
 ---
 
-# 8 — Your health
+# 9 — Your health
 
 *All Paragraph and Required unless stated. Every "list" question takes* "Type None if there are none."
 
@@ -393,7 +490,7 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 
 ---
 
-# 9 — Ongoing conditions
+# 10 — Ongoing conditions
 
 *One question only. This is the branch point.*
 
@@ -404,14 +501,14 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 
 *Help text: For example asthma, migraine, endometriosis, arthritis, IBS, chronic fatigue, back pain, anxiety, an autoimmune condition, or a long-term injury that flares up.*
 
-- Yes → *Go to section 10*
-- No → *Go to section 11*
+- Yes → *Go to section 11*
+- No → *Go to section 12*
 
 ---
 
-# 10 — When symptoms flare
+# 11 — When symptoms flare
 
-*Reached only by a yes. After this section → **Go to section 11**.*
+*Reached only by a yes. After this section → **Go to section 12**.*
 
 > *Section description:*
 >
@@ -445,7 +542,7 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 
 > **This section profiles what matters for training, not everything the client has.** An earlier draft
 > ended it with "any other conditions I should know about?", which duplicated the diagnosis list in
-> section 8. Section 8 captures *what* they have. This section captures *how it behaves*.
+> section 9. Section 9 captures *what* they have. This section captures *how it behaves*.
 >
 > Nothing here should reference "the end" of this section, and nothing should ask for a second list of
 > conditions. Both have been tried and both were removed.
@@ -458,7 +555,7 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 
 ---
 
-# 11 — Anyone else involved
+# 12 — Anyone else involved
 
 *One question only. This is the branch point.*
 
@@ -471,8 +568,8 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 
 *Help text:* For example a GP you see regularly, a physio treating something, a dietitian, or a psychologist.
 
-- Yes → *Go to section 12*
-- No → *Go to section 13*
+- Yes → *Go to section 13*
+- No → *Go to section 14*
 
 > **Why this gate exists.** The old single section opened with "if someone else is already looking after
 > part of this", which assumed there was something wrong with the client and left a fit, healthy person
@@ -481,7 +578,7 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 
 ---
 
-# 12 — Your health team
+# 13 — Your health team
 
 *Reached only by a yes. After this section → **Continue to next section**.*
 
@@ -500,7 +597,7 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
    - Psychologist or counsellor
    - Remedial massage therapist
 
-   > *"Nobody at the moment"* is gone. The gate in section 11 already caught those people, and leaving it
+   > *"Nobody at the moment"* is gone. The gate in section 12 already caught those people, and leaving it
    > here would let someone tick it alongside a physio.
 
 2. **For each person you ticked, give me their name, their discipline, and whether they are actively managing something or you just see them occasionally.** *(Paragraph · Required)*
@@ -529,7 +626,7 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 
 ---
 
-# 13 — Where you are now
+# 14 — Where you are now
 
 > *Section description:* No right answers here. This is the bit that tells me how to pitch the
 > starting point.
@@ -559,7 +656,7 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 
 5. **How are you sleeping at the moment?** *(Multiple choice · Required ·* Well most nights / Mixed / Poorly most nights / It varies a lot*)*
 
-> **Questions 3 and 4, with the confidence question now in section 14, replace *"How important is it for you to achieve your goals?"***, which
+> **Questions 3 and 4, with the confidence question now in section 16, replace *"How important is it for you to achieve your goals?"***, which
 > scored 4 to 10 across 25 responses and mostly 8 to 10. Nobody rates their own goals a 2, so the
 > question separates nobody.
 >
@@ -569,7 +666,7 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 
 ---
 
-# 14 — What you want
+# 15 — What you want
 
 1. **What are you hoping to get out of training?** *(Checkboxes · Required · include Other)*
    - Reduce body fat
@@ -604,7 +701,7 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 
 ---
 
-# 15 — Getting you booked in
+# 16 — Getting you booked in
 
 1. **How many days a week do you want to train in total?** *(Multiple choice · Required ·* 1 to 7*)*
 2. **Of those, how many would be with me?** *(Multiple choice · Required ·* 1 / 2 / 3 / 4 / Not sure yet*)*
@@ -634,7 +731,7 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 
 ---
 
-# 16 — Privacy and declaration
+# 17 — Privacy and declaration
 
 > *Section description — this is your collection notice. Adjust the email address.*
 >
