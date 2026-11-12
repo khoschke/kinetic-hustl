@@ -218,7 +218,7 @@ only apply to some clients. A fit 30-year-old with nothing going on answers the 
 
    *Helper text:* **Someone else we could reach if the first two numbers do not answer.**
 
-2. **I understand that a parent, guardian or other responsible adult must be present for sessions with a client under 16.** *(Checkbox · Required ·* "I understand"*)*
+2. **I understand that Karl supervises clients under 16 for the whole session, and that I am welcome to stay and watch.** *(Checkbox · Required ·* "I understand"*)*
 
 > **This section used to hold five more questions.** Asthma detail, GP name and practice, and ambulance
 > consent now sit in section 8 and are asked of everyone. They were only here because the insurance

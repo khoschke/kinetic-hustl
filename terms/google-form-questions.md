@@ -182,21 +182,33 @@ break branch targets, so re-test after any structural edit.
 
 7. **Where the client has a surgical history, a diagnosed condition, or an ongoing treating practitioner, I understand written clearance from that practitioner must be provided before their first loaded training session. An introductory meeting or movement screen may take place before clearance. Loaded training may not.** *(Checkbox · Required ·* "I understand"*)*
 
-8. **Where the client is under 16 and has asthma, I understand a current Asthma Action Plan completed by their doctor must be provided before their first session, and that I will be asked for an updated one each year.** *(Checkbox · Required ·* "I understand"*)*
+8. **Where the client is under 16 and has asthma, I understand a current Asthma Action Plan on the Asthma Australia template, completed and signed by their doctor, must be provided before their first session. It needs to name their triggers, and it must be updated whenever their symptoms or medication change and reviewed as often as their doctor recommends.** *(Checkbox · Required ·* "I understand"*)*
 
-   > **Why this is here.** Condition v of the Child Participation benefit in the Guild PDS (p14) requires
-   > that "an asthma management plan including an emergency response plan is in place". Asked what
-   > satisfies it, Guild declined to specify and suggested independent advice. The Asthma Australia
-   > action plan, completed by the treating GP, is the recognised Australian instrument and is what
-   > schools require, so it is what this clause asks for. Guild has been asked to confirm it in writing.
-   > The health screening form already collects asthma history, triggers and reliever medication, but a
-   > history is not a plan.
+   > **Confirmed in writing by Guild, 29 October and 10 November 2026.** Condition v of the Child
+   > Participation benefit (PDS p14) requires "an asthma management plan including an emergency response
+   > plan". Guild's senior underwriter confirmed an Asthma Australia Action Plan signed by the treating
+   > doctor is appropriate, "provided it identifies relevant triggers, is accessible during each session
+   > and is supported by an emergency response procedure understood by the trainer", updated on any change
+   > of symptoms or medication and reviewed at GP-recommended intervals. The earlier "reviewed annually"
+   > wording was mine, not theirs, and has been replaced.
+   >
+   > **Separately, and not a client-facing term:** Guild requires an asthma emergency response procedure
+   > for **every** under-16, not only those with a known history, so that Karl knows what to do if any
+   > child has an attack. That is a document Karl must hold, not something a guardian ticks. Tracked in
+   > the README.
 
 **Supervision**
 
-9. **Where the client is under 16, a parent, guardian or other responsible adult must be present for the whole session. This is a condition of the Trainer's insurance and cannot be waived by agreement.** *(Checkbox · Required ·* "I understand"*)*
+9. **Where the client is under 16, Karl supervises them for the whole session and they are never left unsupervised. You are welcome to stay and watch any session, and for a first session I recommend it.** *(Checkbox · Required ·* "I understand"*)*
 
-10. **If no responsible adult is present at the start of a session for a client under 16, the session cannot go ahead and is treated under the cancellation policy. Karl will use discretion where the circumstances warrant it.** *(Checkbox · Required ·* "I understand"*)*
+   > **Changed 12 November 2026.** This clause previously required a parent, guardian or other
+   > responsible adult to be present for the whole session, on the basis that PDS condition vi
+   > ("all children are under adult supervision at all times") meant an adult other than Karl.
+   > Guild confirmed on 15 October 2026 that "the adult indicated in condition six (vi) can be you
+   > as the practitioner". The requirement was holding up families who could not stay, for a
+   > reason that turned out not to exist.
+
+10. **I will let Karl know who is dropping off and collecting the client, and I understand the client waits inside the gym rather than outside if I am running late.** *(Checkbox · Required ·* "I understand"*)*
 
 **Money**
 
@@ -204,9 +216,27 @@ break branch targets, so re-test after any structural edit.
 
 **Communication**
 
-12. **Kinetic Hustl does not operate a private messaging channel between a trainer and a client under 18. Where the client is old enough to follow a program independently they may hold their own app account with one-way messaging, so Karl can send programming and the client cannot message him privately. Between sessions, anything the client needs to raise comes through me or is raised in person at the gym.** *(Checkbox · Required ·* "I have read and understood"*)*
+12. **Messaging in the app is off for clients under 18 unless I turn it on. If I turn it on, the client can message Karl about their training and the thread is between the two of them, so I will not see it in the app. I can ask Karl at any time for the record of everything exchanged with the client, without giving a reason, and he will send it to me. I can turn messaging back off at any time by telling him.** *(Checkbox · Required ·* "I have read and understood"*)*
 
-13. **How will the client access their program?** *(Multiple choice · Required)*
+13. **Two-way messaging for this client** *(Multiple choice · Required)*
+
+    - Leave it off. Anything between sessions comes through me.
+    - Turn it on. I consent to the client messaging Karl in the app about their training.
+
+    *Helper text:* It is off unless you choose to turn it on, and you can change your mind at any time. The channel is for training: how a session felt, a question about an exercise, letting Karl know they are running late. Karl does not monitor the app after hours, so anything urgent should come to him from you directly.
+
+    > **Why this is a choice and not a tick-box.** The old clause made one-way messaging a blanket rule
+    > for every junior. A closed channel does not stop a 14-year-old asking a question, it moves the
+    > question to a channel with no record. An opt-in the guardian controls, with a disclosure right
+    > attached, keeps it where it can be seen.
+    >
+    > **The athlete acknowledges this separately**, in the Junior Participation Agreement they sign
+    > themselves with Karl present. It is deliberately not a second tick-box here: a guardian fills this
+    > form in, so a box here would be the guardian attesting on the athlete's behalf, which is exactly
+    > the gap that lets an athlete think the channel is private. The channel is not switched on until
+    > both the choice above and the athlete's acknowledgement exist.
+
+14. **How will the client access their program?** *(Multiple choice · Required)*
     - Their own app account, with one-way messaging
     - On my account, not theirs
     - No app access
@@ -216,9 +246,9 @@ break branch targets, so re-test after any structural edit.
 
 **Photos and video**
 
-14. **Progress photos are not taken of clients under 18. This applies regardless of their goals, including where body composition is one of them. Progress is tracked using measurements, performance markers, and video of movement where it serves the coaching.** *(Checkbox · Required ·* "I have read and understood"*)*
+15. **Progress photos are not taken of clients under 18. This applies regardless of their goals, including where body composition is one of them. Progress is tracked using measurements, performance markers, and video of movement where it serves the coaching.** *(Checkbox · Required ·* "I have read and understood"*)*
 
-15. **Photos and video for marketing or social media** *(Multiple choice · Required)*
+16. **Photos and video for marketing or social media** *(Multiple choice · Required)*
     - I consent, and I have asked the client, who also consents
     - I do not consent
     - The client does not consent
@@ -231,7 +261,7 @@ break branch targets, so re-test after any structural edit.
 
 **When the client turns 18**
 
-16. **When the client turns 18, the junior terms in this section stop applying to them. Everything else in this agreement continues as it is, and I remain the responsible party for the fees, until the client signs a new agreement in their own name and sets up their own direct debit. Nothing changes automatically on their birthday.** *(Checkbox · Required ·* "I understand"*)*
+17. **When the client turns 18, the junior terms in this section stop applying to them. Everything else in this agreement continues as it is, and I remain the responsible party for the fees, until the client signs a new agreement in their own name and sets up their own direct debit. Nothing changes automatically on their birthday.** *(Checkbox · Required ·* "I understand"*)*
 
     > **The old wording contradicted itself.** It said the section "ends on the eighteenth birthday" and
     > then that the agreement "continues unchanged", which cannot both be true. What ends is the junior
@@ -239,11 +269,11 @@ break branch targets, so re-test after any structural edit.
 
 **Shared sessions**
 
-17. **Where the client trains 2-on-1 or 3-on-1 alongside participants outside our household, I agree to the specific participants in writing before the first shared session. Where the client is under 16, the supervision requirement applies to shared sessions too.** *(Checkbox · Required ·* "I agree"*)*
+18. **Where the client trains 2-on-1 or 3-on-1 alongside participants outside our household, I agree to the specific participants in writing before the first shared session. Where the client is under 16, clause 9 applies to shared sessions too.** *(Checkbox · Required ·* "I agree"*)*
 
 **Raising a concern**
 
-18. **The client is encouraged to raise anything with Karl during a session. Nothing the client tells Karl about their training is kept secret from me. If Karl becomes concerned about the client's safety or welfare he will raise it with me, and where he reasonably believes the client is at risk of harm he may contact the appropriate authorities without seeking my agreement first.** *(Checkbox · Required ·* "I have read and understood"*)*
+19. **The client is encouraged to raise anything with Karl during a session. Nothing the client tells Karl about their training is kept secret from me. If Karl becomes concerned about the client's safety or welfare he will raise it with me, and where he reasonably believes the client is at risk of harm he may contact the appropriate authorities without seeking my agreement first.** *(Checkbox · Required ·* "I have read and understood"*)*
 
 > **The Junior Participation Agreement is separate and stays on paper.** The client signs it, Karl
 > counter-signs it, the guardian receives a copy and does not sign. It carries no legal weight, and

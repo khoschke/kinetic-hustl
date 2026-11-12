@@ -13,6 +13,7 @@ Karl Hoschke, operating from Fitaz Gym, Kangaroo Point QLD.
 | File | What it is | Who it is for |
 | --- | --- | --- |
 | `pricing-rates-and-terms.md` | **The price list.** Rates of record and client-facing terms | Any project or person that communicates pricing |
+| `junior-messaging-policy.md` | Two-way messaging for under-18s: the rule, the guardrail, where it is captured | Karl's reference; the client-facing wording lives in the T&C form and the Participation Agreement |
 | `pricing-strategy-internal.md` | The reasoning behind the prices — the four rules, revenue maths, positioning | **Internal only.** Never send to a client |
 | `Kinetic-Hustl-Pricing.pdf` | One-page client price sheet | Attach to an email |
 | `terms/client-agreements-complete.md` | Full text of all ten agreements in one file | Add to a Claude project |
@@ -89,6 +90,7 @@ project quietly reasoning from a stale copy.
 | --- | --- | --- |
 | `pricing-rates-and-terms.md` | Kinetic Hustl, Kinetic Hustl: Clients | 11 Oct 2026 |
 | `pricing-strategy-internal.md` | Kinetic Hustl | 11 Oct 2026 |
+| `junior-messaging-policy.md` | not yet uploaded | - |
 | `terms/client-agreements-complete.md` | Kinetic Hustl, Kinetic Hustl: Clients | 11 Oct 2026 |
 | `Kinetic-Hustl-Pricing.pdf` | Kinetic Hustl, Kinetic Hustl: Clients | 11 Oct 2026 |
 | `terms/KH-Junior-Participation-Agreement.docx` | Kinetic Hustl, Kinetic Hustl: Clients | 11 Oct 2026 |
@@ -123,8 +125,8 @@ internal reasoning document and that project is for client work.
 - An annual re-screen was considered and **parked**. Not a requirement: the policy asks for screening before participation, not annually, and the T&Cs oblige clients to report changes. Reasoning kept at the end of `intake/health-screening-form.md` in case it comes up again
 - APSS Stage 1 wording must be copied verbatim from the current ESSA/Fitness Australia PDF
 - Flare-related cancellations are handled at Karl's discretion and are deliberately not written into any document
-- **Guild has not confirmed that Public and Products Liability responds to an under-16 bodily injury claim.** The Child Participation carve-back is an additional benefit of the Professional Indemnity section (PDS p14); the Working with Children exclusion is policy-wide (p24) with no equivalent carve-back under Public and Products Liability. Asked again on 20 October 2026. This governs whether under-16s can be trained at all, so it outranks the supervision question below
-- Guild confirmed on 15 October 2026 that Karl's own supervision satisfies condition vi, so the guardian-presence requirement (clause 9 of the junior section, clause 8 of the addendum) **can** be relaxed. Held pending the answer above, because guardian presence is also a risk control and it matters more while cover is uncertain
-- Guild declined to say what satisfies the asthma management plan condition. The junior terms now require a doctor-completed Asthma Action Plan; Guild has been asked to confirm that meets condition v
+- **Write the asthma emergency response procedure.** Guild requires one for **every** under-16, not only those with a known history, so that Karl knows what to do if any child has an attack. It is a document Karl holds, not a client-facing term, and it does not exist yet. Condition v is not met until it does
+- **Confirm what Trainerize retains.** The junior messaging guardrail promises a parent the record of what has been exchanged. Confirm how long message history is kept and whether it survives archiving a client. If it is not indefinite, export each junior thread quarterly and on exit
+- **Write the child-safety disclosure procedure.** `junior-messaging-policy.md` carves out disclosures of harm from the ordinary tell-the-guardian rule, because routing one to a guardian who is implicated would be the wrong move. The carve-out is stated; the procedure behind it is not written
 - The 12-week minimum term, and whether the Privacy Act applies, are both worth one legal review
 - Existing clients have not been mapped against the new structure

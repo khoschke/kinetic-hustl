@@ -169,7 +169,8 @@ guardian's name, since the junior has no account. Minimum age 12.
 
 Two things that touch pricing rather than paperwork:
 
-- **Under-16s require a responsible adult present for the whole session.** That is a condition of the
+- **Under-16s are supervised by Karl for the whole session; a guardian may stay but is not required.** Guild confirmed on 15 October 2026 that Karl himself satisfies PDS condition vi, so the earlier reading below is superseded.
+- ~~**Under-16s require a responsible adult present for the whole session.** That is a condition of the
   liability policy, not a preference. It constrains which slots can be sold to that group — a 6am
   session a parent cannot attend is not a session that can be booked, whatever the client wants.
 - **Written practitioner clearance is required before loaded training** where there is a surgical

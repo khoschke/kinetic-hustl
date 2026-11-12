@@ -358,8 +358,8 @@ const JUNIOR = {
   ],
   supervision: [
     "Sessions are conducted on the open gym floor during staffed hours, and never in a closed or unsupervised room.",
-    "Where the Junior is under 16, a parent, guardian or other responsible adult must be present for the whole session. This is a condition of the Trainer's insurance, not a preference, and it cannot be waived by agreement.",
-    "If no responsible adult is present at the start of a session for a Junior under 16, the session cannot go ahead. It is treated under the cancellation policy in the attached agreement, though the Trainer will use discretion where the circumstances warrant it.",
+    "Where the Junior is under 16, the Trainer supervises them for the whole session and they are not left unsupervised. A parent or guardian is welcome to stay and watch any session, and this is recommended for a first session.",
+    "The Guardian tells the Trainer who is dropping off and collecting the Junior. Where the Guardian is delayed, the Junior waits inside the gym rather than outside.",
     "Where the Junior is 16 or 17, I am welcome to attend any session and will attend the first one.",
   ],
   photosLead: [
@@ -385,7 +385,7 @@ const JUNIOR = {
   ],
   sharedSessions: [
     "Where the Junior trains in a 2-on-1 or 3-on-1 session alongside participants who are not members of our household, I agree to the specific participants in writing before the first shared session.",
-    "Where the Junior is under 16, the supervision requirement in clause 8 applies to every shared session as well.",
+    "Where the Junior is under 16, clause 8 applies to every shared session as well.",
   ],
   concerns: [
     "The Junior is encouraged to raise anything with the Trainer during a session, and to say so if something hurts, feels wrong, or they would rather not do it.",
@@ -396,7 +396,7 @@ const JUNIOR = {
 
 const JUNIOR_POLICIES = [
   ["Medical clearance", "No loaded training takes place before written practitioner clearance is on file, where clause 4 requires it."],
-  ["Supervision", "Where the Junior is under 16, a responsible adult is present for the whole session. Without one the session cannot go ahead."],
+  ["Supervision", "Where the Junior is under 16, the Trainer supervises them for the whole session. A parent or guardian is welcome to stay and watch."],
 ];
 // Cancellation, credits, direct debit notice, gym access and the minimum term are
 // initialled in the attached rate agreement. Repeating them here would have the
@@ -536,6 +536,8 @@ const PARTICIPATION = [
    "If I don't want to do an exercise, I can say so. We'll find another way to get the same thing done."],
   ["I know my coach talks to my parent or guardian.",
    "About my training, how I'm going, and anything they're worried about. Nothing I tell my coach about my training is a secret from them."],
+  ["Messages in the app.",
+   "If my parent or guardian has turned messaging on, I can message my coach about my training: how a session felt, a question about an exercise, or letting him know I'm running late. My parent or guardian can ask to read those messages whenever they want, so nothing I write there is private from them. If I need to talk about something that isn't training, I'll talk to my parent or guardian instead."],
 ];
 
 {
